@@ -1,0 +1,3 @@
+[      22ms] [LOG] [auth] app iniciada | modo: production | API_BASE: https://alizia-inclusion-production.up.railway.app/api/v1 @ https://alizia.educabot.ai/assets/index-PTXWxSHv.js:102
+[      38ms] [LOG] [auth] loadCurrentUser: validando sesión guardada contra /auth/me… @ https://alizia.educabot.ai/assets/index-PTXWxSHv.js:102
+[     384ms] [LOG] [auth] loadCurrentUser OK: sesión válida para teacher@alizia.com @ https://alizia.educabot.ai/assets/index-PTXWxSHv.js:102

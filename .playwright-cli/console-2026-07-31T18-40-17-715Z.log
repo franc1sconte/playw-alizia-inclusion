@@ -1,0 +1,2 @@
+[     547ms] [LOG] [auth] app iniciada | modo: production | API_BASE: https://alizia-inclusion-production.up.railway.app/api/v1 @ https://alizia.educabot.ai/assets/index-PTXWxSHv.js:102
+[   15454ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://alizia-inclusion-production.up.railway.app/api/v1/auth/login:0

@@ -1,0 +1,4 @@
+[     429ms] [LOG] [auth] app iniciada | modo: production | API_BASE: https://alizia-inclusion-production.up.railway.app/api/v1 @ https://alizia.educabot.ai/assets/index-PTXWxSHv.js:102
+[    6233ms] [LOG] [auth] app iniciada | modo: production | API_BASE: https://alizia-inclusion-production.up.railway.app/api/v1 @ https://alizia.educabot.ai/assets/index-PTXWxSHv.js:102
+[   18280ms] [LOG] [auth] login OK: admin@alizia.com | rol: director @ https://alizia.educabot.ai/assets/index-PTXWxSHv.js:102
+[   18280ms] [LOG] [auth] setTokens: guardando auth_token (len 795 ) y refresh_token (len 64 ) — refresh vacío/undefined: false @ https://alizia.educabot.ai/assets/index-PTXWxSHv.js:102

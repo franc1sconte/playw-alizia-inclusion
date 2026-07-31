@@ -1,0 +1,1411 @@
+- generic [ref=f1e2]:
+  - generic [ref=f1e30]:
+    - banner [ref=f1e31]:
+      - button "Alternar menú de navegación" [ref=f1e34] [cursor=pointer]
+      - img "Alizia by Educabot" [ref=f1e38]
+      - button "Notificaciones" [ref=f1e47] [cursor=pointer]
+    - generic [ref=f1e50]:
+      - navigation [ref=f1e51]:
+        - list [ref=f1e52]:
+          - listitem [ref=f1e53]:
+            - link "Alizia asistente" [ref=f1e54] [cursor=pointer]:
+              - /url: /asistente
+          - listitem [ref=f1e57]:
+            - link "Primeros pasos" [ref=f1e58] [cursor=pointer]:
+              - /url: /primeros-pasos
+          - listitem [ref=f1e61]:
+            - link "Materiales" [ref=f1e62] [cursor=pointer]:
+              - /url: /materiales
+          - listitem [ref=f1e68]:
+            - link "Recursos pedagógicos" [active] [ref=f1e69] [cursor=pointer]:
+              - /url: /recursos
+          - listitem [ref=f1e73]:
+            - link "Aulas" [ref=f1e74] [cursor=pointer]:
+              - /url: /admin/aulas
+          - listitem [ref=f1e80]:
+            - link "Docentes" [ref=f1e81] [cursor=pointer]:
+              - /url: /admin/docentes
+        - button "Menú de usuario" [ref=f1e86] [cursor=pointer]:
+          - generic [ref=f1e87]: A
+      - main [ref=f1e88]:
+        - generic [ref=f1e415]:
+          - generic [ref=f1e416]:
+            - generic [ref=f1e417]:
+              - heading "Recursos pedagógicos" [level=1] [ref=f1e418]
+              - button "Crear nuevo recurso" [ref=f1e419] [cursor=pointer]
+            - textbox "Buscar recursos" [ref=f1e424]:
+              - /placeholder: Buscar recurso...
+            - tablist "Agrupar recursos" [ref=f1e425]:
+              - tab "Recientes" [selected] [ref=f1e426] [cursor=pointer]
+              - tab "Materiales" [ref=f1e428] [cursor=pointer]
+              - tab "Alumnos" [ref=f1e429] [cursor=pointer]
+              - tab "Necesidades" [ref=f1e430] [cursor=pointer]
+          - generic [ref=f1e431]:
+            - group "Filtrar por rango de tiempo" [ref=f1e433]:
+              - button "Todos" [pressed] [ref=f1e434] [cursor=pointer]
+              - button "Hoy" [ref=f1e435] [cursor=pointer]
+              - button "Esta semana" [ref=f1e436] [cursor=pointer]
+              - button "Este mes" [ref=f1e437] [cursor=pointer]
+            - tabpanel [ref=f1e439]:
+              - generic [ref=f1e440]:
+                - generic [ref=f1e443]:
+                  - generic [ref=f1e444]: Todos los recursos
+                  - generic [ref=f1e445]: 226 recursos pedagógicos
+                - generic [ref=f1e446]:
+                  - generic [ref=f1e447]:
+                    - button "Escritura con menos presión y menos fatiga Estrategia de aula" [ref=f1e448] [cursor=pointer]:
+                      - generic [ref=f1e453]:
+                        - generic [ref=f1e454]: Escritura con menos presión y menos fatiga
+                        - generic [ref=f1e455]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e456] [cursor=pointer]
+                  - generic [ref=f1e461]:
+                    - button "Apoyo para escribir con menos presión y menos fatiga Estrategia de aula" [ref=f1e462] [cursor=pointer]:
+                      - generic [ref=f1e467]:
+                        - generic [ref=f1e468]: Apoyo para escribir con menos presión y menos fatiga
+                        - generic [ref=f1e469]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e470] [cursor=pointer]
+                  - generic [ref=f1e475]:
+                    - button "Participación en trabajo grupal con respuesta por elección Estrategia de aula" [ref=f1e476] [cursor=pointer]:
+                      - generic [ref=f1e486]:
+                        - generic [ref=f1e487]: Participación en trabajo grupal con respuesta por elección
+                        - generic [ref=f1e488]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e489] [cursor=pointer]
+                  - generic [ref=f1e494]:
+                    - button "Apoyo para disminuir presión del lápiz y fatiga al escribir Estrategia de aula" [ref=f1e495] [cursor=pointer]:
+                      - generic [ref=f1e500]:
+                        - generic [ref=f1e501]: Apoyo para disminuir presión del lápiz y fatiga al escribir
+                        - generic [ref=f1e502]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e503] [cursor=pointer]
+                  - generic [ref=f1e508]:
+                    - button "Apoyo para reducir la presión al escribir Estrategia de aula" [ref=f1e509] [cursor=pointer]:
+                      - generic [ref=f1e514]:
+                        - generic [ref=f1e515]: Apoyo para reducir la presión al escribir
+                        - generic [ref=f1e516]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e517] [cursor=pointer]
+                  - generic [ref=f1e522]:
+                    - button "Entrada a la tarea con consigna breve y primer paso guiado Estrategia de aula" [ref=f1e523] [cursor=pointer]:
+                      - generic [ref=f1e533]:
+                        - generic [ref=f1e534]: Entrada a la tarea con consigna breve y primer paso guiado
+                        - generic [ref=f1e535]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e536] [cursor=pointer]
+                  - generic [ref=f1e541]:
+                    - button "Consigna en partes con ejemplo visible para iniciar y sostener la tarea Estrategia de aula" [ref=f1e542] [cursor=pointer]:
+                      - generic [ref=f1e552]:
+                        - generic [ref=f1e553]: Consigna en partes con ejemplo visible para iniciar y sostener la tarea
+                        - generic [ref=f1e554]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e555] [cursor=pointer]
+                  - generic [ref=f1e560]:
+                    - button "Reducir presión y fatiga al escribir con apoyo para lápiz Estrategia de aula" [ref=f1e561] [cursor=pointer]:
+                      - generic [ref=f1e566]:
+                        - generic [ref=f1e567]: Reducir presión y fatiga al escribir con apoyo para lápiz
+                        - generic [ref=f1e568]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e569] [cursor=pointer]
+                  - generic [ref=f1e574]:
+                    - button "Copiar en tramos cortos y regular el cuerpo durante la tarea Estrategia de aula" [ref=f1e575] [cursor=pointer]:
+                      - generic [ref=f1e582]:
+                        - generic [ref=f1e583]: Copiar en tramos cortos y regular el cuerpo durante la tarea
+                        - generic [ref=f1e584]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e585] [cursor=pointer]
+                  - generic [ref=f1e590]:
+                    - button "Primer paso visible para iniciar la tarea Estrategia de aula" [ref=f1e591] [cursor=pointer]:
+                      - generic [ref=f1e601]:
+                        - generic [ref=f1e602]: Primer paso visible para iniciar la tarea
+                        - generic [ref=f1e603]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e604] [cursor=pointer]
+                  - generic [ref=f1e609]:
+                    - button "Inicio autónomo con ejemplo breve para Keo Estrategia de aula" [ref=f1e610] [cursor=pointer]:
+                      - generic [ref=f1e620]:
+                        - generic [ref=f1e621]: Inicio autónomo con ejemplo breve para Keo
+                        - generic [ref=f1e622]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e623] [cursor=pointer]
+                  - generic [ref=f1e628]:
+                    - button "Anticipación breve para transiciones con movimiento con sentido Estrategia de aula" [ref=f1e629] [cursor=pointer]:
+                      - generic [ref=f1e639]:
+                        - generic [ref=f1e640]: Anticipación breve para transiciones con movimiento con sentido
+                        - generic [ref=f1e641]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e642] [cursor=pointer]
+                  - generic [ref=f1e647]:
+                    - button "Consigna breve y visible en pasos para Keo Estrategia de aula" [ref=f1e648] [cursor=pointer]:
+                      - generic [ref=f1e658]:
+                        - generic [ref=f1e659]: Consigna breve y visible en pasos para Keo
+                        - generic [ref=f1e660]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e661] [cursor=pointer]
+                  - generic [ref=f1e666]:
+                    - button "Consigna visible en pasos con primer ejemplo resuelto Estrategia de aula" [ref=f1e667] [cursor=pointer]:
+                      - generic [ref=f1e677]:
+                        - generic [ref=f1e678]: Consigna visible en pasos con primer ejemplo resuelto
+                        - generic [ref=f1e679]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e680] [cursor=pointer]
+                  - generic [ref=f1e685]:
+                    - button "Inicio de tarea con modelado breve de un compañero Estrategia de aula" [ref=f1e686] [cursor=pointer]:
+                      - generic [ref=f1e696]:
+                        - generic [ref=f1e697]: Inicio de tarea con modelado breve de un compañero
+                        - generic [ref=f1e698]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e699] [cursor=pointer]
+                  - generic [ref=f1e704]:
+                    - button "Apoyos visibles y breves para seguir la explicación grupal Estrategia de aula" [ref=f1e705] [cursor=pointer]:
+                      - generic [ref=f1e715]:
+                        - generic [ref=f1e716]: Apoyos visibles y breves para seguir la explicación grupal
+                        - generic [ref=f1e717]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e718] [cursor=pointer]
+                  - generic [ref=f1e723]:
+                    - button "Consigna breve y visible en 3 pasos Estrategia de aula" [ref=f1e724] [cursor=pointer]:
+                      - generic [ref=f1e734]:
+                        - generic [ref=f1e735]: Consigna breve y visible en 3 pasos
+                        - generic [ref=f1e736]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e737] [cursor=pointer]
+                  - generic [ref=f1e742]:
+                    - button "Entrada rápida a la tarea con primer paso visible Estrategia de aula" [ref=f1e743] [cursor=pointer]:
+                      - generic [ref=f1e753]:
+                        - generic [ref=f1e754]: Entrada rápida a la tarea con primer paso visible
+                        - generic [ref=f1e755]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e756] [cursor=pointer]
+                  - generic [ref=f1e761]:
+                    - button "Secuencia visible de 3 pasos en tarjeta individual Estrategia de aula" [ref=f1e762] [cursor=pointer]:
+                      - generic [ref=f1e772]:
+                        - generic [ref=f1e773]: Secuencia visible de 3 pasos en tarjeta individual
+                        - generic [ref=f1e774]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e775] [cursor=pointer]
+                  - generic [ref=f1e780]:
+                    - button "Escritura con menos presión y menos fatiga para Benja Estrategia de aula" [ref=f1e781] [cursor=pointer]:
+                      - generic [ref=f1e786]:
+                        - generic [ref=f1e787]: Escritura con menos presión y menos fatiga para Benja
+                        - generic [ref=f1e788]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e789] [cursor=pointer]
+                  - generic [ref=f1e794]:
+                    - button "Consigna breve y secuenciada para iniciar la tarea Estrategia de aula" [ref=f1e795] [cursor=pointer]:
+                      - generic [ref=f1e805]:
+                        - generic [ref=f1e806]: Consigna breve y secuenciada para iniciar la tarea
+                        - generic [ref=f1e807]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e808] [cursor=pointer]
+                  - generic [ref=f1e813]:
+                    - button "Rutina fija de arranque visible en el banco Estrategia de aula" [ref=f1e814] [cursor=pointer]:
+                      - generic [ref=f1e824]:
+                        - generic [ref=f1e825]: Rutina fija de arranque visible en el banco
+                        - generic [ref=f1e826]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e827] [cursor=pointer]
+                  - generic [ref=f1e832]:
+                    - button "Consigna breve y visible en 3 pasos Estrategia de aula" [ref=f1e833] [cursor=pointer]:
+                      - generic [ref=f1e843]:
+                        - generic [ref=f1e844]: Consigna breve y visible en 3 pasos
+                        - generic [ref=f1e845]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e846] [cursor=pointer]
+                  - generic [ref=f1e851]:
+                    - button "Secuencia breve para iniciar una tarea nueva Estrategia de aula" [ref=f1e852] [cursor=pointer]:
+                      - generic [ref=f1e862]:
+                        - generic [ref=f1e863]: Secuencia breve para iniciar una tarea nueva
+                        - generic [ref=f1e864]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e865] [cursor=pointer]
+                  - generic [ref=f1e870]:
+                    - button "Apoyo para escribir con menos presión y menos fatiga Estrategia de aula" [ref=f1e871] [cursor=pointer]:
+                      - generic [ref=f1e876]:
+                        - generic [ref=f1e877]: Apoyo para escribir con menos presión y menos fatiga
+                        - generic [ref=f1e878]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e879] [cursor=pointer]
+                  - generic [ref=f1e884]:
+                    - button "Ingreso al trabajo grupal con rol breve de inicio Estrategia de aula" [ref=f1e885] [cursor=pointer]:
+                      - generic [ref=f1e895]:
+                        - generic [ref=f1e896]: Ingreso al trabajo grupal con rol breve de inicio
+                        - generic [ref=f1e897]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e898] [cursor=pointer]
+                  - generic [ref=f1e903]:
+                    - button "Inicio con consignas breves y modelado Estrategia de aula" [ref=f1e904] [cursor=pointer]:
+                      - generic [ref=f1e914]:
+                        - generic [ref=f1e915]: Inicio con consignas breves y modelado
+                        - generic [ref=f1e916]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e917] [cursor=pointer]
+                  - generic [ref=f1e922]:
+                    - button "Reducir fatiga en copias largas Estrategia de aula" [ref=f1e923] [cursor=pointer]:
+                      - generic [ref=f1e928]:
+                        - generic [ref=f1e929]: Reducir fatiga en copias largas
+                        - generic [ref=f1e930]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e931] [cursor=pointer]
+                  - generic [ref=f1e936]:
+                    - button "PPI final listo para presentar para Felipe Estrategia de aula" [ref=f1e937] [cursor=pointer]:
+                      - generic [ref=f1e947]:
+                        - generic [ref=f1e948]: PPI final listo para presentar para Felipe
+                        - generic [ref=f1e949]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e950] [cursor=pointer]
+                  - generic [ref=f1e955]:
+                    - button "Anticipación y reingreso claro para Felipe Estrategia de aula" [ref=f1e956] [cursor=pointer]:
+                      - generic [ref=f1e966]:
+                        - generic [ref=f1e967]: Anticipación y reingreso claro para Felipe
+                        - generic [ref=f1e968]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e969] [cursor=pointer]
+                  - generic [ref=f1e974]:
+                    - button "Reducir presión del lápiz y fatiga al escribir Estrategia de aula" [ref=f1e975] [cursor=pointer]:
+                      - generic [ref=f1e980]:
+                        - generic [ref=f1e981]: Reducir presión del lápiz y fatiga al escribir
+                        - generic [ref=f1e982]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e983] [cursor=pointer]
+                  - generic [ref=f1e988]:
+                    - button "Organizador visual breve para sostenerse hasta terminar Estrategia de aula" [ref=f1e989] [cursor=pointer]:
+                      - generic [ref=f1e993]:
+                        - generic [ref=f1e994]: Organizador visual breve para sostenerse hasta terminar
+                        - generic [ref=f1e995]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e996] [cursor=pointer]
+                  - generic [ref=f1e1001]:
+                    - button "Reducir presión y fatiga al escribir Estrategia de aula" [ref=f1e1002] [cursor=pointer]:
+                      - generic [ref=f1e1007]:
+                        - generic [ref=f1e1008]: Reducir presión y fatiga al escribir
+                        - generic [ref=f1e1009]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1010] [cursor=pointer]
+                  - generic [ref=f1e1015]:
+                    - button "Arranque con primer paso visible Estrategia de aula" [ref=f1e1016] [cursor=pointer]:
+                      - generic [ref=f1e1026]:
+                        - generic [ref=f1e1027]: Arranque con primer paso visible
+                        - generic [ref=f1e1028]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1029] [cursor=pointer]
+                  - generic [ref=f1e1034]:
+                    - button "Escucha focalizada o respuesta por voz con auriculares con micrófono Estrategia de aula" [ref=f1e1035] [cursor=pointer]:
+                      - generic [ref=f1e1045]:
+                        - generic [ref=f1e1046]: Escucha focalizada o respuesta por voz con auriculares con micrófono
+                        - generic [ref=f1e1047]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1048] [cursor=pointer]
+                  - generic [ref=f1e1053]:
+                    - button "Reducir la presión del lápiz y la fatiga al escribir Estrategia de aula" [ref=f1e1054] [cursor=pointer]:
+                      - generic [ref=f1e1059]:
+                        - generic [ref=f1e1060]: Reducir la presión del lápiz y la fatiga al escribir
+                        - generic [ref=f1e1061]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1062] [cursor=pointer]
+                  - generic [ref=f1e1067]:
+                    - button "Primer paso visible para iniciar escritura o dibujo Estrategia de aula" [ref=f1e1068] [cursor=pointer]:
+                      - generic [ref=f1e1078]:
+                        - generic [ref=f1e1079]: Primer paso visible para iniciar escritura o dibujo
+                        - generic [ref=f1e1080]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1081] [cursor=pointer]
+                  - generic [ref=f1e1086]:
+                    - button "Apoyo para copiar del pizarrón sin perder el hilo Estrategia de aula" [ref=f1e1087] [cursor=pointer]:
+                      - generic [ref=f1e1091]:
+                        - generic [ref=f1e1092]: Apoyo para copiar del pizarrón sin perder el hilo
+                        - generic [ref=f1e1093]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1094] [cursor=pointer]
+                  - generic [ref=f1e1099]:
+                    - button "Secuencia visible para organizar varias tareas Estrategia de aula" [ref=f1e1100] [cursor=pointer]:
+                      - generic [ref=f1e1104]:
+                        - generic [ref=f1e1105]: Secuencia visible para organizar varias tareas
+                        - generic [ref=f1e1106]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1107] [cursor=pointer]
+                  - generic [ref=f1e1112]:
+                    - button "Sostener la atención en explicaciones orales largas Estrategia de aula" [ref=f1e1113] [cursor=pointer]:
+                      - generic [ref=f1e1123]:
+                        - generic [ref=f1e1124]: Sostener la atención en explicaciones orales largas
+                        - generic [ref=f1e1125]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1126] [cursor=pointer]
+                  - generic [ref=f1e1131]:
+                    - button "Inicio autónomo con consigna breve y primer paso visible Estrategia de aula" [ref=f1e1132] [cursor=pointer]:
+                      - generic [ref=f1e1136]:
+                        - generic [ref=f1e1137]: Inicio autónomo con consigna breve y primer paso visible
+                        - generic [ref=f1e1138]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1139] [cursor=pointer]
+                  - generic [ref=f1e1144]:
+                    - button "Consigna visible en pasos para copiar y resolver Estrategia de aula" [ref=f1e1145] [cursor=pointer]:
+                      - generic [ref=f1e1155]:
+                        - generic [ref=f1e1156]: Consigna visible en pasos para copiar y resolver
+                        - generic [ref=f1e1157]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1158] [cursor=pointer]
+                  - generic [ref=f1e1163]:
+                    - button "Participar en grupo chico con turnos breves y previsibles Estrategia de aula" [ref=f1e1164] [cursor=pointer]:
+                      - generic [ref=f1e1174]:
+                        - generic [ref=f1e1175]: Participar en grupo chico con turnos breves y previsibles
+                        - generic [ref=f1e1176]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1177] [cursor=pointer]
+                  - generic [ref=f1e1182]:
+                    - button "Inicio de escritura con modelo breve ya empezado Estrategia de aula" [ref=f1e1183] [cursor=pointer]:
+                      - generic [ref=f1e1193]:
+                        - generic [ref=f1e1194]: Inicio de escritura con modelo breve ya empezado
+                        - generic [ref=f1e1195]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1196] [cursor=pointer]
+                  - generic [ref=f1e1201]:
+                    - button "Entrada oral breve y previsible en la puesta en común Estrategia de aula" [ref=f1e1202] [cursor=pointer]:
+                      - generic [ref=f1e1212]:
+                        - generic [ref=f1e1213]: Entrada oral breve y previsible en la puesta en común
+                        - generic [ref=f1e1214]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1215] [cursor=pointer]
+                  - generic [ref=f1e1220]:
+                    - button "Entrada oral previsible para responder delante del grupo Estrategia de aula" [ref=f1e1221] [cursor=pointer]:
+                      - generic [ref=f1e1231]:
+                        - generic [ref=f1e1232]: Entrada oral previsible para responder delante del grupo
+                        - generic [ref=f1e1233]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1234] [cursor=pointer]
+                  - generic [ref=f1e1239]:
+                    - button "Entrada oral breve y previsible para sumarse a la conversación Estrategia de aula" [ref=f1e1240] [cursor=pointer]:
+                      - generic [ref=f1e1250]:
+                        - generic [ref=f1e1251]: Entrada oral breve y previsible para sumarse a la conversación
+                        - generic [ref=f1e1252]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1253] [cursor=pointer]
+                  - generic [ref=f1e1258]:
+                    - button "Pasaje seguro del pequeño grupo al grupo completo para participación oral Estrategia de aula" [ref=f1e1259] [cursor=pointer]:
+                      - generic [ref=f1e1269]:
+                        - generic [ref=f1e1270]: Pasaje seguro del pequeño grupo al grupo completo para participación oral
+                        - generic [ref=f1e1271]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1272] [cursor=pointer]
+                  - generic [ref=f1e1277]:
+                    - button "Frase de arranque para participación oral Estrategia de aula" [ref=f1e1278] [cursor=pointer]:
+                      - generic [ref=f1e1288]:
+                        - generic [ref=f1e1289]: Frase de arranque para participación oral
+                        - generic [ref=f1e1290]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1291] [cursor=pointer]
+                  - generic [ref=f1e1296]:
+                    - button "Participación oral sin escritura previa Estrategia de aula" [ref=f1e1297] [cursor=pointer]:
+                      - generic [ref=f1e1307]:
+                        - generic [ref=f1e1308]: Participación oral sin escritura previa
+                        - generic [ref=f1e1309]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1310] [cursor=pointer]
+                  - generic [ref=f1e1315]:
+                    - button "Consigna reducida con paso actual visible Estrategia de aula" [ref=f1e1316] [cursor=pointer]:
+                      - generic [ref=f1e1320]:
+                        - generic [ref=f1e1321]: Consigna reducida con paso actual visible
+                        - generic [ref=f1e1322]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1323] [cursor=pointer]
+                  - generic [ref=f1e1328]:
+                    - button "Primer paso de acción para iniciar trabajo autónomo Estrategia de aula" [ref=f1e1329] [cursor=pointer]:
+                      - generic [ref=f1e1339]:
+                        - generic [ref=f1e1340]: Primer paso de acción para iniciar trabajo autónomo
+                        - generic [ref=f1e1341]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1342] [cursor=pointer]
+                  - generic [ref=f1e1347]:
+                    - button "Microsecuencia para pasar de una actividad a otra Estrategia de aula" [ref=f1e1348] [cursor=pointer]:
+                      - generic [ref=f1e1358]:
+                        - generic [ref=f1e1359]: Microsecuencia para pasar de una actividad a otra
+                        - generic [ref=f1e1360]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1361] [cursor=pointer]
+                  - generic [ref=f1e1366]:
+                    - button "Puente visible entre leer y escribir Estrategia de aula" [ref=f1e1367] [cursor=pointer]:
+                      - generic [ref=f1e1377]:
+                        - generic [ref=f1e1378]: Puente visible entre leer y escribir
+                        - generic [ref=f1e1379]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1380] [cursor=pointer]
+                  - generic [ref=f1e1385]:
+                    - button "Sostener la atención en lectura grupal Estrategia de aula" [ref=f1e1386] [cursor=pointer]:
+                      - generic [ref=f1e1396]:
+                        - generic [ref=f1e1397]: Sostener la atención en lectura grupal
+                        - generic [ref=f1e1398]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1399] [cursor=pointer]
+                  - generic [ref=f1e1404]:
+                    - button "Secuencia visible para sostener lectura y respuesta escrita Estrategia de aula" [ref=f1e1405] [cursor=pointer]:
+                      - generic [ref=f1e1409]:
+                        - generic [ref=f1e1410]: Secuencia visible para sostener lectura y respuesta escrita
+                        - generic [ref=f1e1411]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1412] [cursor=pointer]
+                  - generic [ref=f1e1417]:
+                    - button "Consigna visual individual en 2 pasos para iniciar la tarea Estrategia de aula" [ref=f1e1418] [cursor=pointer]:
+                      - generic [ref=f1e1428]:
+                        - generic [ref=f1e1429]: Consigna visual individual en 2 pasos para iniciar la tarea
+                        - generic [ref=f1e1430]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1431] [cursor=pointer]
+                  - generic [ref=f1e1436]:
+                    - button "Secuencia personal de 2 pasos para retomar la tarea Estrategia de aula" [ref=f1e1437] [cursor=pointer]:
+                      - generic [ref=f1e1441]:
+                        - generic [ref=f1e1442]: Secuencia personal de 2 pasos para retomar la tarea
+                        - generic [ref=f1e1443]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1444] [cursor=pointer]
+                  - generic [ref=f1e1449]:
+                    - button "Rol concreto para sostener la participación en juego grupal Estrategia de aula" [ref=f1e1450] [cursor=pointer]:
+                      - generic [ref=f1e1460]:
+                        - generic [ref=f1e1461]: Rol concreto para sostener la participación en juego grupal
+                        - generic [ref=f1e1462]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1463] [cursor=pointer]
+                  - generic [ref=f1e1468]:
+                    - button "Secuencia visual de 4 pasos para sostener la tarea Estrategia de aula" [ref=f1e1469] [cursor=pointer]:
+                      - generic [ref=f1e1479]:
+                        - generic [ref=f1e1480]: Secuencia visual de 4 pasos para sostener la tarea
+                        - generic [ref=f1e1481]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1482] [cursor=pointer]
+                  - generic [ref=f1e1487]:
+                    - button "Consigna en 2 pasos con apoyo visual para Franco Juarez Estrategia de aula" [ref=f1e1488] [cursor=pointer]:
+                      - generic [ref=f1e1498]:
+                        - generic [ref=f1e1499]: Consigna en 2 pasos con apoyo visual para Franco Juarez
+                        - generic [ref=f1e1500]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1501] [cursor=pointer]
+                  - generic [ref=f1e1506]:
+                    - button "Consigna breve en tarjetita para iniciar y retomar Estrategia de aula" [ref=f1e1507] [cursor=pointer]:
+                      - generic [ref=f1e1517]:
+                        - generic [ref=f1e1518]: Consigna breve en tarjetita para iniciar y retomar
+                        - generic [ref=f1e1519]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1520] [cursor=pointer]
+                  - generic [ref=f1e1525]:
+                    - button "Consigna visible en 2 o 3 pasos para iniciar solo Estrategia de aula" [ref=f1e1526] [cursor=pointer]:
+                      - generic [ref=f1e1536]:
+                        - generic [ref=f1e1537]: Consigna visible en 2 o 3 pasos para iniciar solo
+                        - generic [ref=f1e1538]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1539] [cursor=pointer]
+                  - generic [ref=f1e1544]:
+                    - button "Rutina breve de inicio para trabajo autónomo Estrategia de aula" [ref=f1e1545] [cursor=pointer]:
+                      - generic [ref=f1e1555]:
+                        - generic [ref=f1e1556]: Rutina breve de inicio para trabajo autónomo
+                        - generic [ref=f1e1557]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1558] [cursor=pointer]
+                  - generic [ref=f1e1563]:
+                    - button "Consigna breve y visible para iniciar la tarea Estrategia de aula" [ref=f1e1564] [cursor=pointer]:
+                      - generic [ref=f1e1574]:
+                        - generic [ref=f1e1575]: Consigna breve y visible para iniciar la tarea
+                        - generic [ref=f1e1576]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1577] [cursor=pointer]
+                  - generic [ref=f1e1582]:
+                    - button "Entrada al juego con primer paso modelado Estrategia de aula" [ref=f1e1583] [cursor=pointer]:
+                      - generic [ref=f1e1593]:
+                        - generic [ref=f1e1594]: Entrada al juego con primer paso modelado
+                        - generic [ref=f1e1595]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1596] [cursor=pointer]
+                  - generic [ref=f1e1601]:
+                    - button "Inicio destrabado con primer paso visible Estrategia de aula" [ref=f1e1602] [cursor=pointer]:
+                      - generic [ref=f1e1612]:
+                        - generic [ref=f1e1613]: Inicio destrabado con primer paso visible
+                        - generic [ref=f1e1614]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1615] [cursor=pointer]
+                  - generic [ref=f1e1620]:
+                    - button "Reducir fatiga y presión al escribir Estrategia de aula" [ref=f1e1621] [cursor=pointer]:
+                      - generic [ref=f1e1626]:
+                        - generic [ref=f1e1627]: Reducir fatiga y presión al escribir
+                        - generic [ref=f1e1628]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1629] [cursor=pointer]
+                  - generic [ref=f1e1634]:
+                    - button "Tira visual con una acción por vez Estrategia de aula" [ref=f1e1635] [cursor=pointer]:
+                      - generic [ref=f1e1645]:
+                        - generic [ref=f1e1646]: Tira visual con una acción por vez
+                        - generic [ref=f1e1647]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1648] [cursor=pointer]
+                  - generic [ref=f1e1653]:
+                    - button "Reducir fatiga y presión al escribir Estrategia de aula" [ref=f1e1654] [cursor=pointer]:
+                      - generic [ref=f1e1659]:
+                        - generic [ref=f1e1660]: Reducir fatiga y presión al escribir
+                        - generic [ref=f1e1661]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1662] [cursor=pointer]
+                  - generic [ref=f1e1667]:
+                    - button "Secuencia visual corta en el pizarrón para sostener la explicación grupal Estrategia de aula" [ref=f1e1668] [cursor=pointer]:
+                      - generic [ref=f1e1678]:
+                        - generic [ref=f1e1679]: Secuencia visual corta en el pizarrón para sostener la explicación grupal
+                        - generic [ref=f1e1680]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1681] [cursor=pointer]
+                  - generic [ref=f1e1686]:
+                    - button "Reducir fatiga al escribir con apoyo de confort en el lápiz Estrategia de aula" [ref=f1e1687] [cursor=pointer]:
+                      - generic [ref=f1e1692]:
+                        - generic [ref=f1e1693]: Reducir fatiga al escribir con apoyo de confort en el lápiz
+                        - generic [ref=f1e1694]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1695] [cursor=pointer]
+                  - generic [ref=f1e1700]:
+                    - button "Consigna grupal en dos partes con señal breve de seguimiento Estrategia de aula" [ref=f1e1701] [cursor=pointer]:
+                      - generic [ref=f1e1711]:
+                        - generic [ref=f1e1712]: Consigna grupal en dos partes con señal breve de seguimiento
+                        - generic [ref=f1e1713]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1714] [cursor=pointer]
+                  - generic [ref=f1e1719]:
+                    - button "Secuencia visual corta para retomar rutinas Estrategia de aula" [ref=f1e1720] [cursor=pointer]:
+                      - generic [ref=f1e1730]:
+                        - generic [ref=f1e1731]: Secuencia visual corta para retomar rutinas
+                        - generic [ref=f1e1732]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1733] [cursor=pointer]
+                  - generic [ref=f1e1738]:
+                    - button "Reducir fatiga al escribir con soporte de lápiz Estrategia de aula" [ref=f1e1739] [cursor=pointer]:
+                      - generic [ref=f1e1744]:
+                        - generic [ref=f1e1745]: Reducir fatiga al escribir con soporte de lápiz
+                        - generic [ref=f1e1746]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1747] [cursor=pointer]
+                  - generic [ref=f1e1752]:
+                    - button "Consigna en partes con modelo visual para iniciar y retomar Estrategia de aula" [ref=f1e1753] [cursor=pointer]:
+                      - generic [ref=f1e1763]:
+                        - generic [ref=f1e1764]: Consigna en partes con modelo visual para iniciar y retomar
+                        - generic [ref=f1e1765]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1766] [cursor=pointer]
+                  - generic [ref=f1e1771]:
+                    - button "Entrada corta y visible para iniciar sin frustrarse Estrategia de aula" [ref=f1e1772] [cursor=pointer]:
+                      - generic [ref=f1e1776]:
+                        - generic [ref=f1e1777]: Entrada corta y visible para iniciar sin frustrarse
+                        - generic [ref=f1e1778]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1779] [cursor=pointer]
+                  - generic [ref=f1e1784]:
+                    - button "Transición anticipada de mesa a actividad grupal para Fenicio Estrategia de aula" [ref=f1e1785] [cursor=pointer]:
+                      - generic [ref=f1e1795]:
+                        - generic [ref=f1e1796]: Transición anticipada de mesa a actividad grupal para Fenicio
+                        - generic [ref=f1e1797]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1798] [cursor=pointer]
+                  - generic [ref=f1e1803]:
+                    - button "Pista fija para reengancharse solo en la tarea Estrategia de aula" [ref=f1e1804] [cursor=pointer]:
+                      - generic [ref=f1e1814]:
+                        - generic [ref=f1e1815]: Pista fija para reengancharse solo en la tarea
+                        - generic [ref=f1e1816]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1817] [cursor=pointer]
+                  - generic [ref=f1e1822]:
+                    - button "Microtramos con paso exacto para retomar Estrategia de aula" [ref=f1e1823] [cursor=pointer]:
+                      - generic [ref=f1e1827]:
+                        - generic [ref=f1e1828]: Microtramos con paso exacto para retomar
+                        - generic [ref=f1e1829]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1830] [cursor=pointer]
+                  - generic [ref=f1e1835]:
+                    - button "Reducir presión y fatiga al escribir Estrategia de aula" [ref=f1e1836] [cursor=pointer]:
+                      - generic [ref=f1e1841]:
+                        - generic [ref=f1e1842]: Reducir presión y fatiga al escribir
+                        - generic [ref=f1e1843]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1844] [cursor=pointer]
+                  - generic [ref=f1e1849]:
+                    - button "Reducir la presión del lápiz y la fatiga al escribir Estrategia de aula" [ref=f1e1850] [cursor=pointer]:
+                      - generic [ref=f1e1855]:
+                        - generic [ref=f1e1856]: Reducir la presión del lápiz y la fatiga al escribir
+                        - generic [ref=f1e1857]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1858] [cursor=pointer]
+                  - generic [ref=f1e1863]:
+                    - button "Reducir fatiga y presión al escribir Estrategia de aula" [ref=f1e1864] [cursor=pointer]:
+                      - generic [ref=f1e1869]:
+                        - generic [ref=f1e1870]: Reducir fatiga y presión al escribir
+                        - generic [ref=f1e1871]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1872] [cursor=pointer]
+                  - generic [ref=f1e1877]:
+                    - button "Metas cortas para sostener el trabajo autónomo Estrategia de aula" [ref=f1e1878] [cursor=pointer]:
+                      - generic [ref=f1e1888]:
+                        - generic [ref=f1e1889]: Metas cortas para sostener el trabajo autónomo
+                        - generic [ref=f1e1890]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1891] [cursor=pointer]
+                  - generic [ref=f1e1896]:
+                    - button "Escribir con menos presión y menos fatiga Estrategia de aula" [ref=f1e1897] [cursor=pointer]:
+                      - generic [ref=f1e1902]:
+                        - generic [ref=f1e1903]: Escribir con menos presión y menos fatiga
+                        - generic [ref=f1e1904]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1905] [cursor=pointer]
+                  - generic [ref=f1e1910]:
+                    - button "Apoyo para reducir presión y fatiga al escribir Estrategia de aula" [ref=f1e1911] [cursor=pointer]:
+                      - generic [ref=f1e1916]:
+                        - generic [ref=f1e1917]: Apoyo para reducir presión y fatiga al escribir
+                        - generic [ref=f1e1918]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1919] [cursor=pointer]
+                  - generic [ref=f1e1924]:
+                    - button "Soporte para escribir con menos presión Estrategia de aula" [ref=f1e1925] [cursor=pointer]:
+                      - generic [ref=f1e1930]:
+                        - generic [ref=f1e1931]: Soporte para escribir con menos presión
+                        - generic [ref=f1e1932]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1933] [cursor=pointer]
+                  - generic [ref=f1e1938]:
+                    - button "Reducir presión y fatiga al escribir Estrategia de aula" [ref=f1e1939] [cursor=pointer]:
+                      - generic [ref=f1e1944]:
+                        - generic [ref=f1e1945]: Reducir presión y fatiga al escribir
+                        - generic [ref=f1e1946]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1947] [cursor=pointer]
+                  - generic [ref=f1e1952]:
+                    - button "Regular la presión al escribir con apoyo concreto Estrategia de aula" [ref=f1e1953] [cursor=pointer]:
+                      - generic [ref=f1e1958]:
+                        - generic [ref=f1e1959]: Regular la presión al escribir con apoyo concreto
+                        - generic [ref=f1e1960]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1961] [cursor=pointer]
+                  - generic [ref=f1e1966]:
+                    - button "Soporte para escribir con menos presión Estrategia de aula" [ref=f1e1967] [cursor=pointer]:
+                      - generic [ref=f1e1972]:
+                        - generic [ref=f1e1973]: Soporte para escribir con menos presión
+                        - generic [ref=f1e1974]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1975] [cursor=pointer]
+                  - generic [ref=f1e1980]:
+                    - button "Escritura con menos presión y menos fatiga Estrategia de aula" [ref=f1e1981] [cursor=pointer]:
+                      - generic [ref=f1e1986]:
+                        - generic [ref=f1e1987]: Escritura con menos presión y menos fatiga
+                        - generic [ref=f1e1988]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e1989] [cursor=pointer]
+                  - generic [ref=f1e1994]:
+                    - button "Apoyo concreto para reducir presión y fatiga al escribir Estrategia de aula" [ref=f1e1995] [cursor=pointer]:
+                      - generic [ref=f1e2000]:
+                        - generic [ref=f1e2001]: Apoyo concreto para reducir presión y fatiga al escribir
+                        - generic [ref=f1e2002]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2003] [cursor=pointer]
+                  - generic [ref=f1e2008]:
+                    - button "Apoyo para reducir presión y fatiga al escribir Estrategia de aula" [ref=f1e2009] [cursor=pointer]:
+                      - generic [ref=f1e2014]:
+                        - generic [ref=f1e2015]: Apoyo para reducir presión y fatiga al escribir
+                        - generic [ref=f1e2016]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2017] [cursor=pointer]
+                  - generic [ref=f1e2022]:
+                    - button "Regular la presión al escribir con apoyo propioceptivo Estrategia de aula" [ref=f1e2023] [cursor=pointer]:
+                      - generic [ref=f1e2028]:
+                        - generic [ref=f1e2029]: Regular la presión al escribir con apoyo propioceptivo
+                        - generic [ref=f1e2030]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2031] [cursor=pointer]
+                  - generic [ref=f1e2036]:
+                    - button "Apoyo para reducir presión al escribir Estrategia de aula" [ref=f1e2037] [cursor=pointer]:
+                      - generic [ref=f1e2042]:
+                        - generic [ref=f1e2043]: Apoyo para reducir presión al escribir
+                        - generic [ref=f1e2044]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2045] [cursor=pointer]
+                  - generic [ref=f1e2050]:
+                    - button "Reducir la presión del lápiz y la fatiga al escribir Estrategia de aula" [ref=f1e2051] [cursor=pointer]:
+                      - generic [ref=f1e2056]:
+                        - generic [ref=f1e2057]: Reducir la presión del lápiz y la fatiga al escribir
+                        - generic [ref=f1e2058]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2059] [cursor=pointer]
+                  - generic [ref=f1e2064]:
+                    - button "Hoja de alfabetización inicial para relacionar sonido y letra Material nuevo" [ref=f1e2065] [cursor=pointer]:
+                      - generic [ref=f1e2075]:
+                        - generic [ref=f1e2076]: Hoja de alfabetización inicial para relacionar sonido y letra
+                        - generic [ref=f1e2077]: Material nuevo
+                    - button "Más opciones" [ref=f1e2078] [cursor=pointer]
+                  - generic [ref=f1e2083]:
+                    - button "Primer tramo breve con cierre rápido para sostener el inicio Estrategia de aula" [ref=f1e2084] [cursor=pointer]:
+                      - generic [ref=f1e2094]:
+                        - generic [ref=f1e2095]: Primer tramo breve con cierre rápido para sostener el inicio
+                        - generic [ref=f1e2096]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2097] [cursor=pointer]
+                  - generic [ref=f1e2102]:
+                    - button "Explicación breve con respuesta activa para sostener la atención Estrategia de aula" [ref=f1e2103] [cursor=pointer]:
+                      - generic [ref=f1e2110]:
+                        - generic [ref=f1e2111]: Explicación breve con respuesta activa para sostener la atención
+                        - generic [ref=f1e2112]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2113] [cursor=pointer]
+                  - generic [ref=f1e2118]:
+                    - button "Secuencia breve y reenganche para sostener la tarea Estrategia de aula" [ref=f1e2119] [cursor=pointer]:
+                      - generic [ref=f1e2123]:
+                        - generic [ref=f1e2124]: Secuencia breve y reenganche para sostener la tarea
+                        - generic [ref=f1e2125]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2126] [cursor=pointer]
+                  - generic [ref=f1e2131]:
+                    - button "Inicio con modelo y respuesta de baja escritura para Sofía Estrategia de aula" [ref=f1e2132] [cursor=pointer]:
+                      - generic [ref=f1e2142]:
+                        - generic [ref=f1e2143]: Inicio con modelo y respuesta de baja escritura para Sofía
+                        - generic [ref=f1e2144]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2145] [cursor=pointer]
+                  - generic [ref=f1e2150]:
+                    - button "Rol breve y rotativo para sostener la participación en grupo Estrategia de aula" [ref=f1e2151] [cursor=pointer]:
+                      - generic [ref=f1e2161]:
+                        - generic [ref=f1e2162]: Rol breve y rotativo para sostener la participación en grupo
+                        - generic [ref=f1e2163]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2164] [cursor=pointer]
+                  - generic [ref=f1e2169]:
+                    - button "Inicio de lectura con consigna visible en dos pasos Estrategia de aula" [ref=f1e2170] [cursor=pointer]:
+                      - generic [ref=f1e2174]:
+                        - generic [ref=f1e2175]: Inicio de lectura con consigna visible en dos pasos
+                        - generic [ref=f1e2176]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2177] [cursor=pointer]
+                  - generic [ref=f1e2182]:
+                    - button "Reducir fatiga y presión al escribir en Benja Estrategia de aula" [ref=f1e2183] [cursor=pointer]:
+                      - generic [ref=f1e2188]:
+                        - generic [ref=f1e2189]: Reducir fatiga y presión al escribir en Benja
+                        - generic [ref=f1e2190]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2191] [cursor=pointer]
+                  - generic [ref=f1e2196]:
+                    - button "Soporte para lápiz para reducir presión y fatiga al escribir Estrategia de aula" [ref=f1e2197] [cursor=pointer]:
+                      - generic [ref=f1e2202]:
+                        - generic [ref=f1e2203]: Soporte para lápiz para reducir presión y fatiga al escribir
+                        - generic [ref=f1e2204]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2205] [cursor=pointer]
+                  - generic [ref=f1e2210]:
+                    - button "Secuencia semanal de alfabetización inicial desde cero para grupo pequeño de apoyo Actividad adaptada" [ref=f1e2211] [cursor=pointer]:
+                      - generic [ref=f1e2221]:
+                        - generic [ref=f1e2222]: Secuencia semanal de alfabetización inicial desde cero para grupo pequeño de apoyo
+                        - generic [ref=f1e2223]: Actividad adaptada
+                    - button "Más opciones" [ref=f1e2224] [cursor=pointer]
+                  - generic [ref=f1e2229]:
+                    - button "Lectoescritura inicial con respuestas sin depender de la escritura autónoma Estrategia de aula" [ref=f1e2230] [cursor=pointer]:
+                      - generic [ref=f1e2240]:
+                        - generic [ref=f1e2241]: Lectoescritura inicial con respuestas sin depender de la escritura autónoma
+                        - generic [ref=f1e2242]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2243] [cursor=pointer]
+                  - generic [ref=f1e2248]:
+                    - button "Consignas visibles y modelo para sostener tareas de primer grado Estrategia de aula" [ref=f1e2249] [cursor=pointer]:
+                      - generic [ref=f1e2253]:
+                        - generic [ref=f1e2254]: Consignas visibles y modelo para sostener tareas de primer grado
+                        - generic [ref=f1e2255]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2256] [cursor=pointer]
+                  - generic [ref=f1e2261]:
+                    - button "Roles y turnos visibles para sostener la participación en trabajo grupal Estrategia de aula" [ref=f1e2262] [cursor=pointer]:
+                      - generic [ref=f1e2272]:
+                        - generic [ref=f1e2273]: Roles y turnos visibles para sostener la participación en trabajo grupal
+                        - generic [ref=f1e2274]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2275] [cursor=pointer]
+                  - generic [ref=f1e2280]:
+                    - button "Reducir presión y fatiga al escribir en Benja Estrategia de aula" [ref=f1e2281] [cursor=pointer]:
+                      - generic [ref=f1e2286]:
+                        - generic [ref=f1e2287]: Reducir presión y fatiga al escribir en Benja
+                        - generic [ref=f1e2288]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2289] [cursor=pointer]
+                  - generic [ref=f1e2294]:
+                    - button "Pesa para lápiz para regular la presión al escribir Estrategia de aula" [ref=f1e2295] [cursor=pointer]:
+                      - generic [ref=f1e2300]:
+                        - generic [ref=f1e2301]: Pesa para lápiz para regular la presión al escribir
+                        - generic [ref=f1e2302]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2303] [cursor=pointer]
+                  - generic [ref=f1e2308]:
+                    - button "Entrada clara para iniciar escritura en Benjamín Torres Estrategia de aula" [ref=f1e2309] [cursor=pointer]:
+                      - generic [ref=f1e2319]:
+                        - generic [ref=f1e2320]: Entrada clara para iniciar escritura en Benjamín Torres
+                        - generic [ref=f1e2321]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2322] [cursor=pointer]
+                  - generic [ref=f1e2327]:
+                    - button "Soporte para bajar la presión del lápiz en escritura Estrategia de aula" [ref=f1e2328] [cursor=pointer]:
+                      - generic [ref=f1e2333]:
+                        - generic [ref=f1e2334]: Soporte para bajar la presión del lápiz en escritura
+                        - generic [ref=f1e2335]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2336] [cursor=pointer]
+                  - generic [ref=f1e2341]:
+                    - button "Reducir fatiga al escribir con soporte de lápiz Estrategia de aula" [ref=f1e2342] [cursor=pointer]:
+                      - generic [ref=f1e2347]:
+                        - generic [ref=f1e2348]: Reducir fatiga al escribir con soporte de lápiz
+                        - generic [ref=f1e2349]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2350] [cursor=pointer]
+                  - generic [ref=f1e2355]:
+                    - button "Reducir fatiga al escribir con soporte de lápiz Estrategia de aula" [ref=f1e2356] [cursor=pointer]:
+                      - generic [ref=f1e2361]:
+                        - generic [ref=f1e2362]: Reducir fatiga al escribir con soporte de lápiz
+                        - generic [ref=f1e2363]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2364] [cursor=pointer]
+                  - generic [ref=f1e2369]:
+                    - button "Movimiento con función durante la explicación para Felipe Estrategia de aula" [ref=f1e2370] [cursor=pointer]:
+                      - generic [ref=f1e2377]:
+                        - generic [ref=f1e2378]: Movimiento con función durante la explicación para Felipe
+                        - generic [ref=f1e2379]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2380] [cursor=pointer]
+                  - generic [ref=f1e2385]:
+                    - button "Inicio visible después de la consigna para Felipe Estrategia de aula" [ref=f1e2386] [cursor=pointer]:
+                      - generic [ref=f1e2396]:
+                        - generic [ref=f1e2397]: Inicio visible después de la consigna para Felipe
+                        - generic [ref=f1e2398]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2399] [cursor=pointer]
+                  - generic [ref=f1e2404]:
+                    - button "Filtrar estímulos y reingresar a la tarea con co-regulación Estrategia de aula" [ref=f1e2405] [cursor=pointer]:
+                      - generic [ref=f1e2415]:
+                        - generic [ref=f1e2416]: Filtrar estímulos y reingresar a la tarea con co-regulación
+                        - generic [ref=f1e2417]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2418] [cursor=pointer]
+                  - generic [ref=f1e2423]:
+                    - button "Movimiento con función durante trabajo en mesa Estrategia de aula" [ref=f1e2424] [cursor=pointer]:
+                      - generic [ref=f1e2431]:
+                        - generic [ref=f1e2432]: Movimiento con función durante trabajo en mesa
+                        - generic [ref=f1e2433]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2434] [cursor=pointer]
+                  - generic [ref=f1e2439]:
+                    - button "Uso del elástico para silla para favorecer la autorregulación en el trabajo en banco Estrategia de aula" [ref=f1e2440] [cursor=pointer]:
+                      - generic [ref=f1e2447]:
+                        - generic [ref=f1e2448]: Uso del elástico para silla para favorecer la autorregulación en el trabajo en banco
+                        - generic [ref=f1e2449]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2450] [cursor=pointer]
+                  - generic [ref=f1e2455]:
+                    - button "Consigna en 3 pasos para actividad de elegir y pegar Estrategia de aula" [ref=f1e2456] [cursor=pointer]:
+                      - generic [ref=f1e2466]:
+                        - generic [ref=f1e2467]: Consigna en 3 pasos para actividad de elegir y pegar
+                        - generic [ref=f1e2468]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2469] [cursor=pointer]
+                  - generic [ref=f1e2474]:
+                    - button "Participación oral con consigna visible y respuesta mediada Estrategia de aula" [ref=f1e2475] [cursor=pointer]:
+                      - generic [ref=f1e2485]:
+                        - generic [ref=f1e2486]: Participación oral con consigna visible y respuesta mediada
+                        - generic [ref=f1e2487]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2488] [cursor=pointer]
+                  - generic [ref=f1e2493]:
+                    - button "Reducir la presión del lápiz y la fatiga al escribir Estrategia de aula" [ref=f1e2494] [cursor=pointer]:
+                      - generic [ref=f1e2499]:
+                        - generic [ref=f1e2500]: Reducir la presión del lápiz y la fatiga al escribir
+                        - generic [ref=f1e2501]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2502] [cursor=pointer]
+                  - generic [ref=f1e2507]:
+                    - button "Reducir presión y fatiga al escribir Estrategia de aula" [ref=f1e2508] [cursor=pointer]:
+                      - generic [ref=f1e2513]:
+                        - generic [ref=f1e2514]: Reducir presión y fatiga al escribir
+                        - generic [ref=f1e2515]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2516] [cursor=pointer]
+                  - generic [ref=f1e2521]:
+                    - button "Soporte para lápiz para reducir fatiga en escritura Estrategia de aula" [ref=f1e2522] [cursor=pointer]:
+                      - generic [ref=f1e2527]:
+                        - generic [ref=f1e2528]: Soporte para lápiz para reducir fatiga en escritura
+                        - generic [ref=f1e2529]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2530] [cursor=pointer]
+                  - generic [ref=f1e2535]:
+                    - button "Reducir presión y fatiga al escribir con pesa para lápiz Estrategia de aula" [ref=f1e2536] [cursor=pointer]:
+                      - generic [ref=f1e2541]:
+                        - generic [ref=f1e2542]: Reducir presión y fatiga al escribir con pesa para lápiz
+                        - generic [ref=f1e2543]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2544] [cursor=pointer]
+                  - generic [ref=f1e2549]:
+                    - button "Reducir la presión al escribir con pesa para lápiz Estrategia de aula" [ref=f1e2550] [cursor=pointer]:
+                      - generic [ref=f1e2555]:
+                        - generic [ref=f1e2556]: Reducir la presión al escribir con pesa para lápiz
+                        - generic [ref=f1e2557]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2558] [cursor=pointer]
+                  - generic [ref=f1e2563]:
+                    - button "Reducir presión y fatiga al escribir con pesa para lápiz Estrategia de aula" [ref=f1e2564] [cursor=pointer]:
+                      - generic [ref=f1e2569]:
+                        - generic [ref=f1e2570]: Reducir presión y fatiga al escribir con pesa para lápiz
+                        - generic [ref=f1e2571]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2572] [cursor=pointer]
+                  - generic [ref=f1e2577]:
+                    - button "Frases guía para responder comprensión en texto informativo Estrategia de aula" [ref=f1e2578] [cursor=pointer]:
+                      - generic [ref=f1e2588]:
+                        - generic [ref=f1e2589]: Frases guía para responder comprensión en texto informativo
+                        - generic [ref=f1e2590]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2591] [cursor=pointer]
+                  - generic [ref=f1e2596]:
+                    - button "Reducir la presión al escribir con peso en el lápiz Estrategia de aula" [ref=f1e2597] [cursor=pointer]:
+                      - generic [ref=f1e2602]:
+                        - generic [ref=f1e2603]: Reducir la presión al escribir con peso en el lápiz
+                        - generic [ref=f1e2604]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2605] [cursor=pointer]
+                  - generic [ref=f1e2610]:
+                    - button "Arranque guiado para iniciar el trabajo autónomo Estrategia de aula" [ref=f1e2611] [cursor=pointer]:
+                      - generic [ref=f1e2618]:
+                        - generic [ref=f1e2619]: Arranque guiado para iniciar el trabajo autónomo
+                        - generic [ref=f1e2620]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2621] [cursor=pointer]
+                  - generic [ref=f1e2626]:
+                    - button "Ajuste de copia desde el pizarrón Estrategia de aula" [ref=f1e2627] [cursor=pointer]:
+                      - generic [ref=f1e2632]:
+                        - generic [ref=f1e2633]: Ajuste de copia desde el pizarrón
+                        - generic [ref=f1e2634]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2635] [cursor=pointer]
+                  - generic [ref=f1e2640]:
+                    - button "Apoyo visual de consigna para Fenicio Estrategia de aula" [ref=f1e2641] [cursor=pointer]:
+                      - generic [ref=f1e2651]:
+                        - generic [ref=f1e2652]: Apoyo visual de consigna para Fenicio
+                        - generic [ref=f1e2653]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2654] [cursor=pointer]
+                  - generic [ref=f1e2659]:
+                    - button "Inicio de tarea visual para Amaranta Estrategia de aula" [ref=f1e2660] [cursor=pointer]:
+                      - generic [ref=f1e2664]:
+                        - generic [ref=f1e2665]: Inicio de tarea visual para Amaranta
+                        - generic [ref=f1e2666]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2667] [cursor=pointer]
+                  - generic [ref=f1e2672]:
+                    - button "Inicio visible para destrabar el arranque Estrategia de aula" [ref=f1e2673] [cursor=pointer]:
+                      - generic [ref=f1e2683]:
+                        - generic [ref=f1e2684]: Inicio visible para destrabar el arranque
+                        - generic [ref=f1e2685]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2686] [cursor=pointer]
+                  - generic [ref=f1e2691]:
+                    - button "Inicio acompañado y respuesta accesible para destrabarse Estrategia de aula" [ref=f1e2692] [cursor=pointer]:
+                      - generic [ref=f1e2702]:
+                        - generic [ref=f1e2703]: Inicio acompañado y respuesta accesible para destrabarse
+                        - generic [ref=f1e2704]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2705] [cursor=pointer]
+                  - generic [ref=f1e2710]:
+                    - button "Consigna secuenciada para iniciar y sostener la tarea Estrategia de aula" [ref=f1e2711] [cursor=pointer]:
+                      - generic [ref=f1e2715]:
+                        - generic [ref=f1e2716]: Consigna secuenciada para iniciar y sostener la tarea
+                        - generic [ref=f1e2717]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2718] [cursor=pointer]
+                  - generic [ref=f1e2723]:
+                    - button "Inicio acompañado y expresión por dibujo o marcado Estrategia de aula" [ref=f1e2724] [cursor=pointer]:
+                      - generic [ref=f1e2734]:
+                        - generic [ref=f1e2735]: Inicio acompañado y expresión por dibujo o marcado
+                        - generic [ref=f1e2736]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2737] [cursor=pointer]
+                  - generic [ref=f1e2742]:
+                    - button "Consigna breve con modelado para comprender el dictado Estrategia de aula" [ref=f1e2743] [cursor=pointer]:
+                      - generic [ref=f1e2753]:
+                        - generic [ref=f1e2754]: Consigna breve con modelado para comprender el dictado
+                        - generic [ref=f1e2755]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2756] [cursor=pointer]
+                  - generic [ref=f1e2761]:
+                    - button "Lectura de cuento con entrada por dibujo para Fede Actividad adaptada" [ref=f1e2762] [cursor=pointer]:
+                      - generic [ref=f1e2772]:
+                        - generic [ref=f1e2773]: Lectura de cuento con entrada por dibujo para Fede
+                        - generic [ref=f1e2774]: Actividad adaptada
+                    - button "Más opciones" [ref=f1e2775] [cursor=pointer]
+                  - generic [ref=f1e2780]:
+                    - button "Participación en grupo completo con turnos visibles Estrategia de aula" [ref=f1e2781] [cursor=pointer]:
+                      - generic [ref=f1e2791]:
+                        - generic [ref=f1e2792]: Participación en grupo completo con turnos visibles
+                        - generic [ref=f1e2793]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2794] [cursor=pointer]
+                  - generic [ref=f1e2799]:
+                    - button "Ficha simple para organizar y explicar un procedimiento Material nuevo" [ref=f1e2800] [cursor=pointer]:
+                      - generic [ref=f1e2810]:
+                        - generic [ref=f1e2811]: Ficha simple para organizar y explicar un procedimiento
+                        - generic [ref=f1e2812]: Material nuevo
+                    - button "Más opciones" [ref=f1e2813] [cursor=pointer]
+                  - generic [ref=f1e2818]:
+                    - button "Guía visual para explicar un procedimiento Estrategia de aula" [ref=f1e2819] [cursor=pointer]:
+                      - generic [ref=f1e2829]:
+                        - generic [ref=f1e2830]: Guía visual para explicar un procedimiento
+                        - generic [ref=f1e2831]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2832] [cursor=pointer]
+                  - generic [ref=f1e2837]:
+                    - button "Guía breve para explicar un procedimiento Estrategia de aula" [ref=f1e2838] [cursor=pointer]:
+                      - generic [ref=f1e2848]:
+                        - generic [ref=f1e2849]: Guía breve para explicar un procedimiento
+                        - generic [ref=f1e2850]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2851] [cursor=pointer]
+                  - generic [ref=f1e2856]:
+                    - button "Guía en tres pasos para explicar procedimientos Estrategia de aula" [ref=f1e2857] [cursor=pointer]:
+                      - generic [ref=f1e2867]:
+                        - generic [ref=f1e2868]: Guía en tres pasos para explicar procedimientos
+                        - generic [ref=f1e2869]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2870] [cursor=pointer]
+                  - generic [ref=f1e2875]:
+                    - button "Consigna en dos pasos con chequeo de inicio Estrategia de aula" [ref=f1e2876] [cursor=pointer]:
+                      - generic [ref=f1e2880]:
+                        - generic [ref=f1e2881]: Consigna en dos pasos con chequeo de inicio
+                        - generic [ref=f1e2882]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2883] [cursor=pointer]
+                  - generic [ref=f1e2888]:
+                    - button "Organizador visual de inicio en 3 pasos Estrategia de aula" [ref=f1e2889] [cursor=pointer]:
+                      - generic [ref=f1e2893]:
+                        - generic [ref=f1e2894]: Organizador visual de inicio en 3 pasos
+                        - generic [ref=f1e2895]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2896] [cursor=pointer]
+                  - generic [ref=f1e2901]:
+                    - button "Apoyos para sostener la participación de Francisco en trabajo grupal Estrategia de aula" [ref=f1e2902] [cursor=pointer]:
+                      - generic [ref=f1e2912]:
+                        - generic [ref=f1e2913]: Apoyos para sostener la participación de Francisco en trabajo grupal
+                        - generic [ref=f1e2914]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2915] [cursor=pointer]
+                  - generic [ref=f1e2920]:
+                    - button "Apoyos para expresar lo que sabe en trabajo grupal Estrategia de aula" [ref=f1e2921] [cursor=pointer]:
+                      - generic [ref=f1e2931]:
+                        - generic [ref=f1e2932]: Apoyos para expresar lo que sabe en trabajo grupal
+                        - generic [ref=f1e2933]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2934] [cursor=pointer]
+                  - generic [ref=f1e2939]:
+                    - button "Secuencia breve para iniciar la tarea en el cuaderno Estrategia de aula" [ref=f1e2940] [cursor=pointer]:
+                      - generic [ref=f1e2950]:
+                        - generic [ref=f1e2951]: Secuencia breve para iniciar la tarea en el cuaderno
+                        - generic [ref=f1e2952]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2953] [cursor=pointer]
+                  - generic [ref=f1e2958]:
+                    - button "Apoyo para iniciar la tarea con autonomía Estrategia de aula" [ref=f1e2959] [cursor=pointer]:
+                      - generic [ref=f1e2969]:
+                        - generic [ref=f1e2970]: Apoyo para iniciar la tarea con autonomía
+                        - generic [ref=f1e2971]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2972] [cursor=pointer]
+                  - generic [ref=f1e2977]:
+                    - button "Consigna en dos pasos para sostener la tarea Estrategia de aula" [ref=f1e2978] [cursor=pointer]:
+                      - generic [ref=f1e2982]:
+                        - generic [ref=f1e2983]: Consigna en dos pasos para sostener la tarea
+                        - generic [ref=f1e2984]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2985] [cursor=pointer]
+                  - generic [ref=f1e2990]:
+                    - button "Primer arranque para sostener inicio y participación con secuencia breve Estrategia de aula" [ref=f1e2991] [cursor=pointer]:
+                      - generic [ref=f1e2995]:
+                        - generic [ref=f1e2996]: Primer arranque para sostener inicio y participación con secuencia breve
+                        - generic [ref=f1e2997]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e2998] [cursor=pointer]
+                  - generic [ref=f1e3003]:
+                    - button "Uso del elástico para silla en trabajo autónomo Estrategia de aula" [ref=f1e3004] [cursor=pointer]:
+                      - generic [ref=f1e3011]:
+                        - generic [ref=f1e3012]: Uso del elástico para silla en trabajo autónomo
+                        - generic [ref=f1e3013]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3014] [cursor=pointer]
+                  - generic [ref=f1e3019]:
+                    - button "Inicio guiado y oración modelo para describir una imagen Estrategia de aula" [ref=f1e3020] [cursor=pointer]:
+                      - generic [ref=f1e3030]:
+                        - generic [ref=f1e3031]: Inicio guiado y oración modelo para describir una imagen
+                        - generic [ref=f1e3032]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3033] [cursor=pointer]
+                  - generic [ref=f1e3038]:
+                    - button "Movimiento con sentido y reingreso breve en trabajo autónomo Estrategia de aula" [ref=f1e3039] [cursor=pointer]:
+                      - generic [ref=f1e3046]:
+                        - generic [ref=f1e3047]: Movimiento con sentido y reingreso breve en trabajo autónomo
+                        - generic [ref=f1e3048]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3049] [cursor=pointer]
+                  - generic [ref=f1e3054]:
+                    - button "Inicio guiado con organizador visual en trabajo autónomo Estrategia de aula" [ref=f1e3055] [cursor=pointer]:
+                      - generic [ref=f1e3059]:
+                        - generic [ref=f1e3060]: Inicio guiado con organizador visual en trabajo autónomo
+                        - generic [ref=f1e3061]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3062] [cursor=pointer]
+                  - generic [ref=f1e3067]:
+                    - button "Opciones para leer y expresar lo que sabe Estrategia de aula" [ref=f1e3068] [cursor=pointer]:
+                      - generic [ref=f1e3073]:
+                        - generic [ref=f1e3074]: Opciones para leer y expresar lo que sabe
+                        - generic [ref=f1e3075]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3076] [cursor=pointer]
+                  - generic [ref=f1e3081]:
+                    - button "Secuencia visual breve para sostener la atención en la explicación grupal Estrategia de aula" [ref=f1e3082] [cursor=pointer]:
+                      - generic [ref=f1e3092]:
+                        - generic [ref=f1e3093]: Secuencia visual breve para sostener la atención en la explicación grupal
+                        - generic [ref=f1e3094]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3095] [cursor=pointer]
+                  - generic [ref=f1e3100]:
+                    - button "Inicio guiado y sostén autónomo después de la consigna grupal Estrategia de aula" [ref=f1e3101] [cursor=pointer]:
+                      - generic [ref=f1e3105]:
+                        - generic [ref=f1e3106]: Inicio guiado y sostén autónomo después de la consigna grupal
+                        - generic [ref=f1e3107]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3108] [cursor=pointer]
+                  - generic [ref=f1e3113]:
+                    - button "Consigna visible y fragmentada para iniciar la tarea Estrategia de aula" [ref=f1e3114] [cursor=pointer]:
+                      - generic [ref=f1e3118]:
+                        - generic [ref=f1e3119]: Consigna visible y fragmentada para iniciar la tarea
+                        - generic [ref=f1e3120]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3121] [cursor=pointer]
+                  - generic [ref=f1e3126]:
+                    - button "Secuencia visible para consignas de varios pasos Estrategia de aula" [ref=f1e3127] [cursor=pointer]:
+                      - generic [ref=f1e3131]:
+                        - generic [ref=f1e3132]: Secuencia visible para consignas de varios pasos
+                        - generic [ref=f1e3133]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3134] [cursor=pointer]
+                  - generic [ref=f1e3139]:
+                    - button "Consigna grupal con secuencia visible, ejemplo modelo y chequeo de inicio Estrategia de aula" [ref=f1e3140] [cursor=pointer]:
+                      - generic [ref=f1e3150]:
+                        - generic [ref=f1e3151]: Consigna grupal con secuencia visible, ejemplo modelo y chequeo de inicio
+                        - generic [ref=f1e3152]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3153] [cursor=pointer]
+                  - generic [ref=f1e3158]:
+                    - button "Trabajo grupal con estructura y rol activo Estrategia de aula" [ref=f1e3159] [cursor=pointer]:
+                      - generic [ref=f1e3169]:
+                        - generic [ref=f1e3170]: Trabajo grupal con estructura y rol activo
+                        - generic [ref=f1e3171]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3172] [cursor=pointer]
+                  - generic [ref=f1e3177]:
+                    - button "Organizador de inicio en 3 pasos para Pedro Solano Estrategia de aula" [ref=f1e3178] [cursor=pointer]:
+                      - generic [ref=f1e3182]:
+                        - generic [ref=f1e3183]: Organizador de inicio en 3 pasos para Pedro Solano
+                        - generic [ref=f1e3184]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3185] [cursor=pointer]
+                  - generic [ref=f1e3190]:
+                    - button "Uso de pesas para lápices en copiado Estrategia de aula" [ref=f1e3191] [cursor=pointer]:
+                      - generic [ref=f1e3196]:
+                        - generic [ref=f1e3197]: Uso de pesas para lápices en copiado
+                        - generic [ref=f1e3198]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3199] [cursor=pointer]
+                  - generic [ref=f1e3204]:
+                    - button "Anticipación y participación activa en explicación grupal Estrategia de aula" [ref=f1e3205] [cursor=pointer]:
+                      - generic [ref=f1e3215]:
+                        - generic [ref=f1e3216]: Anticipación y participación activa en explicación grupal
+                        - generic [ref=f1e3217]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3218] [cursor=pointer]
+                  - generic [ref=f1e3223]:
+                    - button "Secuencia visible para sostener la tarea Estrategia de aula" [ref=f1e3224] [cursor=pointer]:
+                      - generic [ref=f1e3228]:
+                        - generic [ref=f1e3229]: Secuencia visible para sostener la tarea
+                        - generic [ref=f1e3230]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3231] [cursor=pointer]
+                  - generic [ref=f1e3236]:
+                    - button "Apoyo para lectura en voz alta con decodificación lenta Estrategia de aula" [ref=f1e3237] [cursor=pointer]:
+                      - generic [ref=f1e3242]:
+                        - generic [ref=f1e3243]: Apoyo para lectura en voz alta con decodificación lenta
+                        - generic [ref=f1e3244]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3245] [cursor=pointer]
+                  - generic [ref=f1e3250]:
+                    - button "Expresar aprendizajes sin depender de la escritura Estrategia de aula" [ref=f1e3251] [cursor=pointer]:
+                      - generic [ref=f1e3261]:
+                        - generic [ref=f1e3262]: Expresar aprendizajes sin depender de la escritura
+                        - generic [ref=f1e3263]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3264] [cursor=pointer]
+                  - generic [ref=f1e3269]:
+                    - button "Actividades accesibles en dispositivo para mayor autonomía Estrategia de aula" [ref=f1e3270] [cursor=pointer]:
+                      - generic [ref=f1e3280]:
+                        - generic [ref=f1e3281]: Actividades accesibles en dispositivo para mayor autonomía
+                        - generic [ref=f1e3282]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3283] [cursor=pointer]
+                  - generic [ref=f1e3288]:
+                    - button "Inicio guiado para Ciencias Naturales Estrategia de aula" [ref=f1e3289] [cursor=pointer]:
+                      - generic [ref=f1e3293]:
+                        - generic [ref=f1e3294]: Inicio guiado para Ciencias Naturales
+                        - generic [ref=f1e3295]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3296] [cursor=pointer]
+                  - generic [ref=f1e3301]:
+                    - button "Lectura fragmentada con anticipación y verificación breve para Camila Estrategia de aula" [ref=f1e3302] [cursor=pointer]:
+                      - generic [ref=f1e3307]:
+                        - generic [ref=f1e3308]: Lectura fragmentada con anticipación y verificación breve para Camila
+                        - generic [ref=f1e3309]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3310] [cursor=pointer]
+                  - generic [ref=f1e3315]:
+                    - button "Lectura con anticipación y comprensión por tramos para Camila Estrategia de aula" [ref=f1e3316] [cursor=pointer]:
+                      - generic [ref=f1e3321]:
+                        - generic [ref=f1e3322]: Lectura con anticipación y comprensión por tramos para Camila
+                        - generic [ref=f1e3323]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3324] [cursor=pointer]
+                  - generic [ref=f1e3329]:
+                    - button "Lectura con apoyo compartido para comprensión final Estrategia de aula" [ref=f1e3330] [cursor=pointer]:
+                      - generic [ref=f1e3335]:
+                        - generic [ref=f1e3336]: Lectura con apoyo compartido para comprensión final
+                        - generic [ref=f1e3337]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3338] [cursor=pointer]
+                  - generic [ref=f1e3343]:
+                    - button "Lectura con consigna accesible y acompañamiento gradual Estrategia de aula" [ref=f1e3344] [cursor=pointer]:
+                      - generic [ref=f1e3354]:
+                        - generic [ref=f1e3355]: Lectura con consigna accesible y acompañamiento gradual
+                        - generic [ref=f1e3356]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3357] [cursor=pointer]
+                  - generic [ref=f1e3362]:
+                    - button "Secuencia visible y movimiento con función para sostener el tramo medio de la tarea Estrategia de aula" [ref=f1e3363] [cursor=pointer]:
+                      - generic [ref=f1e3373]:
+                        - generic [ref=f1e3374]: Secuencia visible y movimiento con función para sostener el tramo medio de la tarea
+                        - generic [ref=f1e3375]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3376] [cursor=pointer]
+                  - generic [ref=f1e3381]:
+                    - button "Lectura fragmentada con apoyos visuales para comprensión Estrategia de aula" [ref=f1e3382] [cursor=pointer]:
+                      - generic [ref=f1e3387]:
+                        - generic [ref=f1e3388]: Lectura fragmentada con apoyos visuales para comprensión
+                        - generic [ref=f1e3389]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3390] [cursor=pointer]
+                  - generic [ref=f1e3395]:
+                    - button "Consigna visible con ejemplo para iniciar con más autonomía Estrategia de aula" [ref=f1e3396] [cursor=pointer]:
+                      - generic [ref=f1e3406]:
+                        - generic [ref=f1e3407]: Consigna visible con ejemplo para iniciar con más autonomía
+                        - generic [ref=f1e3408]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3409] [cursor=pointer]
+                  - generic [ref=f1e3414]:
+                    - button "Inicio de tarea con consigna fragmentada para Juan Estrategia de aula" [ref=f1e3415] [cursor=pointer]:
+                      - generic [ref=f1e3419]:
+                        - generic [ref=f1e3420]: Inicio de tarea con consigna fragmentada para Juan
+                        - generic [ref=f1e3421]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3422] [cursor=pointer]
+                  - generic [ref=f1e3427]:
+                    - button "Tarea fragmentada con chequeo breve para Pedro Alfonso Estrategia de aula" [ref=f1e3428] [cursor=pointer]:
+                      - generic [ref=f1e3432]:
+                        - generic [ref=f1e3433]: Tarea fragmentada con chequeo breve para Pedro Alfonso
+                        - generic [ref=f1e3434]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3435] [cursor=pointer]
+                  - generic [ref=f1e3440]:
+                    - button "Secuencia visible y movimiento con función para iniciar y sostener tarea Estrategia de aula" [ref=f1e3441] [cursor=pointer]:
+                      - generic [ref=f1e3445]:
+                        - generic [ref=f1e3446]: Secuencia visible y movimiento con función para iniciar y sostener tarea
+                        - generic [ref=f1e3447]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3448] [cursor=pointer]
+                  - generic [ref=f1e3453]:
+                    - button "Secuencia visible y movimiento con función para iniciar y sostener tarea Estrategia de aula" [ref=f1e3454] [cursor=pointer]:
+                      - generic [ref=f1e3461]:
+                        - generic [ref=f1e3462]: Secuencia visible y movimiento con función para iniciar y sostener tarea
+                        - generic [ref=f1e3463]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3464] [cursor=pointer]
+                  - generic [ref=f1e3469]:
+                    - button "Lectura guiada por tramos con respuesta oral Estrategia de aula" [ref=f1e3470] [cursor=pointer]:
+                      - generic [ref=f1e3475]:
+                        - generic [ref=f1e3476]: Lectura guiada por tramos con respuesta oral
+                        - generic [ref=f1e3477]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3478] [cursor=pointer]
+                  - generic [ref=f1e3483]:
+                    - button "Entrada guiada a la consigna para sostener atención Estrategia de aula" [ref=f1e3484] [cursor=pointer]:
+                      - generic [ref=f1e3488]:
+                        - generic [ref=f1e3489]: Entrada guiada a la consigna para sostener atención
+                        - generic [ref=f1e3490]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3491] [cursor=pointer]
+                  - generic [ref=f1e3496]:
+                    - button "Participación activa y regulación en trabajo grupal Estrategia de aula" [ref=f1e3497] [cursor=pointer]:
+                      - generic [ref=f1e3504]:
+                        - generic [ref=f1e3505]: Participación activa y regulación en trabajo grupal
+                        - generic [ref=f1e3506]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3507] [cursor=pointer]
+                  - generic [ref=f1e3512]:
+                    - button "Participación activa y regulación en trabajo grupal Estrategia de aula" [ref=f1e3513] [cursor=pointer]:
+                      - generic [ref=f1e3520]:
+                        - generic [ref=f1e3521]: Participación activa y regulación en trabajo grupal
+                        - generic [ref=f1e3522]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3523] [cursor=pointer]
+                  - generic [ref=f1e3528]:
+                    - button "Consigna breve con movimiento funcional para iniciar tareas Estrategia de aula" [ref=f1e3529] [cursor=pointer]:
+                      - generic [ref=f1e3536]:
+                        - generic [ref=f1e3537]: Consigna breve con movimiento funcional para iniciar tareas
+                        - generic [ref=f1e3538]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3539] [cursor=pointer]
+                  - generic [ref=f1e3544]:
+                    - button "Participación activa con movimiento en actividades grupales Estrategia de aula" [ref=f1e3545] [cursor=pointer]:
+                      - generic [ref=f1e3549]:
+                        - generic [ref=f1e3550]: Participación activa con movimiento en actividades grupales
+                        - generic [ref=f1e3551]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3552] [cursor=pointer]
+                  - generic [ref=f1e3557]:
+                    - button "Participación con movimiento regulado en trabajo grupal Estrategia de aula" [ref=f1e3558] [cursor=pointer]:
+                      - generic [ref=f1e3565]:
+                        - generic [ref=f1e3566]: Participación con movimiento regulado en trabajo grupal
+                        - generic [ref=f1e3567]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3568] [cursor=pointer]
+                  - generic [ref=f1e3573]:
+                    - button "Apoyo visual y anticipación en transiciones Estrategia de aula" [ref=f1e3574] [cursor=pointer]:
+                      - generic [ref=f1e3578]:
+                        - generic [ref=f1e3579]: Apoyo visual y anticipación en transiciones
+                        - generic [ref=f1e3580]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3581] [cursor=pointer]
+                  - generic [ref=f1e3586]:
+                    - button "Sostén de tarea con fragmentación y movimiento pautado Estrategia de aula" [ref=f1e3587] [cursor=pointer]:
+                      - generic [ref=f1e3594]:
+                        - generic [ref=f1e3595]: Sostén de tarea con fragmentación y movimiento pautado
+                        - generic [ref=f1e3596]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3597] [cursor=pointer]
+                  - generic [ref=f1e3602]:
+                    - button "Consignas en dos pasos y movimiento con función para Joaquín Estrategia de aula" [ref=f1e3603] [cursor=pointer]:
+                      - generic [ref=f1e3610]:
+                        - generic [ref=f1e3611]: Consignas en dos pasos y movimiento con función para Joaquín
+                        - generic [ref=f1e3612]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3613] [cursor=pointer]
+                  - generic [ref=f1e3618]:
+                    - button "Consigna en dos pasos para sostener el hilo Estrategia de aula" [ref=f1e3619] [cursor=pointer]:
+                      - generic [ref=f1e3623]:
+                        - generic [ref=f1e3624]: Consigna en dos pasos para sostener el hilo
+                        - generic [ref=f1e3625]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3626] [cursor=pointer]
+                  - generic [ref=f1e3631]:
+                    - button "Ingreso a la tarea con consigna visible y movimiento funcional para Juliana Estrategia de aula" [ref=f1e3632] [cursor=pointer]:
+                      - generic [ref=f1e3636]:
+                        - generic [ref=f1e3637]: Ingreso a la tarea con consigna visible y movimiento funcional para Juliana
+                        - generic [ref=f1e3638]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3639] [cursor=pointer]
+                  - generic [ref=f1e3644]:
+                    - button "Participación en grupo con rol activo y foco acotado Estrategia de aula" [ref=f1e3645] [cursor=pointer]:
+                      - generic [ref=f1e3652]:
+                        - generic [ref=f1e3653]: Participación en grupo con rol activo y foco acotado
+                        - generic [ref=f1e3654]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3655] [cursor=pointer]
+                  - generic [ref=f1e3660]:
+                    - button "Recurso pedagógico Actividad adaptada" [ref=f1e3661] [cursor=pointer]:
+                      - generic [ref=f1e3671]:
+                        - generic [ref=f1e3672]: Recurso pedagógico
+                        - generic [ref=f1e3673]: Actividad adaptada
+                    - button "Más opciones" [ref=f1e3674] [cursor=pointer]
+                  - generic [ref=f1e3679]:
+                    - button "Recurso pedagógico Actividad adaptada" [ref=f1e3680] [cursor=pointer]:
+                      - generic [ref=f1e3690]:
+                        - generic [ref=f1e3691]: Recurso pedagógico
+                        - generic [ref=f1e3692]: Actividad adaptada
+                    - button "Más opciones" [ref=f1e3693] [cursor=pointer]
+                  - generic [ref=f1e3698]:
+                    - button "Desde asistente Actividad adaptada" [ref=f1e3699] [cursor=pointer]:
+                      - generic [ref=f1e3709]:
+                        - generic [ref=f1e3710]: Desde asistente
+                        - generic [ref=f1e3711]: Actividad adaptada
+                    - button "Más opciones" [ref=f1e3712] [cursor=pointer]
+                  - generic [ref=f1e3717]:
+                    - button "Desde asistente Actividad adaptada" [ref=f1e3718] [cursor=pointer]:
+                      - generic [ref=f1e3728]:
+                        - generic [ref=f1e3729]: Desde asistente
+                        - generic [ref=f1e3730]: Actividad adaptada
+                    - button "Más opciones" [ref=f1e3731] [cursor=pointer]
+                  - generic [ref=f1e3736]:
+                    - button "Desde asistente Actividad adaptada" [ref=f1e3737] [cursor=pointer]:
+                      - generic [ref=f1e3747]:
+                        - generic [ref=f1e3748]: Desde asistente
+                        - generic [ref=f1e3749]: Actividad adaptada
+                    - button "Más opciones" [ref=f1e3750] [cursor=pointer]
+                  - generic [ref=f1e3755]:
+                    - button "------ Actividad adaptada" [ref=f1e3756] [cursor=pointer]:
+                      - generic [ref=f1e3766]:
+                        - generic [ref=f1e3767]: "------"
+                        - generic [ref=f1e3768]: Actividad adaptada
+                    - button "Más opciones" [ref=f1e3769] [cursor=pointer]
+                  - generic [ref=f1e3774]:
+                    - button "Desde asistente Actividad adaptada" [ref=f1e3775] [cursor=pointer]:
+                      - generic [ref=f1e3785]:
+                        - generic [ref=f1e3786]: Desde asistente
+                        - generic [ref=f1e3787]: Actividad adaptada
+                    - button "Más opciones" [ref=f1e3788] [cursor=pointer]
+                  - generic [ref=f1e3793]:
+                    - button "Lectura guiada con apoyos visuales para Camila Estrategia de aula" [ref=f1e3794] [cursor=pointer]:
+                      - generic [ref=f1e3799]:
+                        - generic [ref=f1e3800]: Lectura guiada con apoyos visuales para Camila
+                        - generic [ref=f1e3801]: Estrategia de aula
+                    - button "Más opciones" [ref=f1e3802] [cursor=pointer]
+                  - generic [ref=f1e3807]:
+                    - button "roberto Actividad adaptada" [ref=f1e3808] [cursor=pointer]:
+                      - generic [ref=f1e3818]:
+                        - generic [ref=f1e3819]: roberto
+                        - generic [ref=f1e3820]: Actividad adaptada
+                    - button "Más opciones" [ref=f1e3821] [cursor=pointer]
+                  - generic [ref=f1e3826]:
+                    - button "Desde asistente Actividad adaptada" [ref=f1e3827] [cursor=pointer]:
+                      - generic [ref=f1e3837]:
+                        - generic [ref=f1e3838]: Desde asistente
+                        - generic [ref=f1e3839]: Actividad adaptada
+                    - button "Más opciones" [ref=f1e3840] [cursor=pointer]
+                  - generic [ref=f1e3845]:
+                    - button "Desde asistente Actividad adaptada" [ref=f1e3846] [cursor=pointer]:
+                      - generic [ref=f1e3856]:
+                        - generic [ref=f1e3857]: Desde asistente
+                        - generic [ref=f1e3858]: Actividad adaptada
+                    - button "Más opciones" [ref=f1e3859] [cursor=pointer]
+                  - generic [ref=f1e3864]:
+                    - button "Desde asistente Actividad adaptada" [ref=f1e3865] [cursor=pointer]:
+                      - generic [ref=f1e3875]:
+                        - generic [ref=f1e3876]: Desde asistente
+                        - generic [ref=f1e3877]: Actividad adaptada
+                    - button "Más opciones" [ref=f1e3878] [cursor=pointer]
+                  - generic [ref=f1e3883]:
+                    - button "Desde asistente Actividad adaptada" [ref=f1e3884] [cursor=pointer]:
+                      - generic [ref=f1e3894]:
+                        - generic [ref=f1e3895]: Desde asistente
+                        - generic [ref=f1e3896]: Actividad adaptada
+                    - button "Más opciones" [ref=f1e3897] [cursor=pointer]
+                  - generic [ref=f1e3902]:
+                    - button "Desde asistente Actividad adaptada" [ref=f1e3903] [cursor=pointer]:
+                      - generic [ref=f1e3913]:
+                        - generic [ref=f1e3914]: Desde asistente
+                        - generic [ref=f1e3915]: Actividad adaptada
+                    - button "Más opciones" [ref=f1e3916] [cursor=pointer]
+                  - generic [ref=f1e3921]:
+                    - button "Desde asistente Actividad adaptada" [ref=f1e3922] [cursor=pointer]:
+                      - generic [ref=f1e3932]:
+                        - generic [ref=f1e3933]: Desde asistente
+                        - generic [ref=f1e3934]: Actividad adaptada
+                    - button "Más opciones" [ref=f1e3935] [cursor=pointer]
+                  - generic [ref=f1e3940]:
+                    - button "Desde asistente Actividad adaptada" [ref=f1e3941] [cursor=pointer]:
+                      - generic [ref=f1e3951]:
+                        - generic [ref=f1e3952]: Desde asistente
+                        - generic [ref=f1e3953]: Actividad adaptada
+                    - button "Más opciones" [ref=f1e3954] [cursor=pointer]
+                  - generic [ref=f1e3959]:
+                    - button "Desde asistente Actividad adaptada" [ref=f1e3960] [cursor=pointer]:
+                      - generic [ref=f1e3970]:
+                        - generic [ref=f1e3971]: Desde asistente
+                        - generic [ref=f1e3972]: Actividad adaptada
+                    - button "Más opciones" [ref=f1e3973] [cursor=pointer]
+                  - generic [ref=f1e3978]:
+                    - button "Desde asistente Actividad adaptada" [ref=f1e3979] [cursor=pointer]:
+                      - generic [ref=f1e3989]:
+                        - generic [ref=f1e3990]: Desde asistente
+                        - generic [ref=f1e3991]: Actividad adaptada
+                    - button "Más opciones" [ref=f1e3992] [cursor=pointer]
+                  - generic [ref=f1e3997]:
+                    - button "sol Actividad adaptada" [ref=f1e3998] [cursor=pointer]:
+                      - generic [ref=f1e4008]:
+                        - generic [ref=f1e4009]: sol
+                        - generic [ref=f1e4010]: Actividad adaptada
+                    - button "Más opciones" [ref=f1e4011] [cursor=pointer]
+                  - generic [ref=f1e4016]:
+                    - button "Matemática planificada" [ref=f1e4017] [cursor=pointer]:
+                      - generic [ref=f1e4027]:
+                        - generic [ref=f1e4028]: Matemática
+                        - generic [ref=f1e4029]: planificada
+                    - button "Más opciones" [ref=f1e4030] [cursor=pointer]
+                  - generic [ref=f1e4035]:
+                    - button "Prácticas del Lenguaje planificada" [ref=f1e4036] [cursor=pointer]:
+                      - generic [ref=f1e4046]:
+                        - generic [ref=f1e4047]: Prácticas del Lenguaje
+                        - generic [ref=f1e4048]: planificada
+                    - button "Más opciones" [ref=f1e4049] [cursor=pointer]
+                  - generic [ref=f1e4054]:
+                    - button "Ciencias Naturales planificada" [ref=f1e4055] [cursor=pointer]:
+                      - generic [ref=f1e4065]:
+                        - generic [ref=f1e4066]: Ciencias Naturales
+                        - generic [ref=f1e4067]: planificada
+                    - button "Más opciones" [ref=f1e4068] [cursor=pointer]
+                  - generic [ref=f1e4073]:
+                    - button "Tecnología planificada" [ref=f1e4074] [cursor=pointer]:
+                      - generic [ref=f1e4079]:
+                        - generic [ref=f1e4080]: Tecnología
+                        - generic [ref=f1e4081]: planificada
+                    - button "Más opciones" [ref=f1e4082] [cursor=pointer]
+                  - generic [ref=f1e4087]:
+                    - button "Prácticas del Lenguaje planificada" [ref=f1e4088] [cursor=pointer]:
+                      - generic [ref=f1e4098]:
+                        - generic [ref=f1e4099]: Prácticas del Lenguaje
+                        - generic [ref=f1e4100]: planificada
+                    - button "Más opciones" [ref=f1e4101] [cursor=pointer]
+                  - generic [ref=f1e4106]:
+                    - button "Prácticas del Lenguaje durante" [ref=f1e4107] [cursor=pointer]:
+                      - generic [ref=f1e4117]:
+                        - generic [ref=f1e4118]: Prácticas del Lenguaje
+                        - generic [ref=f1e4119]: durante
+                    - button "Más opciones" [ref=f1e4120] [cursor=pointer]
+                  - generic [ref=f1e4125]:
+                    - button "Ciencias Sociales planificada" [ref=f1e4126] [cursor=pointer]:
+                      - generic [ref=f1e4136]:
+                        - generic [ref=f1e4137]: Ciencias Sociales
+                        - generic [ref=f1e4138]: planificada
+                    - button "Más opciones" [ref=f1e4139] [cursor=pointer]
+                  - generic [ref=f1e4144]:
+                    - button "Matemática planificada" [ref=f1e4145] [cursor=pointer]:
+                      - generic [ref=f1e4155]:
+                        - generic [ref=f1e4156]: Matemática
+                        - generic [ref=f1e4157]: planificada
+                    - button "Más opciones" [ref=f1e4158] [cursor=pointer]
+                  - generic [ref=f1e4163]:
+                    - button "Ciencias Naturales planificada" [ref=f1e4164] [cursor=pointer]:
+                      - generic [ref=f1e4169]:
+                        - generic [ref=f1e4170]: Ciencias Naturales
+                        - generic [ref=f1e4171]: planificada
+                    - button "Más opciones" [ref=f1e4172] [cursor=pointer]
+                  - generic [ref=f1e4177]:
+                    - button "Prácticas del Lenguaje planificada" [ref=f1e4178] [cursor=pointer]:
+                      - generic [ref=f1e4188]:
+                        - generic [ref=f1e4189]: Prácticas del Lenguaje
+                        - generic [ref=f1e4190]: planificada
+                    - button "Más opciones" [ref=f1e4191] [cursor=pointer]
+                  - generic [ref=f1e4196]:
+                    - button "Prácticas del Lenguaje planificada" [ref=f1e4197] [cursor=pointer]:
+                      - generic [ref=f1e4207]:
+                        - generic [ref=f1e4208]: Prácticas del Lenguaje
+                        - generic [ref=f1e4209]: planificada
+                    - button "Más opciones" [ref=f1e4210] [cursor=pointer]
+  - region "Notifications alt+T"

@@ -1,0 +1,37 @@
+- generic [ref=f6e2]:
+  - generic [ref=f6e5]:
+    - banner [ref=f6e6]:
+      - button "Alternar menú de navegación" [ref=f6e9] [cursor=pointer]
+      - img "Alizia by Educabot" [ref=f6e13]
+      - button "Notificaciones" [ref=f6e22] [cursor=pointer]
+    - generic [ref=f6e25]:
+      - navigation [ref=f6e26]:
+        - list [ref=f6e27]:
+          - listitem [ref=f6e28]:
+            - link "Alizia asistente" [ref=f6e29] [cursor=pointer]:
+              - /url: /asistente
+          - listitem [ref=f6e32]:
+            - link "Primeros pasos" [active] [ref=f6e33] [cursor=pointer]:
+              - /url: /primeros-pasos
+          - listitem [ref=f6e36]:
+            - link "Materiales" [ref=f6e37] [cursor=pointer]:
+              - /url: /materiales
+          - listitem [ref=f6e43]:
+            - link "Recursos pedagógicos" [ref=f6e44] [cursor=pointer]:
+              - /url: /recursos
+        - button "Menú de usuario" [ref=f6e49] [cursor=pointer]:
+          - generic [ref=f6e50]: M
+      - main [ref=f6e51]:
+        - generic [ref=f6e142]:
+          - heading "Primeros pasos" [level=1] [ref=f6e143]
+          - generic [ref=f6e144]:
+            - generic [ref=f6e145]:
+              - heading "La valija" [level=2] [ref=f6e146]
+              - paragraph [ref=f6e147]: Una valija pensada para vos y para cada uno de tus alumnos, diseñada para que tengas siempre la herramienta justa.
+            - button [ref=f6e148] [cursor=pointer]
+            - generic [ref=f6e155]:
+              - paragraph [ref=f6e156]: Explorá tu valija
+              - generic [ref=f6e157]:
+                - button "Tu asistente de aula" [ref=f6e158] [cursor=pointer]
+                - button "Ir a Materiales" [ref=f6e159] [cursor=pointer]
+  - region "Notifications alt+T"

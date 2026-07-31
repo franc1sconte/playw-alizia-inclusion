@@ -1,0 +1,19 @@
+[      56ms] [LOG] [auth] app iniciada | modo: production | API_BASE: https://alizia-inclusion-production.up.railway.app/api/v1 @ https://alizia.educabot.ai/assets/index-PTXWxSHv.js:102
+[   31354ms] [LOG] [auth] login OK: admin@alizia.com | rol: director @ https://alizia.educabot.ai/assets/index-PTXWxSHv.js:102
+[   31355ms] [LOG] [auth] setTokens: guardando auth_token (len 795 ) y refresh_token (len 64 ) — refresh vacío/undefined: false @ https://alizia.educabot.ai/assets/index-PTXWxSHv.js:102
+[   50516ms] [LOG] [auth] logout manual del usuario @ https://alizia.educabot.ai/assets/index-PTXWxSHv.js:102
+[   50518ms] [WARNING] [auth] clear: borrando tokens de localStorage Error: stack
+    at Object.clear (https://alizia.educabot.ai/assets/index-PTXWxSHv.js:103:25686)
+    at logout (https://alizia.educabot.ai/assets/index-PTXWxSHv.js:104:4723)
+    at _ (https://alizia.educabot.ai/assets/index-PTXWxSHv.js:144:23288)
+    at https://alizia.educabot.ai/assets/index-PTXWxSHv.js:104:40319
+    at mN (https://alizia.educabot.ai/assets/index-PTXWxSHv.js:8:128882)
+    at https://alizia.educabot.ai/assets/index-PTXWxSHv.js:8:134210
+    at sh (https://alizia.educabot.ai/assets/index-PTXWxSHv.js:8:15168)
+    at g2 (https://alizia.educabot.ai/assets/index-PTXWxSHv.js:8:130133)
+    at R2 (https://alizia.educabot.ai/assets/index-PTXWxSHv.js:9:28852)
+    at CB (https://alizia.educabot.ai/assets/index-PTXWxSHv.js:9:28670) @ https://alizia.educabot.ai/assets/index-PTXWxSHv.js:102
+[   50519ms] [WARNING] [auth] ProtectedRoute: sin usuario en memoria → redirect a /login | auth_token en localStorage: false | refresh_token: false @ https://alizia.educabot.ai/assets/index-PTXWxSHv.js:102
+[   50522ms] [WARNING] [auth] ProtectedRoute: sin usuario en memoria → redirect a /login | auth_token en localStorage: false | refresh_token: false @ https://alizia.educabot.ai/assets/index-PTXWxSHv.js:102
+[   66676ms] [LOG] [auth] login OK: teacher2@alizia.com | rol: docente @ https://alizia.educabot.ai/assets/index-PTXWxSHv.js:102
+[   66676ms] [LOG] [auth] setTokens: guardando auth_token (len 798 ) y refresh_token (len 64 ) — refresh vacío/undefined: false @ https://alizia.educabot.ai/assets/index-PTXWxSHv.js:102

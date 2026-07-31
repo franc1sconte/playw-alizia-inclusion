@@ -1,0 +1,80 @@
+- generic:
+  - generic:
+    - generic:
+      - banner:
+        - generic:
+          - generic:
+            - button
+        - generic:
+          - button: Historial
+          - generic:
+            - generic:
+              - button
+      - generic:
+        - navigation:
+          - list:
+            - listitem:
+              - link:
+                - /url: /asistente
+            - listitem:
+              - link:
+                - /url: /primeros-pasos
+            - listitem:
+              - link:
+                - /url: /materiales
+            - listitem:
+              - link:
+                - /url: /recursos
+            - listitem:
+              - link:
+                - /url: /admin/aulas
+            - listitem:
+              - link:
+                - /url: /admin/docentes
+          - generic:
+            - button [expanded]:
+              - generic: A
+        - main:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - paragraph: Hola Administrador,
+                      - paragraph: ¿Cómo puedo ayudarte?
+                  - generic:
+                    - generic:
+                      - textbox:
+                        - /placeholder: Escribí tu mensaje para Alizia...
+                      - generic:
+                        - button
+                        - button [disabled]
+                    - generic:
+                      - generic:
+                        - button:
+                          - generic: Adaptar una actividad para un alumno
+                      - generic:
+                        - button:
+                          - generic: Tengo una situación difícil en el aula
+                      - generic:
+                        - button:
+                          - generic: Crear un recurso pedagógico
+                      - generic:
+                        - button:
+                          - generic: No sé por donde empezar
+            - generic:
+              - heading [level=1]: Historial
+              - generic:
+                - button
+              - generic:
+                - textbox:
+                  - /placeholder: Buscar chat...
+    - region "Notifications alt+T"
+  - menu "Menú de usuario" [active] [ref=e198]:
+    - generic [ref=e199]:
+      - paragraph [ref=e200]: Administrador Alizia
+      - paragraph [ref=e201]: admin@alizia.com
+      - paragraph [ref=e202]: Alizia Inclusión
+    - separator [ref=e203]
+    - menuitem "Cerrar sesión" [ref=e204] [cursor=pointer]

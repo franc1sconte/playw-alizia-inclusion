@@ -1,0 +1,83 @@
+- main [ref=e4]:
+  - generic [ref=e5]:
+    - navigation [ref=e7]:
+      - link "All66" [ref=e8] [cursor=pointer]:
+        - /url: "#?"
+      - link "Passed53" [ref=e9] [cursor=pointer]:
+        - /url: "#?q=s%3Apassed"
+      - link "Failed13" [ref=e12] [cursor=pointer]:
+        - /url: "#?q=s%3Afailed"
+      - link "Flaky0" [ref=e15] [cursor=pointer]:
+        - /url: "#?q=s%3Aflaky"
+      - link "Skipped0" [ref=e16] [cursor=pointer]:
+        - /url: "#?q=s%3Askipped"
+      - link "Speedboard" [ref=e17] [cursor=pointer]:
+        - /url: "#?speedboard"
+      - button "Settings" [ref=e20] [cursor=pointer]
+    - textbox "Search tests" [ref=e24]: s:failed
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e28]: Login - Alizia Inclusión
+        - link "« previous" [ref=e163] [cursor=pointer]:
+          - /url: "#?q=s%3Afailed&testId=2ae8493851f702630090-c14c3ebe1880c548e060"
+        - link "next »" [active] [ref=e32] [cursor=pointer]:
+          - /url: "#?q=s%3Afailed&testId=306bcf663d9673687563-eda6ab8b3a25a7223972"
+      - generic [ref=e33]: login-exitoso-admin
+    - generic [ref=e34]:
+      - generic [ref=e35]: login/alizia-inclusion-login.spec.ts:48
+      - generic [ref=e38]: 30.1s
+    - generic [ref=e39]:
+      - generic [ref=e40] [cursor=pointer]: firefox
+      - generic [ref=e250] [cursor=pointer]: critical
+    - generic [ref=e44]:
+      - tablist [ref=e46]:
+        - tab [selected] [ref=e47] [cursor=pointer]
+      - tabpanel "Run" [ref=e52]:
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - button "Errors" [expanded] [ref=e55] [cursor=pointer]
+            - region [ref=e58]:
+              - button "Copy prompt" [ref=e60] [cursor=pointer]
+              - generic [ref=e61]: Test timeout of 30000ms exceeded.
+              - generic [ref=e260]: "Error: locator.click: Test timeout of 30000ms exceeded. Call log: - waiting for getByRole('button', { name: 'Iniciar sesión' }) - locator resolved to <button type=\"submit\" class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 touch-manipulation cursor-pointer hover:bg-primary/90 px-4 py-2 h-[42px] w-full rounded-lg bg-primary-glossy text-[16px] font-semibold leading-[22px] text-white ho…>Iniciar sesión</button> - attempting click action - waiting for element to be visible, enabled and stable - element is visible, enabled and stable - scrolling into view if needed - done scrolling - performing click action at ..\\pages\\login\\LoginPage.ts:37 35 | 36 | async submit(): Promise<void> { > 37 | await this.submitButton.click(); | ^ 38 | } 39 | 40 | async login(username: string, password: string): Promise<void> { at LoginPage.submit (Z:\\Work\\ReposRandom\\playw-alizia-inclusion\\pages\\login\\LoginPage.ts:37:29) at LoginPage.login (Z:\\Work\\ReposRandom\\playw-alizia-inclusion\\pages\\login\\LoginPage.ts:43:16) at Z:\\Work\\ReposRandom\\playw-alizia-inclusion\\tests\\login\\alizia-inclusion-login.spec.ts:53:5"
+          - generic [ref=e63]:
+            - button "Test Steps" [expanded] [ref=e64] [cursor=pointer]
+            - region [ref=e67]:
+              - searchbox "Filter steps" [ref=e69]
+              - treeitem [ref=e70]:
+                - generic "Before Hooks" [ref=e74] [cursor=pointer]: 5.6s
+              - treeitem [ref=e262]:
+                - generic "Navigate to \"/login\"" [ref=e263] [cursor=pointer]:
+                  - generic [ref=e86]:
+                    - text: Navigate to "/login"
+                    - generic [ref=e197]: — ../pages/login/LoginPage.ts:25
+                  - generic [ref=e88]: 9.0s
+              - treeitem [ref=e264]:
+                - generic "Fill \"admin@alizia.com\" getByLabel('Correo electrónico').first()" [ref=e265] [cursor=pointer]:
+                  - generic [ref=e96]:
+                    - text: Fill "admin@alizia.com" getByLabel('Correo electrónico').first()
+                    - generic [ref=e200]: — ../pages/login/LoginPage.ts:29
+                  - generic [ref=e98]: 209ms
+              - treeitem [ref=e291]:
+                - generic "Fill \"admin123\" getByLabel('Contraseña').first()" [ref=e292] [cursor=pointer]:
+                  - generic [ref=e208]:
+                    - text: Fill "admin123" getByLabel('Contraseña').first()
+                    - generic [ref=e268]: — ../pages/login/LoginPage.ts:33
+                  - generic [ref=e210]: 25ms
+              - treeitem [ref=e269]:
+                - 'generic "Click getByRole(''button'', { name: ''Iniciar sesión'' })" [ref=e270] [cursor=pointer]':
+                  - generic [ref=e218]:
+                    - text: "Click getByRole('button', { name: 'Iniciar sesión' })"
+                    - generic [ref=e271]: — ../pages/login/LoginPage.ts:37
+                  - generic [ref=e220]: 17.7s
+              - treeitem [ref=e272]:
+                - generic "After Hooks" [ref=e276] [cursor=pointer]: 136ms
+              - treeitem [ref=e281]:
+                - generic "Worker Cleanup" [ref=e285] [cursor=pointer]: 878ms
+          - generic [ref=e147]:
+            - button "Attachments" [expanded] [ref=e148] [cursor=pointer]
+            - region [ref=e151]:
+              - link "error-context" [ref=e157] [cursor=pointer]:
+                - /url: http://localhost:52412/data/ff2285ebcbf35d494946043a911ce4f2d45fc708.md
+          - 'button "Executed in Worker #10" [ref=e293] [cursor=pointer]'

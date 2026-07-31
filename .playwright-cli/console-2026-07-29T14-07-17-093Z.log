@@ -1,0 +1,20 @@
+[     418ms] [LOG] [auth] app iniciada | modo: production | API_BASE: https://alizia-inclusion-production.up.railway.app/api/v1 @ https://alizia.educabot.ai/assets/index-D1B_eaLW.js:102
+[   79072ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://alizia-inclusion-production.up.railway.app/api/v1/auth/login:0
+[   92988ms] [LOG] [auth] login OK: admin@alizia.com | rol: director @ https://alizia.educabot.ai/assets/index-D1B_eaLW.js:102
+[   92988ms] [LOG] [auth] setTokens: guardando auth_token (len 795 ) y refresh_token (len 64 ) — refresh vacío/undefined: false @ https://alizia.educabot.ai/assets/index-D1B_eaLW.js:102
+[  114621ms] [LOG] [auth] logout manual del usuario @ https://alizia.educabot.ai/assets/index-D1B_eaLW.js:102
+[  114622ms] [WARNING] [auth] clear: borrando tokens de localStorage Error: stack
+    at Object.clear (https://alizia.educabot.ai/assets/index-D1B_eaLW.js:103:25686)
+    at logout (https://alizia.educabot.ai/assets/index-D1B_eaLW.js:104:4182)
+    at _ (https://alizia.educabot.ai/assets/index-D1B_eaLW.js:144:23333)
+    at https://alizia.educabot.ai/assets/index-D1B_eaLW.js:104:38247
+    at uN (https://alizia.educabot.ai/assets/index-D1B_eaLW.js:8:128874)
+    at https://alizia.educabot.ai/assets/index-D1B_eaLW.js:8:134202
+    at rh (https://alizia.educabot.ai/assets/index-D1B_eaLW.js:8:15168)
+    at h2 (https://alizia.educabot.ai/assets/index-D1B_eaLW.js:8:130125)
+    at E2 (https://alizia.educabot.ai/assets/index-D1B_eaLW.js:9:28852)
+    at xB (https://alizia.educabot.ai/assets/index-D1B_eaLW.js:9:28670) @ https://alizia.educabot.ai/assets/index-D1B_eaLW.js:102
+[  114623ms] [WARNING] [auth] ProtectedRoute: sin usuario en memoria → redirect a /login | auth_token en localStorage: false | refresh_token: false @ https://alizia.educabot.ai/assets/index-D1B_eaLW.js:102
+[  114625ms] [WARNING] [auth] ProtectedRoute: sin usuario en memoria → redirect a /login | auth_token en localStorage: false | refresh_token: false @ https://alizia.educabot.ai/assets/index-D1B_eaLW.js:102
+[  125827ms] [LOG] [auth] login OK: teacher2@alizia.com | rol: docente @ https://alizia.educabot.ai/assets/index-D1B_eaLW.js:102
+[  125827ms] [LOG] [auth] setTokens: guardando auth_token (len 798 ) y refresh_token (len 64 ) — refresh vacío/undefined: false @ https://alizia.educabot.ai/assets/index-D1B_eaLW.js:102

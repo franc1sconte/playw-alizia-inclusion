@@ -1,0 +1,98 @@
+- generic:
+  - generic:
+    - generic:
+      - banner:
+        - generic:
+          - generic:
+            - button
+        - generic:
+          - button: Historial
+          - generic:
+            - generic:
+              - button
+      - generic:
+        - navigation:
+          - list:
+            - listitem:
+              - link:
+                - /url: /asistente
+            - listitem:
+              - link:
+                - /url: /primeros-pasos
+            - listitem:
+              - link:
+                - /url: /materiales
+            - listitem:
+              - link:
+                - /url: /recursos
+          - generic:
+            - button:
+              - generic: C
+        - main:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - paragraph: Hola Carlos,
+                      - paragraph: ¿Cómo puedo ayudarte?
+                  - generic:
+                    - generic:
+                      - textbox:
+                        - /placeholder: Escribí tu mensaje para Alizia...
+                      - generic:
+                        - button
+                        - button [disabled]
+                    - generic:
+                      - generic:
+                        - button:
+                          - generic: Adaptar una actividad para un alumno
+                      - generic:
+                        - button:
+                          - generic: Tengo una situación difícil en el aula
+                      - generic:
+                        - button:
+                          - generic: Crear un recurso pedagógico
+                      - generic:
+                        - button:
+                          - generic: No sé por donde empezar
+                  - generic:
+                    - paragraph: Accesos a tus herramientas
+                    - generic:
+                      - link:
+                        - /url: /primeros-pasos
+                        - generic:
+                          - generic:
+                            - generic: Primeros pasos
+                            - generic: Ideas y ayuda para comenzar
+                      - link:
+                        - /url: /materiales
+                        - generic:
+                          - generic:
+                            - generic: Materiales
+                            - generic: Recursos listos para usar
+                      - link:
+                        - /url: /recursos
+                        - generic:
+                          - generic:
+                            - generic: Recursos pedagógicos
+                            - generic: Adaptaciones y estrategias
+            - generic:
+              - heading [level=1]: Historial
+              - generic:
+                - button
+              - generic:
+                - textbox:
+                  - /placeholder: Buscar chat...
+    - region "Notifications alt+T"
+  - dialog [ref=f1e227]:
+    - banner [ref=f1e228]:
+      - generic [ref=f1e229]:
+        - generic [ref=f1e230]: ALIZ
+        - generic [ref=f1e231]: by Educabot
+      - button "Cerrar" [active] [ref=f1e232] [cursor=pointer]
+    - heading "Alizia inclusión" [level=2] [ref=f1e236]
+    - paragraph [ref=f1e237]: Te damos la bienvenida a tu nueva herramienta de acompañamiento pedagógico. Mirá este video corto para conocer cómo Alizia te ayuda en el aula.
+    - generic "Video de bienvenida" [ref=f1e239]
+    - button "Continuar" [ref=f1e240] [cursor=pointer]

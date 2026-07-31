@@ -1,0 +1,17 @@
+- main [ref=e4]:
+  - generic [ref=e5]:
+    - navigation [ref=e7]:
+      - link "All66" [ref=e8] [cursor=pointer]:
+        - /url: "#?"
+      - link "Passed53" [ref=e9] [cursor=pointer]:
+        - /url: "#?q=s%3Apassed"
+      - link "Failed13" [ref=e12] [cursor=pointer]:
+        - /url: "#?q=s%3Afailed"
+      - link "Flaky0" [ref=e15] [cursor=pointer]:
+        - /url: "#?q=s%3Aflaky"
+      - link "Skipped0" [ref=e16] [cursor=pointer]:
+        - /url: "#?q=s%3Askipped"
+      - link "Speedboard" [ref=e17] [cursor=pointer]:
+        - /url: "#?speedboard"
+      - button "Settings" [ref=e20] [cursor=pointer]
+    - textbox "Search tests" [ref=e24]: s:failed

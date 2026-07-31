@@ -1,0 +1,22 @@
+{
+  "name": "playw-alizia-inclusion",
+  "version": "1.0.0",
+  "description": "Automated test para Alizia Inclusion",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franc1sconte/playw-alizia-inclusion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franc1sconte/playw-alizia-inclusion/issues"
+  },
+  "homepage": "https://github.com/franc1sconte/playw-alizia-inclusion#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.62.0",
+    "@types/node": "^26.1.2"
+  }
+}

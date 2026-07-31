@@ -1,0 +1,70 @@
+- main [ref=e4]:
+  - generic [ref=e5]:
+    - navigation [ref=e7]:
+      - link "All66" [ref=e8] [cursor=pointer]:
+        - /url: "#?"
+      - link "Passed53" [ref=e9] [cursor=pointer]:
+        - /url: "#?q=s%3Apassed"
+      - link "Failed13" [ref=e12] [cursor=pointer]:
+        - /url: "#?q=s%3Afailed"
+      - link "Flaky0" [ref=e15] [cursor=pointer]:
+        - /url: "#?q=s%3Aflaky"
+      - link "Skipped0" [ref=e16] [cursor=pointer]:
+        - /url: "#?q=s%3Askipped"
+      - link "Speedboard" [ref=e17] [cursor=pointer]:
+        - /url: "#?speedboard"
+      - button "Settings" [ref=e20] [cursor=pointer]
+    - textbox "Search tests" [ref=e24]: s:failed
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e28]: Rol Teacher — Navegación y módulos
+        - link "« previous" [ref=e163] [cursor=pointer]:
+          - /url: "#?q=s%3Afailed&testId=a1c4d2cf6e86e65975ce-40d03c4f7c4b1037a2c7"
+        - link "next »" [active] [ref=e32] [cursor=pointer]:
+          - /url: "#?q=s%3Afailed&testId=2ae8493851f702630090-c14c3ebe1880c548e060"
+      - generic [ref=e33]: acceso-alizia-asistente-teacher
+    - generic [ref=e34]:
+      - generic [ref=e35]: rol/rol-access.spec.ts:184
+      - generic [ref=e38]: 12.0s
+    - generic [ref=e39]:
+      - generic [ref=e40] [cursor=pointer]: webkit
+      - generic [ref=e250] [cursor=pointer]: critical
+    - generic [ref=e44]:
+      - tablist [ref=e46]:
+        - tab [selected] [ref=e47] [cursor=pointer]
+      - tabpanel "Run" [ref=e52]:
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - button "Errors" [expanded] [ref=e55] [cursor=pointer]
+            - region [ref=e58]:
+              - button "Copy prompt" [ref=e60] [cursor=pointer]
+              - generic [ref=e61]: "Error: expect(locator).toHaveText(expected) failed Locator: getByText(/^Hola .+,$/) Expected: \"Hola Carlos,\" Received: \"Hola María,\" Timeout: 5000ms Call log: - Expect \"toHaveText\" with timeout 5000ms - waiting for getByText(/^Hola .+,$/) 14 × locator resolved to <p class=\"text-[18px] font-normal leading-[26px] text-[#324155] nav:text-[28px] nav:font-semibold nav:leading-[36px] nav:text-text-brand\">Hola María,</p> - unexpected value \"Hola María,\" 186 | 187 | await expect(page).toHaveURL(ASISTENTE_URL); > 188 | await expect(asistentePage.greeting).toHaveText('Hola Carlos,'); | ^ 189 | await expect(asistentePage.helpPrompt).toBeVisible(); 190 | 191 | const quickAccessLabels = [ at Z:\\Work\\ReposRandom\\playw-alizia-inclusion\\tests\\rol\\rol-access.spec.ts:188:42"
+          - generic [ref=e63]:
+            - button "Test Steps" [expanded] [ref=e64] [cursor=pointer]
+            - region [ref=e67]:
+              - searchbox "Filter steps" [ref=e69]
+              - treeitem [ref=e70]:
+                - generic "Before Hooks" [ref=e74] [cursor=pointer]: 7.0s
+              - treeitem [ref=e251]:
+                - generic "Expect \"toHaveURL\"" [ref=e252] [cursor=pointer]:
+                  - generic [ref=e86]:
+                    - text: Expect "toHaveURL"
+                    - generic [ref=e197]: — rol/rol-access.spec.ts:187
+                  - generic [ref=e88]: 8ms
+              - treeitem [ref=e253]:
+                - generic "Expect \"toHaveText\" getByText(/^Hola .+,$/)" [ref=e254] [cursor=pointer]:
+                  - generic [ref=e96]:
+                    - text: Expect "toHaveText" getByText(/^Hola .+,$/)
+                    - generic [ref=e200]: — rol/rol-access.spec.ts:188
+                  - generic [ref=e98]: 5.0s
+              - treeitem [ref=e255]:
+                - generic "After Hooks" [ref=e256] [cursor=pointer]: 31ms
+              - treeitem [ref=e257]:
+                - generic "Worker Cleanup" [ref=e258] [cursor=pointer]: 290ms
+          - generic [ref=e147]:
+            - button "Attachments" [expanded] [ref=e148] [cursor=pointer]
+            - region [ref=e151]:
+              - link "error-context" [ref=e157] [cursor=pointer]:
+                - /url: http://localhost:52412/data/f38f9a502c6b5989807d0217e81cf50b88ad05d0.md
+          - 'button "Executed in Worker #22" [ref=e259] [cursor=pointer]'

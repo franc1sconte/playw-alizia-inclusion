@@ -1,0 +1,147 @@
+- generic [ref=f1e2]:
+  - generic [ref=f1e30]:
+    - banner [ref=f1e31]:
+      - button "Alternar menú de navegación" [ref=f1e34] [cursor=pointer]
+      - img "Alizia by Educabot" [ref=f1e38]
+      - button "Notificaciones" [ref=f1e47] [cursor=pointer]
+    - generic [ref=f1e50]:
+      - navigation [ref=f1e51]:
+        - list [ref=f1e52]:
+          - listitem [ref=f1e53]:
+            - link "Alizia asistente" [ref=f1e54] [cursor=pointer]:
+              - /url: /asistente
+          - listitem [ref=f1e57]:
+            - link "Primeros pasos" [ref=f1e58] [cursor=pointer]:
+              - /url: /primeros-pasos
+          - listitem [ref=f1e61]:
+            - link "Materiales" [ref=f1e62] [cursor=pointer]:
+              - /url: /materiales
+          - listitem [ref=f1e68]:
+            - link "Recursos pedagógicos" [ref=f1e69] [cursor=pointer]:
+              - /url: /recursos
+          - listitem [ref=f1e73]:
+            - link "Aulas" [ref=f1e74] [cursor=pointer]:
+              - /url: /admin/aulas
+          - listitem [ref=f1e80]:
+            - link "Docentes" [active] [ref=f1e81] [cursor=pointer]:
+              - /url: /admin/docentes
+        - button "Menú de usuario" [ref=f1e86] [cursor=pointer]:
+          - generic [ref=f1e87]: A
+      - main [ref=f1e88]:
+        - generic [ref=f1e4394]:
+          - button "Volver" [ref=f1e4395] [cursor=pointer]
+          - generic [ref=f1e4399]:
+            - generic [ref=f1e4400]:
+              - heading "Docentes" [level=1] [ref=f1e4401]
+              - paragraph [ref=f1e4402]: 12 docentes en la institución
+            - button "Nuevo docente" [ref=f1e4403] [cursor=pointer]
+          - generic [ref=f1e4404]:
+            - generic [ref=f1e4406]:
+              - generic [ref=f1e4407]:
+                - generic [ref=f1e4408]: C
+                - generic [ref=f1e4409]:
+                  - heading "Carlos Bianchi" [level=3] [ref=f1e4410]
+                  - paragraph [ref=f1e4411]: carlos.bianchi@alizia.com
+              - generic [ref=f1e4412]:
+                - generic [ref=f1e4413]: Docente
+                - button "Dar de baja a Carlos Bianchi" [ref=f1e4414] [cursor=pointer]
+            - generic [ref=f1e4419]:
+              - generic [ref=f1e4420]:
+                - generic [ref=f1e4421]: C
+                - generic [ref=f1e4422]:
+                  - heading "Carlos Domínguez" [level=3] [ref=f1e4423]
+                  - paragraph [ref=f1e4424]: teacher2@alizia.com
+              - generic [ref=f1e4425]:
+                - generic [ref=f1e4426]: Docente
+                - button "Dar de baja a Carlos Domínguez" [ref=f1e4427] [cursor=pointer]
+            - generic [ref=f1e4432]:
+              - generic [ref=f1e4433]:
+                - generic [ref=f1e4434]: D
+                - generic [ref=f1e4435]:
+                  - heading "Docente Alizia" [level=3] [ref=f1e4436]
+                  - paragraph [ref=f1e4437]: docente@alizia.com
+              - generic [ref=f1e4438]:
+                - generic [ref=f1e4439]: Docente
+                - button "Dar de baja a Docente Alizia" [ref=f1e4440] [cursor=pointer]
+            - generic [ref=f1e4445]:
+              - generic [ref=f1e4446]:
+                - generic [ref=f1e4447]: F
+                - generic [ref=f1e4448]:
+                  - heading "Francisco Conte" [level=3] [ref=f1e4449]
+                  - paragraph [ref=f1e4450]: fran@alizia.com
+              - generic [ref=f1e4451]:
+                - generic [ref=f1e4452]: Docente
+                - button "Dar de baja a Francisco Conte" [ref=f1e4453] [cursor=pointer]
+            - generic [ref=f1e4458]:
+              - generic [ref=f1e4459]:
+                - generic [ref=f1e4460]: F
+                - generic [ref=f1e4461]:
+                  - heading "FRANQA" [level=3] [ref=f1e4462]
+                  - paragraph [ref=f1e4463]: tinina8815@diarshop.com
+              - generic [ref=f1e4464]:
+                - generic [ref=f1e4465]: Docente
+                - button "Dar de baja a FRANQA" [ref=f1e4466] [cursor=pointer]
+            - generic [ref=f1e4471]:
+              - generic [ref=f1e4472]:
+                - generic [ref=f1e4473]: F
+                - generic [ref=f1e4474]:
+                  - heading "FranQA2" [level=3] [ref=f1e4475]
+                  - paragraph [ref=f1e4476]: francisco.conte@educabot.com
+              - generic [ref=f1e4477]:
+                - generic [ref=f1e4478]: Docente
+                - button "Dar de baja a FranQA2" [ref=f1e4479] [cursor=pointer]
+            - generic [ref=f1e4484]:
+              - generic [ref=f1e4485]:
+                - generic [ref=f1e4486]: J
+                - generic [ref=f1e4487]:
+                  - heading "Julian Quinteiro" [level=3] [ref=f1e4488]
+                  - paragraph [ref=f1e4489]: julian.quinteiro@educabot.com
+              - generic [ref=f1e4490]:
+                - generic [ref=f1e4491]: Docente
+                - button "Dar de baja a Julian Quinteiro" [ref=f1e4492] [cursor=pointer]
+            - generic [ref=f1e4497]:
+              - generic [ref=f1e4498]:
+                - generic [ref=f1e4499]: M
+                - generic [ref=f1e4500]:
+                  - heading "María Fernández" [level=3] [ref=f1e4501]
+                  - paragraph [ref=f1e4502]: teacher@alizia.com
+              - generic [ref=f1e4503]:
+                - generic [ref=f1e4504]: Docente
+                - button "Dar de baja a María Fernández" [ref=f1e4505] [cursor=pointer]
+            - generic [ref=f1e4510]:
+              - generic [ref=f1e4511]:
+                - generic [ref=f1e4512]: M
+                - generic [ref=f1e4513]:
+                  - heading "Mercedes Herrera" [level=3] [ref=f1e4514]
+                  - paragraph [ref=f1e4515]: mercedes.herrera@educabot.com
+              - generic [ref=f1e4516]:
+                - generic [ref=f1e4517]: Docente
+                - button "Dar de baja a Mercedes Herrera" [ref=f1e4518] [cursor=pointer]
+            - generic [ref=f1e4523]:
+              - generic [ref=f1e4524]:
+                - generic [ref=f1e4525]: M
+                - generic [ref=f1e4526]:
+                  - heading "Mora Cao" [level=3] [ref=f1e4527]
+                  - paragraph [ref=f1e4528]: mora.cao@educabot.com
+              - generic [ref=f1e4529]:
+                - generic [ref=f1e4530]: Docente
+                - button "Dar de baja a Mora Cao" [ref=f1e4531] [cursor=pointer]
+            - generic [ref=f1e4536]:
+              - generic [ref=f1e4537]:
+                - generic [ref=f1e4538]: R
+                - generic [ref=f1e4539]:
+                  - heading "roberto" [level=3] [ref=f1e4540]
+                  - paragraph [ref=f1e4541]: julianquin8@gmail.com
+              - generic [ref=f1e4542]:
+                - generic [ref=f1e4543]: Docente
+                - button "Dar de baja a roberto" [ref=f1e4544] [cursor=pointer]
+            - generic [ref=f1e4549]:
+              - generic [ref=f1e4550]:
+                - generic [ref=f1e4551]: T
+                - generic [ref=f1e4552]:
+                  - heading "TestResetPw" [level=3] [ref=f1e4553]
+                  - paragraph [ref=f1e4554]: fegik98326@diarshop.com
+              - generic [ref=f1e4555]:
+                - generic [ref=f1e4556]: Docente
+                - button "Dar de baja a TestResetPw" [ref=f1e4557] [cursor=pointer]
+  - region "Notifications alt+T"

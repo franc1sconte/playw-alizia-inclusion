@@ -1,0 +1,24 @@
+- generic [ref=e2]:
+  - generic [ref=e209]:
+    - generic [ref=e210]:
+      - img "Alizia by Educabot" [ref=e211]
+      - paragraph [ref=e215]: Conocé Alizia, tu asistente para aulas más inclusivas
+    - generic [ref=e216]:
+      - generic [ref=e217]:
+        - heading "Iniciar sesión" [level=1] [ref=e218]
+        - paragraph [ref=e219]: Ingresá tus credenciales para acceder a la plataforma.
+      - generic [ref=e220]:
+        - generic [ref=e221]:
+          - generic [ref=e222]: Correo electrónico
+          - textbox "Correo electrónico" [ref=e223]:
+            - /placeholder: Ingresar correo electrónico
+        - generic [ref=e224]:
+          - generic [ref=e225]: Contraseña
+          - generic [ref=e226]:
+            - textbox "Contraseña" [ref=e227]:
+              - /placeholder: Ingresar contraseña
+            - button "Mostrar contraseña" [ref=e228] [cursor=pointer]
+        - button "Olvidé mi contraseña" [ref=e232] [cursor=pointer]
+        - button "Iniciar sesión" [ref=e233] [cursor=pointer]
+        - paragraph [ref=e234]: ¿No tenés acceso? Consultalo con tu institución
+  - region "Notifications alt+T"

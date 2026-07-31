@@ -1,0 +1,17 @@
+- generic [ref=f1e2]:
+  - generic [ref=f1e31]:
+    - generic [ref=f1e32]:
+      - img "Alizia by Educabot" [ref=f1e33]
+      - paragraph [ref=f1e37]: Conocé Alizia, tu asistente para aulas más inclusivas
+    - generic [ref=f1e38]:
+      - generic [ref=f1e39]:
+        - heading "Restablecer contraseña" [level=1] [ref=f1e40]
+        - paragraph [ref=f1e41]: Ingresá tu correo electrónico y te enviaremos un enlace para restablecer tu contraseña
+      - generic [ref=f1e42]:
+        - generic [ref=f1e43]:
+          - generic [ref=f1e44]: Correo electrónico
+          - textbox "Correo electrónico" [ref=f1e45]:
+            - /placeholder: Ingresar correo electrónico
+        - button "Enviar enlace" [ref=f1e46] [cursor=pointer]
+      - button "Volver a Iniciar sesión" [ref=f1e47] [cursor=pointer]
+  - region "Notifications alt+T"

@@ -1,0 +1,65 @@
+- main [ref=e4]:
+  - generic [ref=e5]:
+    - navigation [ref=e7]:
+      - link "All66" [ref=e8] [cursor=pointer]:
+        - /url: "#?"
+      - link "Passed53" [ref=e9] [cursor=pointer]:
+        - /url: "#?q=s%3Apassed"
+      - link "Failed13" [ref=e12] [cursor=pointer]:
+        - /url: "#?q=s%3Afailed"
+      - link "Flaky0" [ref=e15] [cursor=pointer]:
+        - /url: "#?q=s%3Aflaky"
+      - link "Skipped0" [ref=e16] [cursor=pointer]:
+        - /url: "#?q=s%3Askipped"
+      - link "Speedboard" [ref=e17] [cursor=pointer]:
+        - /url: "#?speedboard"
+      - button "Settings" [ref=e20] [cursor=pointer]
+    - textbox "Search tests" [ref=e24]: s:failed
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e28]: Rol Admin — Navegación y módulos
+        - link "« previous" [ref=e163] [cursor=pointer]:
+          - /url: "#?q=s%3Afailed&testId=a1c4d2cf6e86e65975ce-52391e4cd72472898def"
+        - link "next »" [active] [ref=e32] [cursor=pointer]:
+          - /url: "#?q=s%3Afailed&testId=a1c4d2cf6e86e65975ce-579983f7322f416ff4a6"
+      - generic [ref=e33]: acceso-aulas-admin
+    - generic [ref=e34]:
+      - generic [ref=e35]: rol/rol-access.spec.ts:133
+      - generic [ref=e38]: 30.1s
+    - generic [ref=e39]:
+      - generic [ref=e40] [cursor=pointer]: firefox
+      - generic [ref=e164] [cursor=pointer]: critical
+    - generic [ref=e44]:
+      - tablist [ref=e46]:
+        - tab [selected] [ref=e47] [cursor=pointer]
+      - tabpanel "Run" [ref=e52]:
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - button "Errors" [expanded] [ref=e55] [cursor=pointer]
+            - region [ref=e58]:
+              - button "Copy prompt" [ref=e60] [cursor=pointer]
+              - generic [ref=e61]: Test timeout of 30000ms exceeded.
+              - generic [ref=e174]: "Error: locator.click: Test timeout of 30000ms exceeded. Call log: - waiting for getByRole('navigation').getByRole('link', { name: 'Aulas' }) - locator resolved to <a title=\"Aulas\" href=\"/admin/aulas\" data-discover=\"true\" class=\"flex items-center gap-3 rounded-lg transition-colors min-h-[44px] px-3 py-2.5 nav:min-h-0 nav:h-9 nav:px-2 [&_svg]:shrink-0 nav:w-9 text-text-secondary hover:bg-primary/5 hover:text-foreground\">…</a> - attempting click action - waiting for element to be visible, enabled and stable at ..\\pages\\components\\NavigationPage.ts:29 27 | 28 | async clickLink(name: string): Promise<void> { > 29 | await this.link(name).click(); | ^ 30 | } 31 | 32 | async getLinkNames(): Promise<string[]> { at NavigationPage.clickLink (Z:\\Work\\ReposRandom\\playw-alizia-inclusion\\pages\\components\\NavigationPage.ts:29:27) at Z:\\Work\\ReposRandom\\playw-alizia-inclusion\\tests\\rol\\rol-access.spec.ts:135:29"
+          - generic [ref=e63]:
+            - button "Test Steps" [expanded] [ref=e64] [cursor=pointer]
+            - region [ref=e67]:
+              - searchbox "Filter steps" [ref=e69]
+              - treeitem [ref=e70]:
+                - generic "Before Hooks" [ref=e74] [cursor=pointer]: 22.1s
+              - treeitem [ref=e176]:
+                - 'generic "Click getByRole(''navigation'').getByRole(''link'', { name: ''Aulas'' })" [ref=e177] [cursor=pointer]':
+                  - generic [ref=e86]:
+                    - text: "Click getByRole('navigation').getByRole('link', { name: 'Aulas' })"
+                    - generic [ref=e87]: — ../pages/components/NavigationPage.ts:29
+                  - generic [ref=e88]: 7.9s
+              - treeitem [ref=e178]:
+                - generic "After Hooks" [ref=e179] [cursor=pointer]: 70ms
+              - treeitem [ref=e180]:
+                - generic "Worker Cleanup" [ref=e181] [cursor=pointer]: 395ms
+          - generic [ref=e147]:
+            - button "Attachments" [expanded] [ref=e148] [cursor=pointer]
+            - region [ref=e151]:
+              - link "error-context" [ref=e157] [cursor=pointer]:
+                - /url: http://localhost:52412/data/b84a73a0b3a4c137afe71924b4efd7812de262dd.md
+          - 'button "Executed in Worker #11" [ref=e182] [cursor=pointer]'

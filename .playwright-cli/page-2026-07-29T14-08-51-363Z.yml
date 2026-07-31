@@ -1,0 +1,59 @@
+- generic [ref=e2]:
+  - generic [ref=e84]:
+    - banner [ref=e85]:
+      - button "Alternar menú de navegación" [ref=e88] [cursor=pointer]
+      - img "Alizia by Educabot" [ref=e92]
+      - generic [ref=e93]:
+        - button "Historial" [ref=e94] [cursor=pointer]
+        - button "Notificaciones" [ref=e101] [cursor=pointer]
+    - generic [ref=e104]:
+      - navigation [ref=e105]:
+        - list [ref=e106]:
+          - listitem [ref=e107]:
+            - link "Alizia asistente" [ref=e108] [cursor=pointer]:
+              - /url: /asistente
+          - listitem [ref=e111]:
+            - link "Primeros pasos" [ref=e112] [cursor=pointer]:
+              - /url: /primeros-pasos
+          - listitem [ref=e115]:
+            - link "Materiales" [ref=e116] [cursor=pointer]:
+              - /url: /materiales
+          - listitem [ref=e122]:
+            - link "Recursos pedagógicos" [ref=e123] [cursor=pointer]:
+              - /url: /recursos
+          - listitem [ref=e127]:
+            - link "Aulas" [ref=e128] [cursor=pointer]:
+              - /url: /admin/aulas
+          - listitem [ref=e134]:
+            - link "Docentes" [ref=e135] [cursor=pointer]:
+              - /url: /admin/docentes
+        - button "Menú de usuario" [ref=e140] [cursor=pointer]:
+          - generic [ref=e141]: A
+      - main [ref=e142]:
+        - generic [ref=e143]:
+          - generic [ref=e146]:
+            - generic [ref=e150]:
+              - paragraph [ref=e151]: Hola Administrador,
+              - paragraph [ref=e152]: ¿Cómo puedo ayudarte?
+            - generic [ref=e153]:
+              - generic [ref=e154]:
+                - textbox "Mensaje para el asistente" [ref=e155]:
+                  - /placeholder: Escribí tu mensaje para Alizia...
+                - generic [ref=e156]:
+                  - button "Dictar mensaje" [ref=e157] [cursor=pointer]
+                  - button "Enviar mensaje" [disabled] [ref=e161]
+              - generic [ref=e165]:
+                - button "Adaptar una actividad para un alumno" [ref=e167] [cursor=pointer]
+                - button "Tengo una situación difícil en el aula" [ref=e172] [cursor=pointer]
+                - button "Crear un recurso pedagógico" [ref=e177] [cursor=pointer]
+                - button "No sé por donde empezar" [ref=e182] [cursor=pointer]
+          - complementary:
+            - generic [ref=e186]:
+              - generic:
+                - heading "Historial" [level=1] [ref=e187]
+                - button "Cerrar historial" [ref=e189] [cursor=pointer]
+              - textbox "Buscar conversación" [ref=e197]:
+                - /placeholder: Buscar chat...
+              - generic:
+                - paragraph: Todavía no tenés conversaciones anteriores
+  - region "Notifications alt+T"

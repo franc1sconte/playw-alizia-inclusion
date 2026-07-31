@@ -1,0 +1,71 @@
+- generic [ref=e2]:
+  - generic [ref=e251]:
+    - banner [ref=e252]:
+      - button "Alternar menú de navegación" [ref=e255] [cursor=pointer]
+      - img "Alizia by Educabot" [ref=e259]
+      - generic [ref=e260]:
+        - button "Historial" [ref=e261] [cursor=pointer]
+        - button "Notificaciones" [ref=e268] [cursor=pointer]
+    - generic [ref=e271]:
+      - navigation [ref=e272]:
+        - list [ref=e273]:
+          - listitem [ref=e274]:
+            - link "Alizia asistente" [ref=e275] [cursor=pointer]:
+              - /url: /asistente
+          - listitem [ref=e278]:
+            - link "Primeros pasos" [ref=e279] [cursor=pointer]:
+              - /url: /primeros-pasos
+          - listitem [ref=e282]:
+            - link "Materiales" [ref=e283] [cursor=pointer]:
+              - /url: /materiales
+          - listitem [ref=e289]:
+            - link "Recursos pedagógicos" [ref=e290] [cursor=pointer]:
+              - /url: /recursos
+        - button "Menú de usuario" [ref=e295] [cursor=pointer]:
+          - generic [ref=e296]: C
+      - main [ref=e297]:
+        - generic [ref=e298]:
+          - generic [ref=e301]:
+            - generic [ref=e305]:
+              - paragraph [ref=e306]: Hola Carlos,
+              - paragraph [ref=e307]: ¿Cómo puedo ayudarte?
+            - generic [ref=e308]:
+              - generic [ref=e309]:
+                - textbox "Mensaje para el asistente" [ref=e310]:
+                  - /placeholder: Escribí tu mensaje para Alizia...
+                - generic [ref=e311]:
+                  - button "Dictar mensaje" [ref=e312] [cursor=pointer]
+                  - button "Enviar mensaje" [disabled] [ref=e316]
+              - generic [ref=e320]:
+                - button "Adaptar una actividad para un alumno" [ref=e322] [cursor=pointer]
+                - button "Tengo una situación difícil en el aula" [ref=e327] [cursor=pointer]
+                - button "Crear un recurso pedagógico" [ref=e332] [cursor=pointer]
+                - button "No sé por donde empezar" [ref=e337] [cursor=pointer]
+            - generic [ref=e341]:
+              - paragraph [ref=e342]: Accesos a tus herramientas
+              - generic [ref=e343]:
+                - link "Primeros pasos Ideas y ayuda para comenzar" [ref=e344] [cursor=pointer]:
+                  - /url: /primeros-pasos
+                  - generic [ref=e348]:
+                    - generic [ref=e349]: Primeros pasos
+                    - generic [ref=e350]: Ideas y ayuda para comenzar
+                - link "Materiales Recursos listos para usar" [ref=e353] [cursor=pointer]:
+                  - /url: /materiales
+                  - generic [ref=e360]:
+                    - generic [ref=e361]: Materiales
+                    - generic [ref=e362]: Recursos listos para usar
+                - link "Recursos pedagógicos Adaptaciones y estrategias" [ref=e365] [cursor=pointer]:
+                  - /url: /recursos
+                  - generic [ref=e370]:
+                    - generic [ref=e371]: Recursos pedagógicos
+                    - generic [ref=e372]: Adaptaciones y estrategias
+          - complementary:
+            - generic [ref=e375]:
+              - generic:
+                - heading "Historial" [level=1] [ref=e376]
+                - button "Cerrar historial" [ref=e378] [cursor=pointer]
+              - textbox "Buscar conversación" [ref=e386]:
+                - /placeholder: Buscar chat...
+              - generic:
+                - paragraph: Todavía no tenés conversaciones anteriores
+  - region "Notifications alt+T"
