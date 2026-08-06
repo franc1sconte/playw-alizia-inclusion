@@ -1,0 +1,80 @@
+- generic [ref=f1e2]:
+  - generic [ref=f1e31]:
+    - banner [ref=f1e32]:
+      - button "Alternar menú de navegación" [ref=f1e35] [cursor=pointer]
+      - img "Alizia by Educabot" [ref=f1e653]
+      - generic [ref=f1e40]:
+        - button "Historial" [ref=f1e654] [cursor=pointer]
+        - button "Notificaciones" [ref=f1e48] [cursor=pointer]
+    - generic [ref=f1e51]:
+      - navigation [ref=f1e52]:
+        - list [ref=f1e53]:
+          - listitem [ref=f1e54]:
+            - link "Alizia asistente" [ref=f1e55] [cursor=pointer]:
+              - /url: /asistente
+          - listitem [ref=f1e58]:
+            - link "Primeros pasos" [ref=f1e59] [cursor=pointer]:
+              - /url: /primeros-pasos
+          - listitem [ref=f1e62]:
+            - link "Materiales" [ref=f1e63] [cursor=pointer]:
+              - /url: /materiales
+          - listitem [ref=f1e69]:
+            - link "Recursos pedagógicos" [ref=f1e70] [cursor=pointer]:
+              - /url: /recursos
+          - listitem [ref=f1e74]:
+            - link "Aulas" [ref=f1e75] [cursor=pointer]:
+              - /url: /admin/aulas
+          - listitem [ref=f1e81]:
+            - link "Docentes" [ref=f1e82] [cursor=pointer]:
+              - /url: /admin/docentes
+          - listitem [ref=f1e86]:
+            - link "Feedback" [ref=f1e87] [cursor=pointer]:
+              - /url: /admin/feedback
+        - button "Menú de usuario" [ref=f1e91] [cursor=pointer]:
+          - generic [ref=f1e92]: A
+      - main [ref=f1e93]:
+        - generic [ref=f1e94]:
+          - generic [ref=f1e660]:
+            - generic [ref=f1e664]:
+              - paragraph [ref=f1e665]: Hola Administrador,
+              - paragraph [ref=f1e666]: ¿Cómo puedo ayudarte?
+            - generic [ref=f1e667]:
+              - generic [ref=f1e668]:
+                - textbox "Mensaje para el asistente" [ref=f1e669]:
+                  - /placeholder: Escribí tu mensaje para Alizia...
+                - generic [ref=f1e670]:
+                  - button "Dictar mensaje" [ref=f1e671] [cursor=pointer]
+                  - button "Enviar mensaje" [disabled] [ref=f1e675]
+              - generic [ref=f1e679]:
+                - button "Adaptar una actividad para un alumno" [ref=f1e681] [cursor=pointer]
+                - button "Tengo una situación difícil en el aula" [ref=f1e686] [cursor=pointer]
+                - button "Crear un recurso pedagógico" [ref=f1e691] [cursor=pointer]
+                - button "No sé por donde empezar" [ref=f1e696] [cursor=pointer]
+          - complementary:
+            - generic [ref=f1e700]:
+              - generic:
+                - heading "Historial" [level=1] [ref=f1e701]
+                - button "Cerrar historial" [ref=f1e703] [cursor=pointer]
+              - textbox "Buscar conversación" [ref=f1e711]:
+                - /placeholder: Buscar chat...
+              - generic:
+                - generic:
+                  - heading "Últimos 7 días" [level=2]
+                  - list:
+                    - listitem:
+                      - generic [ref=f1e712]:
+                        - button "No sé por donde empezar" [ref=f1e713] [cursor=pointer]
+                        - button "Más opciones" [ref=f1e714] [cursor=pointer]
+                    - listitem:
+                      - generic [ref=f1e719]:
+                        - button "Crear un recurso pedagógico" [ref=f1e720] [cursor=pointer]
+                        - button "Más opciones" [ref=f1e721] [cursor=pointer]
+                    - listitem:
+                      - generic [ref=f1e726]:
+                        - button "Tengo una situación difícil en el aula" [ref=f1e727] [cursor=pointer]
+                        - button "Más opciones" [ref=f1e728] [cursor=pointer]
+                    - listitem:
+                      - generic [ref=f1e733]:
+                        - button "Adaptar una actividad para un alumno" [ref=f1e734] [cursor=pointer]
+                        - button "Más opciones" [ref=f1e735] [cursor=pointer]
+  - region "Notifications alt+T"

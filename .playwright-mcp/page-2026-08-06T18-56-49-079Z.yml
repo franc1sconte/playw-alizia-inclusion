@@ -1,0 +1,30 @@
+- generic [ref=f1e2]:
+  - main [ref=f1e93]:
+    - generic [ref=f1e600]:
+      - generic [ref=f1e601]:
+        - button "Volver" [ref=f1e603] [cursor=pointer]
+        - heading "Alizia asistente" [level=1] [ref=f1e606]
+        - button "Ver conversaciones anteriores" [ref=f1e608] [cursor=pointer]
+      - generic [ref=f1e613]:
+        - generic [ref=f1e615]:
+          - generic [ref=f1e617]:
+            - paragraph [ref=f1e620]: No sé por donde empezar
+            - generic [ref=f1e621]:
+              - paragraph [ref=f1e627]:
+                - text: Tranqui, arranquemos por
+                - strong [ref=f1e628]: una sola escena concreta
+                - text: del aula. Contame qué está pasando y con quién, así lo ordenamos juntas.
+              - generic [ref=f1e629]:
+                - button "Me gusta" [ref=f1e630] [cursor=pointer]
+                - button "No me gusta" [ref=f1e633] [cursor=pointer]
+                - button "Copiar" [ref=f1e636] [cursor=pointer]
+                - button "Favorito" [ref=f1e640] [cursor=pointer]
+          - generic [ref=f1e644]:
+            - generic [ref=f1e645]:
+              - textbox "Preguntale al asistente..." [active] [ref=f1e646]
+              - generic [ref=f1e647]:
+                - button "Iniciar grabación de voz" [ref=f1e648] [cursor=pointer]
+                - button [disabled]
+            - paragraph [ref=f1e652]: Este asistente usa inteligencia artificial para responder
+        - complementary
+  - region "Notifications alt+T"

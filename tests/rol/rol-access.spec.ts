@@ -1,5 +1,5 @@
 import { Page } from '@playwright/test';
-import { test, expect } from '../../fixtures/base';
+import { test, expect as baseExpect } from '../../fixtures/base';
 import { LoginPage } from '../../pages/login/LoginPage';
 import { AsistentePage } from '../../pages/modules/asistentePage';
 import { PrimerosPasosPage } from '../../pages/modules/primerosPasosPage';
@@ -7,9 +7,14 @@ import { MaterialesPage } from '../../pages/modules/materialesPage';
 import { RecursosPage } from '../../pages/modules/recursosPage';
 import { AulasPage } from '../../pages/modules/aulasPage';
 import { DocentesPage } from '../../pages/modules/docentesPage';
+import { FeedbackPage } from '../../pages/modules/feedbackPage';
 import users from '../../data/users.json';
 
 const ASISTENTE_URL = 'https://alizia.educabot.ai/asistente';
+
+// Timeout de aserción ampliado para todo este archivo: el backend (Railway) tiene latencia
+// intermitente de arranque en frío que afecta al login y a las llamadas a la API subsiguientes.
+const expect = baseExpect.configure({ timeout: 20000 });
 
 async function closeWelcomeModalIfPresent(page: Page): Promise<void> {
   const continueButton = page.getByRole('button', { name: 'Continuar' });
@@ -22,6 +27,8 @@ async function closeWelcomeModalIfPresent(page: Page): Promise<void> {
 }
 
 test.describe('Rol Admin — Navegación y módulos', () => {
+  test.describe.configure({ timeout: 90000 });
+
   test.beforeEach(async ({ page }) => {
     const loginPage = new LoginPage(page);
     await loginPage.goto();
@@ -29,9 +36,9 @@ test.describe('Rol Admin — Navegación y módulos', () => {
     await expect(page).toHaveURL(ASISTENTE_URL);
   });
 
-  test('navegacion-completa-visible-admin', { tag: '@smoke' }, async ({ page }) => {
+  test('TC-001-navegacion-completa-visible-admin', { tag: '@smoke' }, async ({ page }) => {
     const asistentePage = new AsistentePage(page);
-    const expectedLinks = ['Alizia asistente', 'Primeros pasos', 'Materiales', 'Recursos pedagógicos', 'Aulas', 'Docentes'];
+    const expectedLinks = ['Alizia asistente', 'Primeros pasos', 'Materiales', 'Recursos pedagógicos', 'Aulas', 'Docentes', 'Feedback'];
 
     await expect(asistentePage.nav.links).toHaveText(expectedLinks);
     for (const name of expectedLinks) {
@@ -41,7 +48,7 @@ test.describe('Rol Admin — Navegación y módulos', () => {
     await expect(asistentePage.nav.userMenuButton).toContainText('A');
   });
 
-  test('acceso-alizia-asistente-admin', { tag: '@critical' }, async ({ page }) => {
+  test('TC-002-acceso-alizia-asistente-admin', { tag: '@critical' }, async ({ page }) => {
     const asistentePage = new AsistentePage(page);
 
     await expect(page).toHaveURL(ASISTENTE_URL);
@@ -65,7 +72,7 @@ test.describe('Rol Admin — Navegación y módulos', () => {
     await expect(asistentePage.historySearchInput).toBeVisible();
   });
 
-  test('acceso-primeros-pasos-admin', { tag: '@smoke' }, async ({ page }) => {
+  test('TC-003-acceso-primeros-pasos-admin', { tag: '@smoke' }, async ({ page }) => {
     const asistentePage = new AsistentePage(page);
     await asistentePage.nav.clickLink('Primeros pasos');
 
@@ -79,7 +86,7 @@ test.describe('Rol Admin — Navegación y módulos', () => {
     await expect(primerosPasosPage.materialsAccessButton).toBeVisible();
   });
 
-  test('acceso-materiales-admin', { tag: '@smoke' }, async ({ page }) => {
+  test('TC-004-acceso-materiales-admin', { tag: '@smoke' }, async ({ page }) => {
     const asistentePage = new AsistentePage(page);
     await asistentePage.nav.clickLink('Materiales');
 
@@ -95,7 +102,7 @@ test.describe('Rol Admin — Navegación y módulos', () => {
     await expect(materialesPage.categoryGroupHeading('Regulación sensorial y motriz')).toBeVisible();
   });
 
-  test('acceso-recursos-pedagogicos-admin', { tag: '@smoke' }, async ({ page }) => {
+  test('TC-005-acceso-recursos-pedagogicos-admin', { tag: '@smoke' }, async ({ page }) => {
     const asistentePage = new AsistentePage(page);
     await asistentePage.nav.clickLink('Recursos pedagógicos');
 
@@ -120,37 +127,54 @@ test.describe('Rol Admin — Navegación y módulos', () => {
     await expect(recursosPage.resourcesPanel).toBeVisible();
   });
 
-  test('acceso-aulas-admin', { tag: '@critical' }, async ({ page }) => {
+  test('TC-006-acceso-aulas-admin', { tag: '@critical' }, async ({ page }) => {
     const asistentePage = new AsistentePage(page);
     await asistentePage.nav.clickLink('Aulas');
 
     const aulasPage = new AulasPage(page);
     await expect(page).toHaveURL('https://alizia.educabot.ai/admin/aulas');
-    await expect(aulasPage.backButton).toBeVisible();
     await expect(aulasPage.heading).toBeVisible();
     await expect(aulasPage.subtitle).toBeVisible();
     await expect(aulasPage.newClassroomButton).toBeVisible();
-    await expect(aulasPage.classroomHeading('1ro A')).toBeVisible();
-    await expect(aulasPage.editClassroomButton('1ro A')).toBeVisible();
-    await expect(aulasPage.deleteClassroomButton('1ro A')).toBeVisible();
+    await expect(aulasPage.classroomHeading('1° A')).toBeVisible();
+    await aulasPage.openClassroomOptions('1° A');
+    await expect(aulasPage.editClassroomButton).toBeVisible();
+    await expect(aulasPage.deleteClassroomButton).toBeVisible();
   });
 
-  test('acceso-docentes-admin', { tag: '@critical' }, async ({ page }) => {
+  test('TC-007-acceso-docentes-admin', { tag: '@critical' }, async ({ page }) => {
     const asistentePage = new AsistentePage(page);
     await asistentePage.nav.clickLink('Docentes');
 
     const docentesPage = new DocentesPage(page);
     await expect(page).toHaveURL('https://alizia.educabot.ai/admin/docentes');
-    await expect(docentesPage.backButton).toBeVisible();
     await expect(docentesPage.heading).toBeVisible();
     await expect(docentesPage.subtitle).toBeVisible();
     await expect(docentesPage.newTeacherButton).toBeVisible();
     await expect(docentesPage.teacherHeading('Carlos Bianchi')).toBeVisible();
-    await expect(docentesPage.unenrollTeacherButton('Carlos Bianchi')).toBeVisible();
+    await docentesPage.openTeacherOptions('Carlos Bianchi');
+    await expect(docentesPage.unenrollTeacherButton).toBeVisible();
+  });
+
+  test('TC-008-acceso-feedback-admin', { tag: '@smoke' }, async ({ page }) => {
+    const asistentePage = new AsistentePage(page);
+    await asistentePage.nav.clickLink('Feedback');
+
+    const feedbackPage = new FeedbackPage(page);
+    await expect(page).toHaveURL('https://alizia.educabot.ai/admin/feedback');
+    await expect(feedbackPage.heading).toBeVisible();
+    await expect(feedbackPage.subtitle).toBeVisible();
+    await expect(feedbackPage.ratingFilterButton('Dislikes')).toHaveAttribute('aria-pressed', 'true');
+    await expect(feedbackPage.ratingFilterButton('Likes')).toBeVisible();
+    await expect(feedbackPage.ratingFilterButton('Todos')).toBeVisible();
+    await expect(feedbackPage.recordsCount).toBeVisible();
+    await expect(feedbackPage.viewFullResponseButtons.first()).toBeVisible();
   });
 });
 
 test.describe('Rol Teacher — Navegación y módulos', () => {
+  test.describe.configure({ timeout: 90000 });
+
   test.beforeEach(async ({ page }) => {
     const loginPage = new LoginPage(page);
     await loginPage.goto();
@@ -159,7 +183,7 @@ test.describe('Rol Teacher — Navegación y módulos', () => {
     await closeWelcomeModalIfPresent(page);
   });
 
-  test('navegacion-limitada-visible-teacher', { tag: '@smoke' }, async ({ page }) => {
+  test('TC-009-navegacion-limitada-visible-teacher', { tag: '@smoke' }, async ({ page }) => {
     const asistentePage = new AsistentePage(page);
     const expectedLinks = ['Alizia asistente', 'Primeros pasos', 'Materiales', 'Recursos pedagógicos'];
 
@@ -170,7 +194,7 @@ test.describe('Rol Teacher — Navegación y módulos', () => {
     await expect(asistentePage.nav.userMenuButton).toContainText('C');
   });
 
-  test('acceso-alizia-asistente-teacher', { tag: '@critical' }, async ({ page }) => {
+  test('TC-010-acceso-alizia-asistente-teacher', { tag: '@critical' }, async ({ page }) => {
     const asistentePage = new AsistentePage(page);
 
     await expect(page).toHaveURL(ASISTENTE_URL);
@@ -193,7 +217,7 @@ test.describe('Rol Teacher — Navegación y módulos', () => {
     await expect(asistentePage.toolsAccessCard('Recursos pedagógicos Adaptaciones y estrategias')).toBeVisible();
   });
 
-  test('acceso-primeros-pasos-teacher', { tag: '@smoke' }, async ({ page }) => {
+  test('TC-011-acceso-primeros-pasos-teacher', { tag: '@smoke' }, async ({ page }) => {
     const asistentePage = new AsistentePage(page);
     await asistentePage.nav.clickLink('Primeros pasos');
 
@@ -204,7 +228,7 @@ test.describe('Rol Teacher — Navegación y módulos', () => {
     await expect(primerosPasosPage.exploraValijaText).toBeVisible();
   });
 
-  test('acceso-materiales-teacher', { tag: '@smoke' }, async ({ page }) => {
+  test('TC-012-acceso-materiales-teacher', { tag: '@smoke' }, async ({ page }) => {
     const asistentePage = new AsistentePage(page);
     await asistentePage.nav.clickLink('Materiales');
 
@@ -220,7 +244,7 @@ test.describe('Rol Teacher — Navegación y módulos', () => {
     await expect(materialesPage.categoryGroupHeading('Regulación sensorial y motriz')).toBeVisible();
   });
 
-  test('acceso-recursos-pedagogicos-teacher', { tag: '@smoke' }, async ({ page }) => {
+  test('TC-013-acceso-recursos-pedagogicos-teacher', { tag: '@smoke' }, async ({ page }) => {
     const asistentePage = new AsistentePage(page);
     await asistentePage.nav.clickLink('Recursos pedagógicos');
 
@@ -240,7 +264,7 @@ test.describe('Rol Teacher — Navegación y módulos', () => {
     }
   });
 
-  test('aulas-no-accesible-por-url-teacher', { tag: '@critical' }, async ({ page }) => {
+  test('TC-014-aulas-no-accesible-por-url-teacher', { tag: '@critical' }, async ({ page }) => {
     await page.goto('https://alizia.educabot.ai/admin/aulas');
 
     await expect(page).toHaveURL(ASISTENTE_URL);
@@ -248,7 +272,7 @@ test.describe('Rol Teacher — Navegación y módulos', () => {
     await expect(asistentePage.nav.links).toHaveText(['Alizia asistente', 'Primeros pasos', 'Materiales', 'Recursos pedagógicos']);
   });
 
-  test('docentes-no-accesible-por-url-teacher', { tag: '@critical' }, async ({ page }) => {
+  test('TC-015-docentes-no-accesible-por-url-teacher', { tag: '@critical' }, async ({ page }) => {
     await page.goto('https://alizia.educabot.ai/admin/docentes');
 
     await expect(page).toHaveURL(ASISTENTE_URL);

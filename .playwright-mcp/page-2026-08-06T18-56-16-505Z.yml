@@ -1,0 +1,22 @@
+- generic [ref=f1e2]:
+  - main [ref=f1e93]:
+    - generic [ref=f1e436]:
+      - generic [ref=f1e437]:
+        - button "Volver" [ref=f1e439] [cursor=pointer]
+        - heading "Alizia asistente" [level=1] [ref=f1e442]
+        - button "Ver conversaciones anteriores" [ref=f1e444] [cursor=pointer]
+      - generic [ref=f1e449]:
+        - generic [ref=f1e451]:
+          - generic [ref=f1e453]:
+            - paragraph [ref=f1e456]: Crear un recurso pedagógico
+            - status "El asistente está escribiendo" [ref=f1e462]:
+              - generic [ref=f1e463]: Armando la propuesta…
+          - generic [ref=f1e465]:
+            - generic [ref=f1e466]:
+              - textbox "Preguntale al asistente..." [disabled] [ref=f1e467]
+              - generic [ref=f1e468]:
+                - button "Iniciar grabación de voz" [disabled]
+                - button [disabled]
+            - paragraph [ref=f1e469]: Este asistente usa inteligencia artificial para responder
+        - complementary
+  - region "Notifications alt+T"

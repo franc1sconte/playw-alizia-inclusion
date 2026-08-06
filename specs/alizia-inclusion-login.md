@@ -48,7 +48,7 @@ Alizia es "tu asistente para aulas más inclusivas" (Educabot). La pantalla de l
   - El campo cambia su tipo de `password` a `text`, mostrando la contraseña en texto plano.
   - El botón cambia su nombre accesible de "Mostrar contraseña" a "Ocultar contraseña".
 
-#### 1.4. credenciales-incorrectas
+#### 1.4. TC-001 credenciales-incorrectas
 
 **Precondiciones:** Usuario no autenticado, en `/login`.
 
@@ -60,7 +60,7 @@ Alizia es "tu asistente para aulas más inclusivas" (Educabot). La pantalla de l
   - Se muestra una alerta general (no atada a un campo específico) con el texto: "El correo electrónico o la contraseña son incorrectos. Revisalos e intentá nuevamente."
   - La página permanece en `/login`, no se autentica al usuario.
 
-#### 1.5. olvide-mi-contrasena-navega-a-recuperacion
+#### 1.5. TC-002 olvide-mi-contrasena-navega-a-recuperacion
 
 **Precondiciones:** Usuario no autenticado, en `/login`.
 
@@ -75,7 +75,7 @@ Alizia es "tu asistente para aulas más inclusivas" (Educabot). La pantalla de l
 
   > Nota: no se probó el envío real del formulario de recuperación (botón "Enviar enlace") para evitar disparar un email real durante la exploración read-only. Queda pendiente de definir en la fase de generación si se debe mockear la petición de red.
 
-#### 1.6. login-exitoso-admin
+#### 1.6. TC-003 login-exitoso-admin
 
 **Precondiciones:** Usuario no autenticado, en `/login`. Cuenta válida con rol Admin: `admin@alizia.com` / `admin123`.
 
@@ -89,7 +89,7 @@ Alizia es "tu asistente para aulas más inclusivas" (Educabot). La pantalla de l
   - No se muestra ningún mensaje de error.
   - El asistente saluda con "Hola Administrador,".
 
-#### 1.7. login-exitoso-teacher
+#### 1.7. TC-004 login-exitoso-teacher
 
 **Precondiciones:** Usuario no autenticado, en `/login`. Cuenta válida con rol Teacher: `teacher2@alizia.com` / `teacher123`.
 
@@ -104,7 +104,7 @@ Alizia es "tu asistente para aulas más inclusivas" (Educabot). La pantalla de l
   - El asistente saluda con "Hola Carlos," (nombre de pila asociado a la cuenta).
   - Se muestra un modal de bienvenida ("Alizia inclusión") con un video introductorio y un botón "Continuar"; no se observó este modal en el login de Admin en la misma sesión de exploración (posible modal de "primer ingreso" ligado a la cuenta, no al rol — a confirmar).
 
-#### 1.8. cerrar-sesion
+#### 1.8. TC-005 cerrar-sesion
 
 **Precondiciones:** Usuario autenticado (rol Admin) en `/asistente`.
 

@@ -5,7 +5,7 @@ import { AsistentePage } from '../../pages/modules/asistentePage';
 import users from '../../data/users.json';
 
 test.describe('Login - Alizia Inclusión', () => {
-  test('credenciales-incorrectas', { tag: '@critical' }, async ({ page }) => {
+  test('TC-001-credenciales-incorrectas', { tag: '@critical' }, async ({ page }) => {
     const loginPage = new LoginPage(page);
     await loginPage.goto();
 
@@ -21,7 +21,7 @@ test.describe('Login - Alizia Inclusión', () => {
     await expect(page).toHaveURL(/\/login/);
   });
 
-  test('olvide-mi-contrasena-navega-a-recuperacion', { tag: '@smoke' }, async ({ page }) => {
+  test('TC-002-olvide-mi-contrasena-navega-a-recuperacion', { tag: '@smoke' }, async ({ page }) => {
     const loginPage = new LoginPage(page);
     await loginPage.goto();
 
@@ -45,7 +45,7 @@ test.describe('Login - Alizia Inclusión', () => {
     await expect(page).toHaveURL(/\/login/);
   });
 
-  test('login-exitoso-admin', { tag: '@critical' }, async ({ page }) => {
+  test('TC-003-login-exitoso-admin', { tag: '@critical' }, async ({ page }) => {
     const loginPage = new LoginPage(page);
     await loginPage.goto();
 
@@ -61,7 +61,7 @@ test.describe('Login - Alizia Inclusión', () => {
     await expect(asistentePage.greeting).toHaveText('Hola Administrador,');
   });
 
-  test('login-exitoso-teacher', { tag: '@critical' }, async ({ page }) => {
+  test('TC-004-login-exitoso-teacher', { tag: '@critical' }, async ({ page }) => {
     const loginPage = new LoginPage(page);
     await loginPage.goto();
 
@@ -80,7 +80,7 @@ test.describe('Login - Alizia Inclusión', () => {
     await expect(asistentePage.welcomeModalContinueButton).toBeVisible();
   });
 
-  test('cerrar-sesion', { tag: '@critical' }, async ({ page }) => {
+  test('TC-005-cerrar-sesion', { tag: '@critical' }, async ({ page }) => {
     const loginPage = new LoginPage(page);
     await loginPage.goto();
     await loginPage.login(users.admin.username, users.admin.password);

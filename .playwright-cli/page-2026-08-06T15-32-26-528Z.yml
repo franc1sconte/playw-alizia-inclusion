@@ -1,0 +1,159 @@
+- generic:
+  - generic:
+    - generic:
+      - banner:
+        - generic:
+          - generic:
+            - button
+        - generic:
+          - generic:
+            - generic:
+              - button
+      - generic:
+        - navigation:
+          - list:
+            - listitem:
+              - link:
+                - /url: /asistente
+            - listitem:
+              - link:
+                - /url: /primeros-pasos
+            - listitem:
+              - link:
+                - /url: /materiales
+            - listitem:
+              - link:
+                - /url: /recursos
+            - listitem:
+              - link:
+                - /url: /admin/aulas
+            - listitem:
+              - link:
+                - /url: /admin/docentes
+            - listitem:
+              - link:
+                - /url: /admin/feedback
+          - generic:
+            - button:
+              - generic: A
+        - main:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - heading [level=1]: Aulas
+                  - paragraph: Gestión de aulas de la institución
+                - button: Crear nueva aula
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 1° C
+                      - generic: Inicial
+                  - button [expanded]
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 7° A
+                      - generic: Inicial
+                  - button
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 1° A
+                      - generic: Primaria
+                  - button
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 1° C
+                      - generic: Primaria
+                  - button
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 1° D
+                      - generic: Primaria
+                  - button
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 2° A
+                      - generic: Primaria
+                  - button
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 2° B
+                      - generic: Primaria
+                  - button
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 2° C
+                      - generic: Primaria
+                  - button
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 3° A
+                      - generic: Primaria
+                  - button
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 3° B
+                      - generic: Primaria
+                  - button
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 3° C
+                      - generic: Primaria
+                  - button
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 4° A
+                      - generic: Primaria
+                  - button
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 4° B
+                      - generic: Primaria
+                  - button
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 4° C
+                      - generic: Primaria
+                  - button
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 5° A
+                      - generic: Primaria
+                  - button
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 5° B
+                      - generic: Primaria
+                  - button
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 5° C
+                      - generic: Primaria
+                  - button
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 6° A
+                      - generic: Primaria
+                  - button
+    - region "Notifications alt+T"
+  - menu "Más opciones para 1° C" [active] [ref=f1e359]:
+    - menuitem "Editar" [ref=f1e360] [cursor=pointer]
+    - menuitem "Eliminar" [ref=f1e361] [cursor=pointer]

@@ -7,7 +7,7 @@ Convenciones del framework (ESTRICTAS):
 * Importa test y expect desde src/fixtures/base.ts,
   NO directamente desde @playwright/test
 * Los objetos de página se encuentran en src/pages/ y extienden BasePage
-* Carga las credenciales desde tests/data/users.json (users.standard)
+* Carga las credenciales desde tests/data/users.json
 * Prioridad de localizadores: getByRole → getByLabel → getByTestId.
   SIN CSS, SIN XPath, SIN waitForTimeout.
 * Etiqueta la prueba con @smoke o @critical segun tu criterio

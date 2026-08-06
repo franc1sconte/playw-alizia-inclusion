@@ -1,0 +1,280 @@
+- generic [ref=f6e2]:
+  - generic [ref=f6e5]:
+    - banner [ref=f6e6]:
+      - button "Alternar menú de navegación" [ref=f6e9] [cursor=pointer]
+      - img "Alizia by Educabot" [ref=f6e13]
+      - button "Notificaciones" [ref=f6e17] [cursor=pointer]
+    - generic [ref=f6e20]:
+      - navigation [ref=f6e21]:
+        - list [ref=f6e22]:
+          - listitem [ref=f6e23]:
+            - link "Alizia asistente" [ref=f6e24] [cursor=pointer]:
+              - /url: /asistente
+          - listitem [ref=f6e27]:
+            - link "Primeros pasos" [ref=f6e28] [cursor=pointer]:
+              - /url: /primeros-pasos
+          - listitem [ref=f6e31]:
+            - link "Materiales" [ref=f6e32] [cursor=pointer]:
+              - /url: /materiales
+          - listitem [ref=f6e38]:
+            - link "Recursos pedagógicos" [ref=f6e39] [cursor=pointer]:
+              - /url: /recursos
+          - listitem [ref=f6e43]:
+            - link "Aulas" [ref=f6e44] [cursor=pointer]:
+              - /url: /admin/aulas
+          - listitem [ref=f6e50]:
+            - link "Docentes" [ref=f6e51] [cursor=pointer]:
+              - /url: /admin/docentes
+          - listitem [ref=f6e55]:
+            - link "Feedback" [active] [ref=f6e56] [cursor=pointer]:
+              - /url: /admin/feedback
+        - button "Menú de usuario" [ref=f6e60] [cursor=pointer]:
+          - generic [ref=f6e61]: A
+      - main [ref=f6e62]:
+        - generic [ref=f6e278]:
+          - generic [ref=f6e279]:
+            - heading "Feedback" [level=1] [ref=f6e280]
+            - paragraph [ref=f6e281]: Pulgar arriba/abajo de las docentes sobre las respuestas de Alizia, con la pregunta que las originó
+          - group "Filtrar por rating" [ref=f6e282]:
+            - button "Dislikes" [pressed] [ref=f6e284] [cursor=pointer]
+            - button "Likes" [ref=f6e285] [cursor=pointer]
+            - button "Todos" [ref=f6e286] [cursor=pointer]
+          - paragraph [ref=f6e287]: 19 registros · 9 con comentario
+          - generic [ref=f6e288]:
+            - generic [ref=f6e290]:
+              - generic [ref=f6e291]:
+                - generic [ref=f6e292]: No le sirvió
+                - generic [ref=f6e295]: Hace 2 días · 12:35 p. m.
+              - generic [ref=f6e296]:
+                - paragraph [ref=f6e297]: La docente preguntó
+                - paragraph [ref=f6e298]: asdasd
+              - generic [ref=f6e299]:
+                - paragraph [ref=f6e300]: Alizia respondió
+                - paragraph [ref=f6e301]: Hola, decime qué está pasando en el aula y lo vemos juntas.
+                - button "Ver respuesta completa" [ref=f6e302] [cursor=pointer]
+            - generic [ref=f6e306]:
+              - generic [ref=f6e307]:
+                - generic [ref=f6e308]: No le sirvió
+                - generic [ref=f6e311]: Hace 2 días · 12:25 p. m.
+              - generic [ref=f6e312]:
+                - paragraph [ref=f6e313]: La docente preguntó
+                - paragraph [ref=f6e314]: Crear nuevo recurso
+              - generic [ref=f6e315]:
+                - paragraph [ref=f6e316]: Alizia respondió
+                - paragraph [ref=f6e317]: ¡Dale! Contame qué está pasando en el aula y lo vemos juntas.
+                - button "Ver respuesta completa" [ref=f6e318] [cursor=pointer]
+              - generic [ref=f6e325]:
+                - paragraph [ref=f6e326]: Comentario de la docente
+                - paragraph [ref=f6e327]: assa
+            - generic [ref=f6e329]:
+              - generic [ref=f6e330]:
+                - generic [ref=f6e331]: No le sirvió
+                - generic [ref=f6e334]: 29/07/2026 · 10:29 a. m.
+              - generic [ref=f6e335]:
+                - paragraph [ref=f6e336]: La docente preguntó
+                - paragraph [ref=f6e337]: quiero que me hagas un PPI para felipe
+              - generic [ref=f6e338]:
+                - paragraph [ref=f6e339]: Alizia respondió
+                - paragraph [ref=f6e340]: Sí, te ayudo. Antes necesito ubicar **qué Felipe es** y desde qué necesidad del aula lo vamos a escribir, así el PPI queda pedagógico y usable.
+                - button "Ver respuesta completa" [ref=f6e341] [cursor=pointer]
+              - generic [ref=f6e348]:
+                - paragraph [ref=f6e349]: Comentario de la docente
+                - paragraph [ref=f6e350]: error
+            - generic [ref=f6e352]:
+              - generic [ref=f6e353]:
+                - generic [ref=f6e354]: No le sirvió
+                - generic [ref=f6e357]: 28/07/2026 · 05:08 p. m.
+              - generic [ref=f6e358]:
+                - paragraph [ref=f6e359]: La docente preguntó
+                - paragraph [ref=f6e360]: hola
+              - generic [ref=f6e361]:
+                - paragraph [ref=f6e362]: Alizia respondió
+                - paragraph [ref=f6e363]: Hola, contame qué situación querés destrabar y lo pensamos juntas.
+                - button "Ver respuesta completa" [ref=f6e364] [cursor=pointer]
+            - generic [ref=f6e368]:
+              - generic [ref=f6e369]:
+                - generic [ref=f6e370]: No le sirvió
+                - generic [ref=f6e373]: 28/07/2026 · 12:34 p. m.
+              - generic [ref=f6e374]:
+                - paragraph [ref=f6e375]: La docente preguntó
+                - paragraph [ref=f6e376]: Necesito un material para Benja, 8 años, que aprieta muchísimo el lápiz y se le cansa la mano al escribir. Recomendame uno concreto". Debería ser suficiente con eso
+              - generic [ref=f6e377]:
+                - paragraph [ref=f6e378]: Alizia respondió
+                - paragraph [ref=f6e379]: Sí, con eso alcanza. Para [STUDENT_ID:37], iría con el **[DEVICE_ID:19]**. Le puede servir porque **no busca cambiarle toda la prensión**, sino **bajar la fatiga** y darle más confort cuando aprieta mucho al escribir. En el catálogo aparece justamente para estudiantes que ya escriben de forma autónoma pero se cansan en tareas de escritura prolongada. [STEPS] 1. Colocás el [DEVICE_ID:19] en el lápiz que usa habitualmente. 2. Probalo primero en una escritura breve, no en una copia larga de entrada, y mirá si afloja un poco la presión y sostiene más tiempo sin quejarse de la mano. 3. Si ves que sigue apretando muchísimo y no le alcanza, conviene pasar a una etapa de soporte mayor en vez de exigirle más tiempo de escritura. [/STEPS] Si querés, te digo **cuál sería la etapa siguiente** si con este no le alcanza?
+                - button "Ver respuesta completa" [ref=f6e380] [cursor=pointer]
+            - generic [ref=f6e384]:
+              - generic [ref=f6e385]:
+                - generic [ref=f6e386]: No le sirvió
+                - generic [ref=f6e389]: 28/07/2026 · 09:38 a. m.
+              - generic [ref=f6e390]:
+                - paragraph [ref=f6e391]: La docente preguntó
+                - paragraph [ref=f6e392]: hola
+              - generic [ref=f6e393]:
+                - paragraph [ref=f6e394]: Alizia respondió
+                - paragraph [ref=f6e395]: Hola, ¿qué está pasando en el aula?
+                - button "Ver respuesta completa" [ref=f6e396] [cursor=pointer]
+            - generic [ref=f6e400]:
+              - generic [ref=f6e401]:
+                - generic [ref=f6e402]: No le sirvió
+                - generic [ref=f6e405]: 27/07/2026 · 03:55 p. m.
+              - generic [ref=f6e406]:
+                - paragraph [ref=f6e407]: La docente preguntó
+                - paragraph [ref=f6e408]: Adaptar una actividad para un alumno
+              - generic [ref=f6e409]:
+                - paragraph [ref=f6e410]: Alizia respondió
+                - paragraph [ref=f6e411]: Claro. Contame un poco más así la pensamos para ese alumno en concreto.
+                - button "Ver respuesta completa" [ref=f6e412] [cursor=pointer]
+            - generic [ref=f6e416]:
+              - generic [ref=f6e417]:
+                - generic [ref=f6e418]: No le sirvió
+                - generic [ref=f6e421]: 27/07/2026 · 10:34 a. m.
+              - generic [ref=f6e422]:
+                - paragraph [ref=f6e423]: La docente preguntó
+                - paragraph [ref=f6e424]: cualquer tema
+              - generic [ref=f6e425]:
+                - paragraph [ref=f6e426]: Alizia respondió
+                - paragraph [ref=f6e427]: "Acá tenés uno, pensado para que se pueda leer seguido o usar por partes: La plaza del barrio cambiaba a lo largo del día como si tuviera distintas vidas. A la mañana temprano, cuando el sol recién empezaba a asomarse entre los edificios, llegaban las personas que salían a caminar con paso tranquilo, algunas con botellas de agua, otras con auriculares, y también aparecían los primeros chicos que iban a la escuela de la mano de sus familias. El pasto todavía estaba húmedo por el rocío, y las hojas de los árboles se movían apenas con el viento fresco. En un rincón, cerca de los juegos, siempre se juntaban unas palomas que parecían esperar que alguien dejara caer migas de pan o galletitas. A esa hora todo era más silencioso, y los sonidos que se escuchaban con claridad eran el canto de los pájaros, el ruido de algún colectivo pasando por la avenida y las voces bajas de quienes se saludaban al cruzarse. Al mediodía, en cambio, la plaza parecía otra. El movimiento aumentaba, el calor se hacía sentir sobre las baldosas y los bancos de madera quedaban casi vacíos porque pocos querían sentarse al sol. Algunos trabajadores aprovechaban su descanso para comer algo a la sombra, mientras otros simplemente cruzaban la plaza apurados para llegar a tiempo a sus actividades. Los perros, que a la mañana corrían y jugaban con energía, buscaban lugares frescos debajo de los árboles y se acostaban con la lengua afuera. A veces, desde una ventana cercana, se escuchaba una radio con música o el sonido de platos y cubiertos de alguna casa donde estaban almorzando. Aunque el ritmo era más rápido que a la mañana, también había momentos en los que la plaza parecía quedarse quieta, como si esperara la llegada de la tarde. Y la tarde era, sin duda, el momento de mayor vida. Cuando salían los chicos de la escuela, los juegos se llenaban enseguida. Las hamacas iban y venían, el subibaja se inclinaba de un lado al otro y en el tobogán se armaban pequeñas filas donde todos querían subir primero. Las familias conversaban cerca de los bancos, algunas tomando mate, otras compartiendo una merienda sencilla. También estaban quienes llevaban una pelota y armaban partidos improvisados sobre un sector de tierra, aunque a veces discutían por si una jugada había sido gol o no. Los más grandes se reunían a charlar, a andar en bicicleta o a mirar el celular, pero aun así participaban de ese clima de encuentro que tenía la plaza. Todo parecía mezclarse: risas, carreras, llamados de madres y padres, ladridos, ruedas girando sobre el suelo y el crujido de las hojas secas que algunos arrastraban con los pies. Cuando empezaba a caer el sol, los colores cambiaban de nuevo. La luz anaranjada se apoyaba sobre los troncos de los árboles y alargaba las sombras de los juegos sobre el piso. De a poco, las familias comenzaban a irse, los chicos guardaban sus cosas y la plaza recuperaba cierta calma. Sin embargo, no quedaba vacía. Llegaban entonces otras personas: vecinos que salían a tomar aire después de trabajar, adolescentes que se juntaban a conversar y adultos mayores que daban una vuelta antes de volver a sus casas. A veces alguien se sentaba solo en un banco a mirar alrededor, como si la plaza fuera un lugar donde ordenar los pensamientos. En esos momentos se notaba que no era solamente un espacio con árboles y juegos, sino también un punto de encuentro, un lugar compartido que formaba parte de la vida de todos los que vivían cerca. De noche, finalmente, la plaza entraba en su etapa más silenciosa. Las luces se encendían y dibujaban círculos amarillos sobre los caminos, mientras el resto quedaba en penumbra. El aire se volvía más fresco y los ruidos cambiaban: ya no predominaban las voces infantiles ni las carreras, sino el zumbido lejano de los autos, alguna conversación aislada y el roce de las ramas cuando soplaba el viento. Aunque parecía más tranquila, la plaza seguía contando historias. Cada banco, cada árbol y cada juego guardaba algo de lo ocurrido durante el día: la carrera de un perro, la charla de dos amigas, la caída de una hoja, la risa de un chico que se hamacó muy alto o el paso apurado de alguien que cruzó sin detenerse. Por eso, para muchos vecinos, la plaza no era un simple lugar de paso. Era un espacio donde el barrio se encontraba, se reconocía y, de alguna manera, se construía un poco cada día. Si querés, te lo puedo **adaptar para una edad específica**, **hacer preguntas de comprensión** o **convertirlo en un texto más simple**."
+                - button "Ver respuesta completa" [ref=f6e428] [cursor=pointer]
+            - generic [ref=f6e432]:
+              - generic [ref=f6e433]:
+                - generic [ref=f6e434]: No le sirvió
+                - generic [ref=f6e437]: 27/07/2026 · 07:53 a. m.
+              - generic [ref=f6e438]:
+                - paragraph [ref=f6e439]: La docente preguntó
+                - paragraph [ref=f6e440]: ok
+              - generic [ref=f6e441]:
+                - paragraph [ref=f6e442]: Alizia respondió
+                - paragraph [ref=f6e443]: "Buenísimo. Acá tenés una **hoja completa lista para copiar o imprimir** con **/m/**, pensada para que entren por **escuchar + tocar + clasificar**. **HOJA DE TRABAJO – ESCUCHAMOS EL SONIDO /M/** **1. Escuchamos** Decimos juntos: **mmmmmm** **2. Tocamos y escuchamos** La seño nombra una palabra. Si escuchás **/m/** en alguna parte, poné la ficha en **TIENE /M/**. Si no lo escuchás, ponela en **NO TIENE /M/**. **3. Fichas** mano sol cama luna mono sapo mesa tomate **4. Clasificamos** | TIENE /M/ | NO TIENE /M/ | |---|---| | | | | | | | | | | | | **5. Decimos despacito** - **ma-no** - **ca-ma** - **me-sa** - **to-ma-te** **6. Conversamos** - ¿En qué palabra escuchaste **/m/** al principio? - ¿En cuál la escuchaste en el medio? **Cómo volverlo táctil** - Pegá cada palabra o dibujo sobre **cartón**, **goma eva**, **lija suave** o algún material con relieve. - Si querés, hacé dos espacios grandes en la mesa o en una hoja afiche para que puedan **mover y agrupar** las fichas con el cuerpo y la mano. Si querés, te hago ahora **una segunda hoja igual con /s/** para que tengas continuidad."
+                - button "Ver respuesta completa" [ref=f6e444] [cursor=pointer]
+              - generic [ref=f6e451]:
+                - paragraph [ref=f6e452]: Comentario de la docente
+                - paragraph [ref=f6e453]: No te hace la ficha
+            - generic [ref=f6e455]:
+              - generic [ref=f6e456]:
+                - generic [ref=f6e457]: No le sirvió
+                - generic [ref=f6e460]: 27/07/2026 · 07:45 a. m.
+              - generic [ref=f6e461]:
+                - paragraph [ref=f6e462]: La docente preguntó
+                - paragraph [ref=f6e463]: hay algo en la valija que pueda ayudarme con esto?
+              - generic [ref=f6e464]:
+                - paragraph [ref=f6e465]: Alizia respondió
+                - paragraph [ref=f6e466]: "Sí, **puede servir**, pero depende de **qué parte del acceso a la lectura** necesitás sostener. Si el trabajo es con método fonético, en la valija hay dos apoyos que pueden sumar **sin reemplazar la enseñanza**: - **[DEVICE_ID:20] Ayuda para la lectura - tamaño ajustable - etapa 1**: sirve cuando el alumno **se pierde entre líneas**, se abruma con mucho texto o necesita **acotar visualmente** dónde leer. - **[DEVICE_ID:21] Ayuda para la lectura - Reglas de lectura guiada - etapa 3** o **[DEVICE_ID:22] Ayuda para la lectura - Reglas de lectura transparente con renglón - etapa 4**: pueden ayudar si ya está leyendo algo y necesitás que **sostenga el seguimiento visual** con más autonomía. El [DEVICE_ID:22] tiene video en su ficha para ver cómo usarlo en clase. - **[DEVICE_ID:6] Pen reader (lápiz lector)**: lo pensaría **más adelante o en casos puntuales**, cuando la dificultad fuerte está en acceder al texto y querés que pueda **escucharlo además de verlo**. También tiene video en su ficha. Pero para el **método fonético en sí**, lo más importante no suele ser un dispositivo sino **cómo presentás la tarea**: pocas letras por vez, contraste claro de sonidos, apoyo visual limpio, práctica oral + señalamiento + escritura, y consignas breves. Si querés ubicar mejor cuál te conviene, decime **qué observás**: ¿el problema es que **no reconoce los sonidos**, que **se pierde al seguir la lectura**, o que **se abruma y no arranca**?"
+                - button "Ver respuesta completa" [ref=f6e467] [cursor=pointer]
+              - generic [ref=f6e474]:
+                - paragraph [ref=f6e475]: Comentario de la docente
+                - paragraph [ref=f6e476]: Fijense esta respuesta, cuando enumera los materiales no esta para nada claro
+            - generic [ref=f6e478]:
+              - generic [ref=f6e479]:
+                - generic [ref=f6e480]: No le sirvió
+                - generic [ref=f6e483]: 20/07/2026 · 03:35 p. m.
+              - generic [ref=f6e484]:
+                - paragraph [ref=f6e485]: La docente preguntó
+                - paragraph [ref=f6e486]: ¿Cuál creés que va a ayudar más a Felipe mientras explicás al grupo? Moverse con función sin perder la escucha (apoyo de pies en su lugar)
+              - generic [ref=f6e487]:
+                - paragraph [ref=f6e488]: Alizia respondió
+                - paragraph [ref=f6e489]: "Sí, por ahí. Como ese movimiento primero lo ayuda y después se le va, la clave es **darle un lugar y un para qué**. [STEPS] 1. Mientras explicás al grupo, ofrecé a Felipe el [DEVICE_ID:1] para que pueda mover los pies **sin dejar de escuchar**. Presentalo como apoyo de trabajo, no como corrección: “Podés usar esto mientras escuchás”. 2. Antes de empezar la explicación, dejale una consigna corta y previsible: **“Mové los pies abajo, ojos acá, y cuando termine marcás el 1”**. Eso le ordena el movimiento y lo conecta con el arranque después. 3. Cuando veas que el movimiento ya lo está sacando de la escucha, no le pidas que se quede quieto: retomalo con una señal breve sobre la tarea, por ejemplo **señalar el pizarrón o su hoja y decir “seguimos con esto”**. [/STEPS] En la ficha del [DEVICE_ID:1] tenés también el video de demostración por si querés ver una forma simple de usarlo. ¿Querés que te deje ahora una versión combinada de las dos ayudas para usar mañana seguida?"
+                - button "Ver respuesta completa" [ref=f6e490] [cursor=pointer]
+            - generic [ref=f6e494]:
+              - generic [ref=f6e495]:
+                - generic [ref=f6e496]: No le sirvió
+                - generic [ref=f6e499]: 14/07/2026 · 10:55 a. m.
+              - generic [ref=f6e500]:
+                - paragraph [ref=f6e501]: La docente preguntó
+                - paragraph [ref=f6e502]: ¿Con cuál querés arrancar para Fenicio? Apoyo visual de la consigna
+              - generic [ref=f6e503]:
+                - paragraph [ref=f6e504]: Alizia respondió
+                - paragraph [ref=f6e505]: "Bien, para Fenicio conviene que la consigna quede **visible, breve y secuenciada**. La idea es que no dependa solo de escucharla una vez. [STEPS] 1. Escribí la consigna en **3 pasos máximos**, con verbo concreto al inicio. Ejemplo de formato: **1. Mirá** la imagen. **2. Marcá** dos respuestas. **3. Mostrame** cuando termines. 2. Sumale un apoyo visual simple a cada paso: un dibujo, ícono o mini ejemplo al lado. No hace falta un material complejo; alcanza con que vea **qué hacer primero, qué sigue y cómo termina**. 3. Antes de largar a todo el grupo, señalá cada paso mientras lo decís y pedile que empiece solo con el primero. Cuando lo complete, lo reenviás al segundo paso con una frase corta: **“Ya hiciste el 1; ahora seguí con el 2.”** [/STEPS] Si querés, te lo puedo dejar **ya escrito con un ejemplo concreto** para una actividad de sala o primer ciclo, ¿sobre qué tarea lo vas a usar?"
+                - button "Ver respuesta completa" [ref=f6e506] [cursor=pointer]
+              - generic [ref=f6e513]:
+                - paragraph [ref=f6e514]: Comentario de la docente
+                - paragraph [ref=f6e515]: TEST QA, NO APLICA ESTE FEEDBACK
+            - generic [ref=f6e517]:
+              - generic [ref=f6e518]:
+                - generic [ref=f6e519]: No le sirvió
+                - generic [ref=f6e522]: 06/07/2026 · 10:38 a. m.
+              - generic [ref=f6e523]:
+                - paragraph [ref=f6e524]: La docente preguntó
+                - paragraph [ref=f6e525]: y para que no moleste a los otros?
+              - generic [ref=f6e526]:
+                - paragraph [ref=f6e527]: Alizia respondió
+                - paragraph [ref=f6e528]: "Más que pensar en que “no moleste”, conviene mirar **qué apoyos necesita para sostenerse sin cortar la dinámica del grupo**. La clave es **anticipar, darle una forma válida de moverse y una vuelta clara a la tarea**, para que pueda seguir participando sin quedar señalado. [STEPS] 1. **Marcá para todo el grupo una rutina breve de trabajo autónomo**: empezamos con un ejemplo, hacemos 2, chequeamos, seguimos. Cuando la secuencia es previsible, bajan las interrupciones porque no depende de recordatorios individuales. 2. **Dale una vía de movimiento acordada y visible**: por ejemplo, una pausa corta con función o movimiento en el lugar. Si necesita moverse seguido, podés sumar el **[DEVICE_ID:1] Elástico para silla** o las **[DEVICE_ID:31] Patas de silla x4** para que descargue sin salir de la actividad. 3. **Cuando se desconcentra, reenganchalo con una consigna mínima**: “hacé esta y me mostrás”, “marcá el primer paso”, “terminá estas dos”. Eso suele sostener mejor al grupo que pedirle varias veces que deje de levantarse. [/STEPS] Si querés, ahora podemos pensar **qué decirle y qué rutina instalar con todo el curso** para esos momentos, sin cargarte más a vos. ¿Continuamos?"
+                - button "Ver respuesta completa" [ref=f6e529] [cursor=pointer]
+              - generic [ref=f6e536]:
+                - paragraph [ref=f6e537]: Comentario de la docente
+                - paragraph [ref=f6e538]: Muy genérico, no pregunta nada en especifico
+            - generic [ref=f6e540]:
+              - generic [ref=f6e541]:
+                - generic [ref=f6e542]: No le sirvió
+                - generic [ref=f6e545]: 06/07/2026 · 10:35 a. m.
+              - generic [ref=f6e546]:
+                - paragraph [ref=f6e547]: La docente preguntó
+                - paragraph [ref=f6e548]: si
+              - generic [ref=f6e549]:
+                - paragraph [ref=f6e550]: Alizia respondió
+                - paragraph [ref=f6e551]: "Sí. Te dejo un formato **listo para usar mañana** con un nivel de ayuda bajo para vos y claro para él. [STEPS] 1. **Usá siempre la misma plantilla de 3 pasos** en el **[DEVICE_ID:33] Organizador de tareas personalizable**. Texto sugerido: **1. Miro el ejemplo** **2. Hago 1 y 2** **3. Marco y sigo** Si necesitás, al lado del paso 3 poné un símbolo acordado: **✓ seguir** o **✋ pedir ayuda**. Así no depende de llamarte para cada duda. 2. **Escribí el organizador con acciones cortas y cantidad cerrada**. Ejemplos que suelen servir: - **Copio la fecha** - **Leo la consigna con el ejemplo** - **Hago 2** - **Tildo** - **Sigo con 2 más** Evitá poner “hacé la actividad” o “trabajá solo”. Lo que más ayuda es que vea **qué hace ahora** y **cuánto falta**. 3. **Prepará dos versiones según el momento de corte**: - Si le cuesta **empezar**: **1. Copio la fecha** **2. Hago el primero con el ejemplo** **3. Hago 1 más** - Si empieza pero **se cae a mitad**: **1. Hago 2** **2. Tildo** **3. Hago 2 más** La idea es que el organizador marque **tramos breves**. Cuando completa uno, le renovás solo el siguiente tramo, no toda la tarea de una vez. [/STEPS] Si querés, en el próximo mensaje te lo adapto todavía más y te escribo **3 modelos concretos**: uno para copiar, uno para resolver consignas y uno para lectura breve. ¿Continuamos?"
+                - button "Ver respuesta completa" [ref=f6e552] [cursor=pointer]
+              - generic [ref=f6e559]:
+                - paragraph [ref=f6e560]: Comentario de la docente
+                - paragraph [ref=f6e561]: "Aca le pide que la ayude con algo especifico y la respuesta es genérica. Habría que, cuando el maestro continua pidiendo ayuda ahondar en el caso específico o en la ayuda especifica, con mas preguntas para afinar: qué momento? qué tarea? qué tipo de trabajo? … Después construir la ayuda"
+            - generic [ref=f6e563]:
+              - generic [ref=f6e564]:
+                - generic [ref=f6e565]: No le sirvió
+                - generic [ref=f6e568]: 06/07/2026 · 10:30 a. m.
+              - generic [ref=f6e569]:
+                - paragraph [ref=f6e570]: La docente preguntó
+                - paragraph [ref=f6e571]: pero no puedo estar todo el tiempo con el o adaptando las tareas, tengo 30 alumnos
+              - generic [ref=f6e572]:
+                - paragraph [ref=f6e573]: Alizia respondió
+                - paragraph [ref=f6e574]: "Sí, y justamente la idea es **que no dependa de vos uno a uno**. El ajuste más útil acá es **cambiar el formato de trabajo para todos** en ese momento, así ese alumno tiene apoyo sin que vos quedes pegada a él. [STEPS] 1. **Instalá una rutina fija de trabajo autónomo para todo el grupo**: siempre igual, por ejemplo: *miramos los 3 pasos en pizarrón → hacemos el paso 1 → señal de chequeo → seguimos*. Si la estructura se repite, él no necesita que se la reconstruyas cada vez. 2. **Hacé el inicio colectivo más guiado**: antes de largarlos solos, resolvé **el primer ítem con todos** y dejá un ejemplo visible. A este alumno probablemente le cuesta arrancar, no necesariamente “portarse”; si el primer paso ya quedó modelado, reducís mucho la necesidad de acompañamiento individual. 3. **Usá un apoyo visual que te ahorre intervenciones**: el **[DEVICE_ID:33] Organizador de tareas personalizable** o una secuencia breve en su banco con “1. Empiezo acá / 2. Hago estas dos / 3. Te aviso”. Eso le devuelve referencia sin tener que llamarte a cada rato. [/STEPS] Esto suele funcionar mejor que adaptar la tarea entera: **mismo contenido, más estructura para entrar y sostenerse**. Para lograr una adaptación aún más personalizada podemos seguir profundizando en este alumno y sus necesidades. ¿Continuamos?"
+                - button "Ver respuesta completa" [ref=f6e575] [cursor=pointer]
+              - generic [ref=f6e582]:
+                - paragraph [ref=f6e583]: Comentario de la docente
+                - paragraph [ref=f6e584]: "Vocabulario o formulaciónes: \"quedar pegada a el\" / \"portarse\" Si bien la adaptación pedagógica va mas lejos y cambia, le propone otra vez el organizador. Esto estaria bueno evitarlo, si de repente el maestro pregunta otra vez quizas alizia deberia preguntar como te fue con el organizador en vez de volver a proponerlo"
+            - generic [ref=f6e586]:
+              - generic [ref=f6e587]:
+                - generic [ref=f6e588]: No le sirvió
+                - generic [ref=f6e591]: 03/07/2026 · 09:03 p. m.
+              - generic [ref=f6e592]:
+                - paragraph [ref=f6e593]: La docente preguntó
+                - paragraph [ref=f6e594]: ¿Es para un alumno en particular? Si sí, decime el nombre. Gull ¿Qué edad tiene? 2 ¿Qué necesidad observás con más claridad? Le cuesta sostener la atención durante la tarea ¿En qué momento aparece más? Durante la explicación al grupo
+              - generic [ref=f6e595]:
+                - paragraph [ref=f6e596]: Alizia respondió
+                - paragraph [ref=f6e597]: "Voy a dejar este recurso asignado a [STUDENT_ID:25]; la próxima vez que me hables de Gull tengo en cuenta lo que trabajamos hoy. Para Gull, por la edad y por el momento en que aparece la dificultad, conviene **acortar la explicación al grupo, anticipar con una secuencia visual simple y darle una participación breve desde el inicio**. [STEPS] 1. **Mostrá la secuencia en 2 imágenes o gestos**: “primero miramos” y “después hacemos”. Decila con una frase muy corta y señalando cada paso. 2. **Dale una acción inmediata durante la explicación**: por ejemplo, señalar, tocar, elegir entre dos opciones o llevar un elemento. Así no queda solo escuchando. 3. **Cerrá la explicación con un mini inicio guiado**: empezá con él el primer paso y recién después soltalo a la tarea. [/STEPS] ¿En qué aula está Gull? Si me la decís, lo dejo bien asentado. Y para lograr una adaptación aún más personalizada podemos seguir profundizando en Gull y sus necesidades. ¿Continuamos?"
+                - button "Ver respuesta completa" [ref=f6e598] [cursor=pointer]
+            - generic [ref=f6e602]:
+              - generic [ref=f6e603]:
+                - generic [ref=f6e604]: No le sirvió
+                - generic [ref=f6e607]: 03/07/2026 · 03:20 p. m.
+              - generic [ref=f6e608]:
+                - paragraph [ref=f6e609]: La docente preguntó
+                - paragraph [ref=f6e610]: ¿Cuál de estos Pedro es? Pedro Alfonso ¿Cuándo aparece más la dificultad para entender o registrar la consigna? Cuando la consigna tiene varios pasos ¿Qué le viene resultando mejor hasta ahora? Chequeo uno a uno antes de empezar; Que le fragmenten los pasos
+              - generic [ref=f6e611]:
+                - paragraph [ref=f6e612]: Alizia respondió
+                - paragraph [ref=f6e613]: "Con Pedro Alfonso, el foco está en **hacer visible la secuencia** para que pueda iniciar sin depender de recordar toda la consigna oral. Como ya le sirve el **chequeo previo** y la **fragmentación**, conviene convertir eso en un apoyo estable para toda la clase. Voy a dejar este recurso asignado a [STUDENT_ID:18]; la próxima vez que me hables de él tengo en cuenta lo que trabajamos hoy. [STEPS] 1. **Pasá la consigna a una secuencia breve de 3 o 4 pasos** y dejala escrita a la vista con verbos concretos: “1. Leé. 2. Subrayá. 3. Resolvé. 4. Entregá”. Si querés, numerá también los materiales que necesita en cada paso. 2. **Dale un soporte de seguimiento individual** con esos mismos pasos para ir marcando mientras trabaja. El [DEVICE_ID:33] le puede servir bien si necesitás que esa secuencia quede visible en su banco y pueda tachar lo ya hecho. 3. **Antes de empezar, hacé un chequeo corto de inicio**: pedile que te diga cuál es el primer paso y recién después largue. No hace falta repasar todo; con confirmar el arranque, muchas veces alcanza para que sostenga la secuencia. [/STEPS] ¿Querés que ahora lo ajustemos a una actividad concreta que tengas que dar hoy?"
+                - button "Ver respuesta completa" [ref=f6e614] [cursor=pointer]
+            - generic [ref=f6e618]:
+              - generic [ref=f6e619]:
+                - generic [ref=f6e620]: No le sirvió
+                - generic [ref=f6e623]: 03/07/2026 · 01:07 p. m.
+              - generic [ref=f6e624]:
+                - paragraph [ref=f6e625]: La docente preguntó
+                - paragraph [ref=f6e626]: ¿Cómo se llama el alumno? prefiero no decirlo ¿Qué le dificulta más hacer la actividad con autonomía? Escribir o manipular materiales; Mostrar lo que sabe aunque lo comprende Hoy, ¿cómo suele participar mejor? Señala o elige entre opciones
+              - generic [ref=f6e627]:
+                - paragraph [ref=f6e628]: Alizia respondió
+                - paragraph [ref=f6e629]: Bien, la clave acá no es simplarle el contenido sino **despegar el aprendizaje de la escritura/manipulación**. Si comprende, conviene ofrecerle una forma estable de **responder señalando, eligiendo y marcando opciones**, para que pueda trabajar con más autonomía. [STEPS] 1. **Convertí la consigna en respuesta accesible.** En vez de pedir producción escrita extensa, prepará actividades donde pueda **señalar, unir con mirada/dedo, elegir entre 2-4 opciones, ordenar alternativas o completar con banco de palabras**. Así evaluás comprensión sin que la motricidad sea la barrera. 2. **Reducí la manipulación y sostené la secuencia.** Presentale **una parte por vez**, con la consigna **visible y breve**, y dejá el material ya dispuesto para que no dependa de recortar, copiar o mover muchos elementos. Si la tarea tiene varios pasos, marcá cuál hace primero y cuál después. 3. **Dale una vía clara para expresar lo que sabe.** Si suele responder mejor señalando, ofrecé formatos como **tablero de opciones, verdadero/falso, multiple choice, secuencia de imágenes o palabras para elegir**. Si necesitás registrar su respuesta, vos o un compañero pueden oficiar de escribiente **solo para dejar constancia**, sin resolverle el contenido. [/STEPS] Si querés, podemos armar **una actividad concreta de tu clase** y te la devuelvo ya adaptada para este alumno. ¿Continuamos?
+                - button "Ver respuesta completa" [ref=f6e630] [cursor=pointer]
+              - generic [ref=f6e637]:
+                - paragraph [ref=f6e638]: Comentario de la docente
+                - paragraph [ref=f6e639]: Sigue siendo un poco generalista la primer respuesta. Quizas deberíamos afinar en las preguntas iniciales. Aca por ejemplo no se le ocurre proponer las tijeras adaptadas, o ningún material especifico de acceso tecnológico…
+            - generic [ref=f6e641]:
+              - generic [ref=f6e642]:
+                - generic [ref=f6e643]: No le sirvió
+                - generic [ref=f6e646]: 03/07/2026 · 12:58 p. m.
+              - generic [ref=f6e647]:
+                - paragraph [ref=f6e648]: La docente preguntó
+                - paragraph [ref=f6e649]: ¿Qué edad tiene? Tiene 14 años ¿En qué parte de la actividad necesita más apoyo para participar con autonomía? Manipular materiales o escribir; Responder o mostrar lo que sabe Hoy, ¿cómo le resulta más posible responder en el aula? Con computadora o dispositivo
+              - generic [ref=f6e650]:
+                - paragraph [ref=f6e651]: Alizia respondió
+                - paragraph [ref=f6e652]: "Con lo que contás, la clave no es pedirle menos contenido sino **cambiar la vía de acceso y la forma de respuesta**. A esta edad, si con computadora o dispositivo responde mejor, conviene que **esa sea la forma principal de trabajo** y no una excepción. [STEPS] 1. **Pasá la actividad a un formato resoluble en dispositivo**: menos copia y más opciones como completar, elegir, arrastrar, marcar, dictar o escribir respuestas breves. Si el objetivo no es la escritura manual, **no le exijas papel y lápiz para demostrar lo que sabe**. 2. **Separá “resolver” de “manipular”**: si la tarea incluye recortar, pegar, unir con flechas o completar cuadros a mano, prepará una versión digital o una versión con selección simple. Así evaluás el contenido, no la dificultad motriz. 3. **Definí una forma estable de entrega** para que gane autonomía: por ejemplo, siempre responder en un mismo archivo, formulario o documento con apoyos ya listos (plantilla, casilleros, opciones, encabezados). Eso le evita depender de un adulto en cada actividad. [/STEPS] Para lograr una adaptación aún más personalizada podemos seguir profundizando en este alumno y sus necesidades. ¿Continuamos?"
+                - button "Ver respuesta completa" [ref=f6e653] [cursor=pointer]
+  - region "Notifications alt+T"

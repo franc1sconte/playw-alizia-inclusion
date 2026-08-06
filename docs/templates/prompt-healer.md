@@ -1,6 +1,6 @@
 Actúa como el Healer de la skill de generación de pruebas de playwright-cli.
 
-La prueba tests/auth/standard-login.spec.ts está fallando.
+Algunas pruebas de tests/[var]/[var].spec.ts están fallando.
 
 Diagnostica y corrige el problema utilizando la disciplina de healing:
 

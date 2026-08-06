@@ -1,0 +1,2 @@
+[     168ms] [LOG] [auth] app iniciada | modo: production | API_BASE: https://alizia-inclusion-production.up.railway.app/api/v1 @ https://alizia.educabot.ai/assets/index-D1B_eaLW.js:102
+[     240ms] [ERROR] Failed to load resource: net::ERR_CACHE_OPERATION_NOT_SUPPORTED @ https://alizia.educabot.ai/orb-video.mp4:0

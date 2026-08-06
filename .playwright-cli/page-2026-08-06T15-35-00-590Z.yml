@@ -1,0 +1,193 @@
+- generic:
+  - generic:
+    - generic:
+      - banner:
+        - generic:
+          - generic:
+            - button
+        - generic:
+          - generic:
+            - generic:
+              - button
+      - generic:
+        - navigation:
+          - list:
+            - listitem:
+              - link:
+                - /url: /asistente
+            - listitem:
+              - link:
+                - /url: /primeros-pasos
+            - listitem:
+              - link:
+                - /url: /materiales
+            - listitem:
+              - link:
+                - /url: /recursos
+            - listitem:
+              - link:
+                - /url: /admin/aulas
+            - listitem:
+              - link:
+                - /url: /admin/docentes
+            - listitem:
+              - link:
+                - /url: /admin/feedback
+          - generic:
+            - button:
+              - generic: A
+        - main:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - heading [level=1]: Docentes
+                  - paragraph: 14 docentes en la institución
+                - button: Crear nuevo docente
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: C
+                    - generic:
+                      - generic: Carlos Bianchi
+                      - generic: carlos.bianchi@alizia.com
+                  - generic:
+                    - generic: Docente
+                    - button [expanded]
+                - generic:
+                  - generic:
+                    - generic: C
+                    - generic:
+                      - generic: Carlos Domínguez
+                      - generic: teacher2@alizia.com
+                  - generic:
+                    - generic: Docente
+                    - button
+                - generic:
+                  - generic:
+                    - generic: D
+                    - generic:
+                      - generic: Docente Alizia
+                      - generic: docente@alizia.com
+                  - generic:
+                    - generic: Docente
+                    - button
+                - generic:
+                  - generic:
+                    - generic: F
+                    - generic:
+                      - generic: FRAN2
+                      - generic: rapeco3225@amupx.com
+                  - generic:
+                    - generic: Docente
+                    - button
+                - generic:
+                  - generic:
+                    - generic: F
+                    - generic:
+                      - generic: Francisco Conte
+                      - generic: fran@alizia.com
+                  - generic:
+                    - generic: Docente
+                    - button
+                - generic:
+                  - generic:
+                    - generic: F
+                    - generic:
+                      - generic: FRANQA
+                      - generic: tinina8815@diarshop.com
+                  - generic:
+                    - generic: Docente
+                    - button
+                - generic:
+                  - generic:
+                    - generic: F
+                    - generic:
+                      - generic: FranQA2
+                      - generic: francisco.conte@educabot.com
+                  - generic:
+                    - generic: Docente
+                    - button
+                - generic:
+                  - generic:
+                    - generic: J
+                    - generic:
+                      - generic: Julian Quinteiro
+                      - generic: julian.quinteiro@educabot.com
+                  - generic:
+                    - generic: Docente
+                    - button
+                - generic:
+                  - generic:
+                    - generic: M
+                    - generic:
+                      - generic: María Fernández
+                      - generic: teacher@alizia.com
+                  - generic:
+                    - generic: Docente
+                    - button
+                - generic:
+                  - generic:
+                    - generic: M
+                    - generic:
+                      - generic: Mercedes Herrera
+                      - generic: mercedes.herrera@educabot.com
+                  - generic:
+                    - generic: Docente
+                    - button
+                - generic:
+                  - generic:
+                    - generic: M
+                    - generic:
+                      - generic: Mora Cao
+                      - generic: mora.cao@educabot.com
+                  - generic:
+                    - generic: Docente
+                    - button
+                - generic:
+                  - generic:
+                    - generic: Q
+                    - generic:
+                      - generic: QA Docente
+                      - generic: qa.docente@alizia.com
+                  - generic:
+                    - generic: Docente
+                    - button
+                - generic:
+                  - generic:
+                    - generic: R
+                    - generic:
+                      - generic: roberto
+                      - generic: julianquin8@gmail.com
+                  - generic:
+                    - generic: Docente
+                    - button
+                - generic:
+                  - generic:
+                    - generic: T
+                    - generic:
+                      - generic: TestResetPw
+                      - generic: fegik98326@diarshop.com
+                  - generic:
+                    - generic: Docente
+                    - button
+              - generic:
+                - heading [level=2]: Dados de baja
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: S
+                      - generic:
+                        - generic: SMOKE Alta
+                        - generic: smoke-mod-1785844528@alizia.com
+                    - button
+                  - generic:
+                    - generic:
+                      - generic: S
+                      - generic:
+                        - generic: SMOKE Invitado
+                        - generic: smoke-invite-1785844528@alizia.com
+                    - button
+    - region "Notifications alt+T"
+  - menu "Más opciones para Carlos Bianchi" [active] [ref=f4e283]:
+    - menuitem "Dar de baja" [ref=f4e284] [cursor=pointer]
