@@ -2,6 +2,11 @@ name: Playwright Tests
 
 on:
   workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Tag (@critical, @smoke) o ID de un test puntual (ej: TC-003-login-exitoso-admin). Vacío = correr todos.'
+        required: false
+        default: ''
 
 permissions:
   contents: read
@@ -31,7 +36,13 @@ jobs:
           ALIZIA_ADMIN_PASSWORD: ${{ secrets.ALIZIA_ADMIN_PASSWORD }}
           ALIZIA_TEACHER_EMAIL: ${{ secrets.ALIZIA_TEACHER_EMAIL }}
           ALIZIA_TEACHER_PASSWORD: ${{ secrets.ALIZIA_TEACHER_PASSWORD }}
-        run: npx playwright test
+          TEST_TAG: ${{ inputs.tag }}
+        run: |
+          if [ -n "$TEST_TAG" ]; then
+            npx playwright test --grep "$TEST_TAG"
+          else
+            npx playwright test
+          fi
       - uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
         with:
