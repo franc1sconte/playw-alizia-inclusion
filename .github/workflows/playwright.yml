@@ -7,6 +7,9 @@ on:
         description: 'Tag (@critical, @smoke) o ID de un test puntual (ej: TC-003-login-exitoso-admin). Vacío = correr todos.'
         required: false
         default: ''
+  schedule:
+    # 8:00 AM Argentina (UTC-3, sin horario de verano) = 11:00 UTC
+    - cron: '0 11 * * *'
 
 permissions:
   contents: read
