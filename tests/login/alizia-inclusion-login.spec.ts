@@ -2,7 +2,7 @@ import { test, expect } from '../../fixtures/base';
 import { LoginPage } from '../../pages/login/LoginPage';
 import { RecuperarContrasenaPage } from '../../pages/login/recuperarContrasenaPage';
 import { AsistentePage } from '../../pages/modules/asistentePage';
-import users from '../../data/users.json';
+import users from '../../data/users';
 
 test.describe('Login - Alizia Inclusión', () => {
   test('TC-001-credenciales-incorrectas', { tag: '@critical' }, async ({ page }) => {

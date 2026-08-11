@@ -1,5 +1,5 @@
 import { test as base, expect, APIRequestContext } from '@playwright/test';
-import users from '../data/users.json';
+import users from '../data/users';
 
 export const API_BASE = 'https://alizia-inclusion-production.up.railway.app/api/v1/';
 

@@ -17,6 +17,7 @@
   "homepage": "https://github.com/franc1sconte/playw-alizia-inclusion#readme",
   "devDependencies": {
     "@playwright/test": "^1.62.0",
-    "@types/node": "^26.1.2"
+    "@types/node": "^26.1.2",
+    "dotenv": "^17.4.2"
   }
 }

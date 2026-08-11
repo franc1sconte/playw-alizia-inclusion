@@ -8,7 +8,7 @@ import { RecursosPage } from '../../pages/modules/recursosPage';
 import { AulasPage } from '../../pages/modules/aulasPage';
 import { DocentesPage } from '../../pages/modules/docentesPage';
 import { FeedbackPage } from '../../pages/modules/feedbackPage';
-import users from '../../data/users.json';
+import users from '../../data/users';
 
 const ASISTENTE_URL = 'https://alizia.educabot.ai/asistente';
 

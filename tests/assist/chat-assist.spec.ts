@@ -2,7 +2,7 @@ import { Page } from '@playwright/test';
 import { test, expect as baseExpect } from '../../fixtures/base';
 import { LoginPage } from '../../pages/login/LoginPage';
 import { AsistentePage } from '../../pages/modules/asistentePage';
-import users from '../../data/users.json';
+import users from '../../data/users';
 
 const ASISTENTE_URL = 'https://alizia.educabot.ai/asistente';
 const ASSIST_ENDPOINT_PATH = '/api/v1/inclusion/assist';

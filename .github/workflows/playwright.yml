@@ -26,6 +26,11 @@ jobs:
       - name: Install Playwright browsers
         run: npx playwright install --with-deps
       - name: Run Playwright tests
+        env:
+          ALIZIA_ADMIN_EMAIL: ${{ secrets.ALIZIA_ADMIN_EMAIL }}
+          ALIZIA_ADMIN_PASSWORD: ${{ secrets.ALIZIA_ADMIN_PASSWORD }}
+          ALIZIA_TEACHER_EMAIL: ${{ secrets.ALIZIA_TEACHER_EMAIL }}
+          ALIZIA_TEACHER_PASSWORD: ${{ secrets.ALIZIA_TEACHER_PASSWORD }}
         run: npx playwright test
       - uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}

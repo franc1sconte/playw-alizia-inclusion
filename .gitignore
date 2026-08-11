@@ -1,4 +1,7 @@
 
+# Credenciales locales (ver .env.example)
+.env
+
 # Playwright
 node_modules/
 .playwright/
