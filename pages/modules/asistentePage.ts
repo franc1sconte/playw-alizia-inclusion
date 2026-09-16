@@ -30,6 +30,13 @@ export class AsistentePage extends BasePage {
   readonly answerSubmitButton: Locator;
   readonly freeformAssistantInput: Locator;
   readonly voiceRecordButton: Locator;
+  readonly historyToggleButton: Locator;
+  readonly closeHistoryButton: Locator;
+  readonly historyLastWeekHeading: Locator;
+  readonly resourcePanelText: Locator;
+  readonly closeResourcePanelButton: Locator;
+  readonly renameMenuItem: Locator;
+  readonly deleteMenuItem: Locator;
 
   constructor(page: Page) {
     super(page);
@@ -60,6 +67,16 @@ export class AsistentePage extends BasePage {
     this.answerSubmitButton = page.getByRole('button', { name: 'Siguiente', exact: true });
     this.freeformAssistantInput = page.getByRole('textbox', { name: 'Preguntale al asistente...' });
     this.voiceRecordButton = page.getByRole('button', { name: 'Iniciar grabación de voz' });
+    // El botón del header nunca cambia su nombre accesible (siempre "Historial"): es un
+    // toggle único, distinto del botón "Cerrar historial" (X) propio del panel.
+    this.historyToggleButton = page.getByRole('banner').getByRole('button', { name: 'Historial', exact: true });
+    this.closeHistoryButton = page.getByRole('button', { name: 'Cerrar historial' });
+    this.historyLastWeekHeading = page.getByRole('heading', { name: 'Últimos 7 días' });
+    // "Recurso pedagógico" es texto plano (no heading ARIA): se confirmó en la app real.
+    this.resourcePanelText = page.getByText('Recurso pedagógico', { exact: true });
+    this.closeResourcePanelButton = page.getByRole('button', { name: 'Cerrar', exact: true });
+    this.renameMenuItem = page.getByRole('button', { name: 'Renombrar' });
+    this.deleteMenuItem = page.getByRole('button', { name: 'Eliminar' });
   }
 
   async goto(): Promise<void> {
@@ -84,4 +101,33 @@ export class AsistentePage extends BasePage {
   historyItem(name: string): Locator {
     return this.page.getByRole('complementary').getByRole('button', { name, exact: true });
   }
+
+  historyListItem(index: number): Locator {
+    return this.page
+      .getByRole('complementary')
+      .getByRole('list')
+      .first()
+      .getByRole('listitem')
+      .nth(index);
+  }
+
+  historyItemTitleButton(index: number): Locator {
+    return this.historyListItem(index).getByRole('button').first();
+  }
+
+  historyItemMoreOptionsButton(index: number): Locator {
+    return this.historyListItem(index).getByRole('button', { name: 'Más opciones' });
+  }
+
+  // El botón que dispara la generación del recurso agrupa título + categoría en dos
+  // <p>, sin más marcado semántico: se lo distingue de los botones de acciones
+  // (Me gusta, Copiar, etc., que no tienen párrafos hijos) filtrando por ese contenido.
+  resourceCard(): Locator {
+    return this.page
+      .getByRole('main')
+      .getByRole('button')
+      .filter({ has: this.page.getByRole('paragraph') })
+      .last();
+  }
+
 }

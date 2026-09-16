@@ -11,5 +11,9 @@ node_modules/
 /playwright/.cache/
 /playwright/.auth/
 
+# Logs y snapshots de sesiones de la skill playwright-cli
+/.playwright-cli/
+/.playwright-mcp/
+
 # Keep Skills tracked — they're team documentation
 # .claude/skills/  ← DO NOT ignore this

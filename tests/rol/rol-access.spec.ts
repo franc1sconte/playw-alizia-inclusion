@@ -12,6 +12,11 @@ import users from '../../data/users';
 
 const ASISTENTE_URL = 'https://alizia.educabot.ai/asistente';
 
+// Enlace fijo (no ligado al rol) que la navegación agrega tras la lista de módulos.
+// Su texto concatena título y subtítulo sin espacio porque son dos <span> separados en el DOM.
+const WHATSAPP_LINK_TEXT = 'Comunidad de WhatsAppUnite al grupo de docentes';
+const WHATSAPP_LINK_NAME = 'Comunidad de WhatsApp';
+
 // Timeout de aserción ampliado para todo este archivo: el backend (Railway) tiene latencia
 // intermitente de arranque en frío que afecta al login y a las llamadas a la API subsiguientes.
 const expect = baseExpect.configure({ timeout: 20000 });
@@ -40,10 +45,11 @@ test.describe('Rol Admin — Navegación y módulos', () => {
     const asistentePage = new AsistentePage(page);
     const expectedLinks = ['Alizia asistente', 'Primeros pasos', 'Materiales', 'Recursos pedagógicos', 'Aulas', 'Docentes', 'Feedback'];
 
-    await expect(asistentePage.nav.links).toHaveText(expectedLinks);
+    await expect(asistentePage.nav.links).toHaveText([...expectedLinks, WHATSAPP_LINK_TEXT]);
     for (const name of expectedLinks) {
       await expect(asistentePage.nav.link(name)).toBeEnabled();
     }
+    await expect(asistentePage.nav.link(WHATSAPP_LINK_NAME)).toBeEnabled();
     await expect(asistentePage.nav.userMenuButton).toBeVisible();
     await expect(asistentePage.nav.userMenuButton).toContainText('A');
   });
@@ -187,7 +193,7 @@ test.describe('Rol Teacher — Navegación y módulos', () => {
     const asistentePage = new AsistentePage(page);
     const expectedLinks = ['Alizia asistente', 'Primeros pasos', 'Materiales', 'Recursos pedagógicos'];
 
-    await expect(asistentePage.nav.links).toHaveText(expectedLinks);
+    await expect(asistentePage.nav.links).toHaveText([...expectedLinks, WHATSAPP_LINK_TEXT]);
     await expect(asistentePage.nav.link('Aulas')).toHaveCount(0);
     await expect(asistentePage.nav.link('Docentes')).toHaveCount(0);
     await expect(asistentePage.nav.userMenuButton).toBeVisible();
@@ -269,7 +275,7 @@ test.describe('Rol Teacher — Navegación y módulos', () => {
 
     await expect(page).toHaveURL(ASISTENTE_URL);
     const asistentePage = new AsistentePage(page);
-    await expect(asistentePage.nav.links).toHaveText(['Alizia asistente', 'Primeros pasos', 'Materiales', 'Recursos pedagógicos']);
+    await expect(asistentePage.nav.links).toHaveText(['Alizia asistente', 'Primeros pasos', 'Materiales', 'Recursos pedagógicos', WHATSAPP_LINK_TEXT]);
   });
 
   test('TC-015-docentes-no-accesible-por-url-teacher', { tag: '@critical' }, async ({ page }) => {
@@ -277,6 +283,6 @@ test.describe('Rol Teacher — Navegación y módulos', () => {
 
     await expect(page).toHaveURL(ASISTENTE_URL);
     const asistentePage = new AsistentePage(page);
-    await expect(asistentePage.nav.links).toHaveText(['Alizia asistente', 'Primeros pasos', 'Materiales', 'Recursos pedagógicos']);
+    await expect(asistentePage.nav.links).toHaveText(['Alizia asistente', 'Primeros pasos', 'Materiales', 'Recursos pedagógicos', WHATSAPP_LINK_TEXT]);
   });
 });

@@ -6,6 +6,7 @@ Alizia (`https://alizia.educabot.ai/`) es "tu asistente para aulas más inclusiv
 
 - **Admin** ve 7 módulos: "Alizia asistente", "Primeros pasos", "Materiales", "Recursos pedagógicos", "Aulas", "Docentes" y "Feedback".
 - **Teacher** ve solo 4 módulos: "Alizia asistente", "Primeros pasos", "Materiales" y "Recursos pedagógicos" — sin "Aulas" ni "Docentes".
+- Para ambos roles, la navegación agrega además un enlace fijo "Comunidad de WhatsApp" (con subtítulo "Unite al grupo de docentes") que abre el grupo de WhatsApp en una pestaña nueva; no depende del rol.
 
 Este plan cubre, para cada rol: que los módulos correctos estén visibles en la navegación, que cada uno navegue a la URL esperada, y que el contenedor/estructura padre de cada vista se renderice correctamente (validación superficial, no de profundidad). También valida que las secciones exclusivas de Admin no sean accesibles para Teacher mediante navegación directa por URL.
 
@@ -29,7 +30,7 @@ Este plan cubre, para cada rol: que los módulos correctos estén visibles en la
   1. Observar la barra de navegación lateral inmediatamente después del login.
 
 **Aserciones esperadas:**
-  - La navegación muestra exactamente 7 enlaces, en este orden: "Alizia asistente", "Primeros pasos", "Materiales", "Recursos pedagógicos", "Aulas", "Docentes" y "Feedback".
+  - La navegación muestra exactamente 8 enlaces, en este orden: "Alizia asistente", "Primeros pasos", "Materiales", "Recursos pedagógicos", "Aulas", "Docentes", "Feedback" y "Comunidad de WhatsApp" (enlace fijo, no ligado al rol).
   - Cada enlace es visible y clickeable (no deshabilitado).
   - El botón "Menú de usuario" (avatar con inicial "A") está presente en la navegación.
 
@@ -137,7 +138,7 @@ Este plan cubre, para cada rol: que los módulos correctos estén visibles en la
   1. Observar la barra de navegación lateral.
 
 **Aserciones esperadas:**
-  - La navegación muestra exactamente 4 enlaces, en este orden: "Alizia asistente", "Primeros pasos", "Materiales" y "Recursos pedagógicos".
+  - La navegación muestra exactamente 5 enlaces, en este orden: "Alizia asistente", "Primeros pasos", "Materiales", "Recursos pedagógicos" y "Comunidad de WhatsApp" (enlace fijo, no ligado al rol).
   - **No** se muestran los enlaces "Aulas" ni "Docentes".
   - El botón "Menú de usuario" (avatar con inicial "C") está presente.
 
@@ -196,7 +197,7 @@ Este plan cubre, para cada rol: que los módulos correctos estén visibles en la
 
 **Aserciones esperadas:**
   - La aplicación redirige automáticamente a `https://alizia.educabot.ai/asistente` (no se muestra el contenido de "Aulas").
-  - La navegación lateral sigue mostrando solo los 4 módulos permitidos para Teacher.
+  - La navegación lateral sigue mostrando solo los 4 módulos permitidos para Teacher, más el enlace fijo "Comunidad de WhatsApp".
 
 #### 2.7. TC-015 docentes-no-accesible-por-url-teacher
 
@@ -207,4 +208,4 @@ Este plan cubre, para cada rol: que los módulos correctos estén visibles en la
 
 **Aserciones esperadas:**
   - La aplicación redirige automáticamente a `https://alizia.educabot.ai/asistente` (no se muestra el contenido de "Docentes").
-  - La navegación lateral sigue mostrando solo los 4 módulos permitidos para Teacher.
+  - La navegación lateral sigue mostrando solo los 4 módulos permitidos para Teacher, más el enlace fijo "Comunidad de WhatsApp".
