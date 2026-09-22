@@ -4,7 +4,7 @@ import { RecuperarContrasenaPage } from '../../pages/login/recuperarContrasenaPa
 import { AsistentePage } from '../../pages/modules/asistentePage';
 import users from '../../data/users';
 
-test.describe('Login - Alizia Inclusión', () => {
+test.describe('Login - Alizia Inclusión', { tag: '@login' }, () => {
   test('TC-001-credenciales-incorrectas', { tag: '@critical' }, async ({ page }) => {
     const loginPage = new LoginPage(page);
     await loginPage.goto();

@@ -74,7 +74,7 @@ function runChipScenarios(
   credentials: { username: string; password: string },
   closeModal: boolean
 ): void {
-  test.describe(`Chips de acceso rápido — ${roleLabel}`, () => {
+  test.describe(`Chips de acceso rápido — ${roleLabel}`, { tag: `@asistente-chips-${roleLabel.toLowerCase()}` }, () => {
     test.describe.configure({ timeout: 90000 });
 
     test.beforeEach(async ({ page }) => {

@@ -31,7 +31,7 @@ async function closeWelcomeModalIfPresent(page: Page): Promise<void> {
   }
 }
 
-test.describe('Rol Admin — Navegación y módulos', () => {
+test.describe('Rol Admin — Navegación y módulos', { tag: '@rol-admin' }, () => {
   test.describe.configure({ timeout: 90000 });
 
   test.beforeEach(async ({ page }) => {
@@ -178,7 +178,7 @@ test.describe('Rol Admin — Navegación y módulos', () => {
   });
 });
 
-test.describe('Rol Teacher — Navegación y módulos', () => {
+test.describe('Rol Teacher — Navegación y módulos', { tag: '@rol-teacher' }, () => {
   test.describe.configure({ timeout: 90000 });
 
   test.beforeEach(async ({ page }) => {

@@ -4,7 +4,12 @@ on:
   workflow_dispatch:
     inputs:
       tag:
-        description: 'Tag (@critical, @smoke) o ID de un test puntual (ej: TC-003-login-exitoso-admin). Vacío = correr todos.'
+        description: >-
+          Tag de severidad (@critical, @smoke), tag de sección/describe (@login, @rol-admin,
+          @rol-teacher, @historial, @historial-apertura-cierre, @historial-contenido,
+          @historial-nueva-conversacion, @historial-persistencia, @historial-elementos-generados,
+          @asistente-chips-admin, @asistente-chips-teacher, @api-students) o ID de un test puntual
+          (ej: TC-003-login-exitoso-admin). Vacío = correr todos.
         required: false
         default: ''
   schedule:

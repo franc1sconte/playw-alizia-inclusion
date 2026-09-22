@@ -105,7 +105,7 @@ async function generateResourceConversation(page: Page): Promise<void> {
   await answerResourceQuestionsUntilGenerated(page);
 }
 
-test.describe('Historial de conversaciones — Alizia asistente', () => {
+test.describe('Historial de conversaciones — Alizia asistente', { tag: '@historial' }, () => {
   // El propio spec advierte que el número de rondas de preguntas no es determinístico,
   // y varias escenarios dependen de la posición del ítem más reciente en una cuenta
   // compartida (Admin) con cientos de conversaciones previas. Correr en serie evita que
@@ -127,7 +127,7 @@ test.describe('Historial de conversaciones — Alizia asistente', () => {
     await expect(page).toHaveURL(ASISTENTE_URL);
   });
 
-  test.describe('Apertura y cierre del panel de Historial', () => {
+  test.describe('Apertura y cierre del panel de Historial', { tag: '@historial-apertura-cierre' }, () => {
     test('TC-101-abrir-panel-historial', { tag: '@critical' }, async ({ page }) => {
       const asistentePage = new AsistentePage(page);
 
@@ -168,7 +168,7 @@ test.describe('Historial de conversaciones — Alizia asistente', () => {
     });
   });
 
-  test.describe('Contenido del historial desplegado', () => {
+  test.describe('Contenido del historial desplegado', { tag: '@historial-contenido' }, () => {
     test('TC-201-historial-desplegado-muestra-conversaciones-previas', { tag: '@critical' }, async ({ page }) => {
       const asistentePage = new AsistentePage(page);
       await asistentePage.historyToggleButton.click();
@@ -213,7 +213,7 @@ test.describe('Historial de conversaciones — Alizia asistente', () => {
     });
   });
 
-  test.describe('Nueva conversación se guarda en el historial', () => {
+  test.describe('Nueva conversación se guarda en el historial', { tag: '@historial-nueva-conversacion' }, () => {
     test('TC-301-nueva-conversacion-por-chip-aparece-en-historial', { tag: '@critical' }, async ({ page }) => {
       const asistentePage = new AsistentePage(page);
       const chipText = 'Tengo una situación difícil en el aula';
@@ -257,7 +257,7 @@ test.describe('Historial de conversaciones — Alizia asistente', () => {
     });
   });
 
-  test.describe('Persistencia de los datos de una conversación guardada', () => {
+  test.describe('Persistencia de los datos de una conversación guardada', { tag: '@historial-persistencia' }, () => {
     test('TC-401-reabrir-conversacion-guardada-muestra-mismo-contenido', { tag: '@critical' }, async ({ page }) => {
       const asistentePage = new AsistentePage(page);
       await asistentePage.historyToggleButton.click();
@@ -304,7 +304,7 @@ test.describe('Historial de conversaciones — Alizia asistente', () => {
     });
   });
 
-  test.describe('Elementos generados en una conversación guardada son accesibles y clickeables', () => {
+  test.describe('Elementos generados en una conversación guardada son accesibles y clickeables', { tag: '@historial-elementos-generados' }, () => {
     test('TC-501-recurso-pedagogico-generado-abre-su-preview-desde-historial', { tag: '@critical' }, async ({ page }) => {
       const asistentePage = new AsistentePage(page);
 

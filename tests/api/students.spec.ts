@@ -1,6 +1,6 @@
 import { test, expect } from '../../fixtures/base';
 
-test.describe.skip('API - Students', () => {
+test.describe.skip('API - Students', { tag: '@api-students' }, () => {
   test.describe.configure({ mode: 'serial' });
 
   let studentId: number;
