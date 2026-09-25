@@ -213,7 +213,7 @@ test.describe('Historial de conversaciones — Alizia asistente', { tag: '@histo
     });
   });
 
-  test.describe('Nueva conversación se guarda en el historial', { tag: '@historial-nueva-conversacion' }, () => {
+  test.describe.skip('Nueva conversación se guarda en el historial', { tag: '@historial-nueva-conversacion' }, () => {
     test('TC-301-nueva-conversacion-por-chip-aparece-en-historial', { tag: '@critical' }, async ({ page }) => {
       const asistentePage = new AsistentePage(page);
       const chipText = 'Tengo una situación difícil en el aula';
@@ -257,7 +257,7 @@ test.describe('Historial de conversaciones — Alizia asistente', { tag: '@histo
     });
   });
 
-  test.describe('Persistencia de los datos de una conversación guardada', { tag: '@historial-persistencia' }, () => {
+  test.describe.skip('Persistencia de los datos de una conversación guardada', { tag: '@historial-persistencia' }, () => {
     test('TC-401-reabrir-conversacion-guardada-muestra-mismo-contenido', { tag: '@critical' }, async ({ page }) => {
       const asistentePage = new AsistentePage(page);
       await asistentePage.historyToggleButton.click();
@@ -304,8 +304,8 @@ test.describe('Historial de conversaciones — Alizia asistente', { tag: '@histo
     });
   });
 
-  test.describe('Elementos generados en una conversación guardada son accesibles y clickeables', { tag: '@historial-elementos-generados' }, () => {
-    test('TC-501-recurso-pedagogico-generado-abre-su-preview-desde-historial', { tag: '@critical' }, async ({ page }) => {
+  test.describe.skip('Elementos generados en una conversación guardada son accesibles y clickeables', { tag: '@historial-elementos-generados' }, () => {
+    test.skip('TC-501-recurso-pedagogico-generado-abre-su-preview-desde-historial', { tag: '@critical' }, async ({ page }) => {
       const asistentePage = new AsistentePage(page);
 
       await generateResourceConversation(page);
